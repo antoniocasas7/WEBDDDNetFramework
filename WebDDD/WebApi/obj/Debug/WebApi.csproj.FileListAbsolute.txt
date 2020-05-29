@@ -321,12 +321,8 @@ C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\System.Web.WebPages.Razor
 C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\WebGrease.dll
 C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\traducciones.dll
 C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\MassTransit.dll
-C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\MassTransit.Log4NetIntegration.dll
-C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\MassTransit.Transports.RabbitMq.dll
 C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\Dapper.dll
 C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\Magnum.dll
-C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\log4net.dll
-C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\RabbitMQ.Client.dll
 C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\Aplication.Services.pdb
 C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\Aplication.Services.dll.config
 C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\Domain.Core.pdb
@@ -383,14 +379,8 @@ C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\Microsoft.CodeDom.Provide
 C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\traducciones.pdb
 C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\MassTransit.pdb
 C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\MassTransit.xml
-C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\MassTransit.Log4NetIntegration.pdb
-C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\MassTransit.Log4NetIntegration.xml
-C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\MassTransit.Transports.RabbitMq.pdb
-C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\MassTransit.Transports.RabbitMq.xml
 C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\Dapper.xml
 C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\Magnum.xml
-C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\log4net.xml
-C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\RabbitMQ.Client.xml
 C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\de\Microsoft.Data.Edm.resources.dll
 C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\es\Microsoft.Data.Edm.resources.dll
 C:\Desarrollo\GITHUB\DDDnetframework\WebDDD\WebApi\bin\fr\Microsoft.Data.Edm.resources.dll
