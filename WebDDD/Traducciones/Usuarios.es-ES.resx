@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Crear_usuario" xml:space="preserve">
+    <value>Crear Usuario</value>
+  </data>
+  <data name="Crear_usuario_descripcion" xml:space="preserve">
+    <value>Creación de un nuevo usuario</value>
+  </data>
+  <data name="Crear_usuario_info" xml:space="preserve">
+    <value>Introduzca a continuación la información del nuevo usuario</value>
+  </data>
+  <data name="Crear_usuario_roles" xml:space="preserve">
+    <value>Roles del usuario</value>
+  </data>
+  <data name="Detalle_usuario" xml:space="preserve">
+    <value>Detalle Usuario</value>
+  </data>
+  <data name="Detalle_usuario_descripcion" xml:space="preserve">
+    <value>Información de un usuario existente</value>
+  </data>
+  <data name="Detalle_usuario_info" xml:space="preserve">
+    <value>A continuación se muestra la información del usuario seleccionado</value>
+  </data>
+  <data name="Editar_usuario" xml:space="preserve">
+    <value>Editar Usuario</value>
+  </data>
+  <data name="Editar_usuario_descripcion" xml:space="preserve">
+    <value>Modificación de un usuario existente</value>
+  </data>
+  <data name="Editar_usuario_info" xml:space="preserve">
+    <value>Modifique la información que desee editar del usuario a continuación</value>
+  </data>
+  <data name="Eliminar_usuario" xml:space="preserve">
+    <value>Eliminar Usuario</value>
+  </data>
+  <data name="Eliminar_usuario_descripcion" xml:space="preserve">
+    <value>Eliminación de un usuario existente</value>
+  </data>
+  <data name="Eliminar_usuario_info" xml:space="preserve">
+    <value>¿Seguro que desea eliminar la información del usuario seleccionado?</value>
+  </data>
+  <data name="Nuevo_usuario" xml:space="preserve">
+    <value>Nuevo Usuario</value>
+  </data>
+  <data name="Usuario" xml:space="preserve">
+    <value>Usuarios</value>
+  </data>
+  <data name="Usuarios_descripcion" xml:space="preserve">
+    <value>Usuarios existentes en el sistema</value>
+  </data>
+  <data name="Codigo" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Error_repita_password" xml:space="preserve">
+    <value>La contraseña y la contraseña de confirmación no coinciden.</value>
+  </data>
+  <data name="Error_repita_password_nueva" xml:space="preserve">
+    <value>La contraseña nueva y la contraseña de confirmación no coinciden.</value>
+  </data>
+  <data name="Nombre_completo" xml:space="preserve">
+    <value>Nombre completo</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="Password_actual" xml:space="preserve">
+    <value>Contraseña actual</value>
+  </data>
+  <data name="Password_nueva" xml:space="preserve">
+    <value>Contraseña nueva</value>
+  </data>
+  <data name="Password_nueva_confirmar" xml:space="preserve">
+    <value>Confirme la contraseña nueva</value>
+  </data>
+  <data name="Recordar_cuenta" xml:space="preserve">
+    <value>¿Recordar cuenta?</value>
+  </data>
+  <data name="Recordar_explorador" xml:space="preserve">
+    <value>¿Recordar explorador?</value>
+  </data>
+  <data name="Repita_password" xml:space="preserve">
+    <value>Repita contraseña</value>
+  </data>
+  <data name="Telefono" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="Usuario_" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="Anadidos_roles_correcto" xml:space="preserve">
+    <value> Ahora el usuario también pertenece a los roles especificados.</value>
+  </data>
+  <data name="Crear_usuario_correcto" xml:space="preserve">
+    <value>El usuario {0} ha sido creado con éxito.</value>
+  </data>
+  <data name="Crear_usuario_error" xml:space="preserve">
+    <value>Se ha producido un error en la creación del usuario {0}. </value>
+  </data>
+  <data name="Editar_usuario_correcto" xml:space="preserve">
+    <value>El usuario {0} ha sido editado con éxito.</value>
+  </data>
+  <data name="Editar_usuario_error" xml:space="preserve">
+    <value>Se ha producido un error en la edición del usuario {0}. </value>
+  </data>
+  <data name="Editar_usuario_error_roles" xml:space="preserve">
+    <value>Se ha producido un error en la edición de los roles del usuario {0}. </value>
+  </data>
+  <data name="Eliminar_usuario_correcto" xml:space="preserve">
+    <value>El usuario {0} ha sido eliminado con éxito.</value>
+  </data>
+  <data name="Eliminar_usuario_error" xml:space="preserve">
+    <value>Se ha producido un error en la eliminación del usuario {0}. </value>
+  </data>
+  <data name="Error_asignar_roles" xml:space="preserve">
+    <value>Se ha producido un error en la asignación de roles al usuario {0}. </value>
+  </data>
+  <data name="Usuarios_pagina" xml:space="preserve">
+    <value>Usuarios por página:</value>
+  </data>
+  <data name="Agregado_telefono" xml:space="preserve">
+    <value>Se ha agregado su número de teléfono.</value>
+  </data>
+  <data name="Cambiar_configuracion" xml:space="preserve">
+    <value>Cambiar la configuración de la cuenta</value>
+  </data>
+  <data name="Cambiar_pass" xml:space="preserve">
+    <value>Cambiar contraseña</value>
+  </data>
+  <data name="Codigo_seguridad_es" xml:space="preserve">
+    <value>Su código de seguridad es: </value>
+  </data>
+  <data name="Crear" xml:space="preserve">
+    <value>Crear</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Se ha producido un error.</value>
+  </data>
+  <data name="No_comproba_telefono" xml:space="preserve">
+    <value>No se ha podido comprobar el teléfono</value>
+  </data>
+  <data name="Password_cambiada" xml:space="preserve">
+    <value>Su contraseña se ha cambiado.</value>
+  </data>
+  <data name="Password_establecida" xml:space="preserve">
+    <value>Su contraseña se ha establecido.</value>
+  </data>
+  <data name="Proveedor_establecido" xml:space="preserve">
+    <value>Su proveedor de autenticación de dos factores se ha establecido.</value>
+  </data>
+  <data name="Quitado_telefono" xml:space="preserve">
+    <value>Se ha quitado su número de teléfono.</value>
+  </data>
+  <data name="Cambiar_pass_descripcion" xml:space="preserve">
+    <value>Cambiar la contraseña actual del usuario</value>
+  </data>
+  <data name="Cambiar_pass_info" xml:space="preserve">
+    <value>Formulario para cambiar la contraseña</value>
+  </data>
+  <data name="Editar_usuario_error_pass" xml:space="preserve">
+    <value>No se ha podido modificar la contraseña del usuario {0}. </value>
+  </data>
+  <data name="Error_tipo_fichero" xml:space="preserve">
+    <value>La imagen del usuario tiene que ser del tipo {0}</value>
+  </data>
+  <data name="Imagen" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="AdminFlota_flota_error" xml:space="preserve">
+    <value>Para el rol Administrador es necesario indicar la empresa o flota</value>
+  </data>
+  <data name="Distribuidor_empresa_error" xml:space="preserve">
+    <value>Para el rol Distribuidor es necesario indicar la entidad</value>
+  </data>
+  <data name="Usuario_flota_error" xml:space="preserve">
+    <value>Para el rol Usuario es necesario indicar la empresa o flota</value>
+  </data>
+  <data name="Numero_usuarios" xml:space="preserve">
+    <value>Número de usuarios</value>
+  </data>
+  <data name="Perfil_usuario_correcto" xml:space="preserve">
+    <value>El perfil ha sido editado con éxito.</value>
+  </data>
+  <data name="Perfil_usuario_error" xml:space="preserve">
+    <value>Error editando el perfil.</value>
+  </data>
+  <data name="Perfil" xml:space="preserve">
+    <value>Mi perfil</value>
+  </data>
+  <data name="Perfil_descripcion" xml:space="preserve">
+    <value>Modificar los datos de mi perfil</value>
+  </data>
+  <data name="Perfil_usuario_info" xml:space="preserve">
+    <value>Modifique los datos de su perfil</value>
+  </data>
+  <data name="Distribuidor_entidad_error" xml:space="preserve">
+    <value>No se puede asignar el rol Distribuidor debido a que la entidad no es Distribuidora</value>
+  </data>
+  <data name="Usuario_bloqueado_error" xml:space="preserve">
+    <value>El usuario {0} no ha sido bloqueado.</value>
+  </data>
+  <data name="Entidad_bloqueada" xml:space="preserve">
+    <value>No puede desbloquear el usuario {0} la entidad a la que pertenece se encuentra bloqueada.</value>
+  </data>
+  <data name="Usuarios_telematica" xml:space="preserve">
+    <value>Usuarios de Telemática</value>
+  </data>
+  <data name="Usuarios_trace" xml:space="preserve">
+    <value>Usuarios de Trazabilidad</value>
+  </data>
+  <data name="Correo_registro_cuerpo" xml:space="preserve">
+    <value>El registro del usuario {0} se ha completado correctamente.</value>
+  </data>
+  <data name="Correo_registro_titulo" xml:space="preserve">
+    <value>Registro en {0}</value>
+  </data>
+  <data name="Error_dimensiones" xml:space="preserve">
+    <value>La imagen no cumple con las dimensiones mínimas requeridas ({0}). Por favor, inténtelo de nuevo con otra imagen.</value>
+  </data>
+  <data name="Requisitos_imagen" xml:space="preserve">
+    <value>Las dimensiones de la imagen deben ser de al menos {0} y no exceder de {1}.</value>
+  </data>
+  <data name="Click_ayuda" xml:space="preserve">
+    <value>Click aquí para obtener ayuda</value>
+  </data>
+  <data name="Error_permisos_rol" xml:space="preserve">
+    <value>Usted no puede administrar usuarios de rol {0}</value>
+  </data>
+  <data name="Usuario_no_modulos" xml:space="preserve">
+    <value>No puede crear un usuario sin módulos asociados.</value>
+  </data>
+  <data name="Usuario_no_modulos_editar" xml:space="preserve">
+    <value>No puede editar un usuario sin módulos asociados.</value>
+  </data>
+  <data name="Error_eliminar" xml:space="preserve">
+    <value>No se permite eliminar al único Super Administrador de la aplicación.</value>
+  </data>
+  <data name="Title_Nombre_Completo" xml:space="preserve">
+    <value>Nombre y apellidos del usuario</value>
+  </data>
+  <data name="Title_Nombre_Usuario" xml:space="preserve">
+    <value>Nombre de acceso a la aplicación del usuario</value>
+  </data>
+</root>

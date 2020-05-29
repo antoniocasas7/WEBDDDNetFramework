@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Activos" xml:space="preserve">
+    <value>Anlagen</value>
+  </data>
+  <data name="Activo_no_provisionado" xml:space="preserve">
+    <value>Die konsultierte Anlage wird nicht im System gefunden (wird nicht bereitgestellt).</value>
+  </data>
+  <data name="Alarmas" xml:space="preserve">
+    <value>Alarms</value>
+  </data>
+  <data name="Clientes" xml:space="preserve">
+    <value>Kunden</value>
+  </data>
+  <data name="Consulta_no_existe" xml:space="preserve">
+    <value>Die konsultierte {0} existiert nicht im System.</value>
+  </data>
+  <data name="Empresas" xml:space="preserve">
+    <value>Firma</value>
+  </data>
+  <data name="Empresa_no_coincide" xml:space="preserve">
+    <value>Die Firma des Benutzers stimmt nicht mit der überein, die der Parameter erhalten hat.</value>
+  </data>
+  <data name="Empresa_usuario_distinta_activo" xml:space="preserve">
+    <value>Die Firma des Benutzers stimmt nicht mit der Firma überein, welcher die Anlage zugeordnet ist.</value>
+  </data>
+  <data name="Empresa_usuario_distinta_equipo" xml:space="preserve">
+    <value>Die Firma des Benutzers stimmt nicht mit der Firma überein, der die Ausrüstung zugeordnet ist.</value>
+  </data>
+  <data name="Empresa_usuario_distinta_localizacion" xml:space="preserve">
+    <value>Die Firma des Benutzers stimmt nicht mit der Firma überein, der der Standort zugeordnet ist.</value>
+  </data>
+  <data name="Empresa_usuario_distinta_tipo" xml:space="preserve">
+    <value>Die Art der ausgewählten Anlage gehört nicht zur Firma des Benutzers.</value>
+  </data>
+  <data name="Equipos" xml:space="preserve">
+    <value>Ausrüstung</value>
+  </data>
+  <data name="Error_eliminar" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_grabar" xml:space="preserve">
+    <value>Fehler beim Speichern der Informationen.</value>
+  </data>
+  <data name="Error_inesperado" xml:space="preserve">
+    <value>Unerwarteter Fehler</value>
+  </data>
+  <data name="Error_no_nulo_de" xml:space="preserve">
+    <value>Der Wert von {0} darf nicht null sein</value>
+  </data>
+  <data name="Error_no_nulo_del" xml:space="preserve">
+    <value>Der Wert von {0} darf nicht null sein</value>
+  </data>
+  <data name="La_consulta_no_existe" xml:space="preserve">
+    <value>Die konsultierte {0} existiert nicht im System.</value>
+  </data>
+  <data name="Localizaciones" xml:space="preserve">
+    <value>Standorts</value>
+  </data>
+  <data name="No_existen_activos_localizacion" xml:space="preserve">
+    <value>In dem System, das dem angegebenen Standort zugeordnet ist, wurden keine Anlage gefunden.</value>
+  </data>
+  <data name="No_existen_activos_secundarios" xml:space="preserve">
+    <value>Es wurden keine sekundären Vermögenswerte im Zusammenhang mit der betreffenden Anlage gefunden.</value>
+  </data>
+  <data name="No_existen_marcas" xml:space="preserve">
+    <value />
+  </data>
+  <data name="No_existen_modelos" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Operaciones" xml:space="preserve">
+    <value>Operationen</value>
+  </data>
+  <data name="Origen_invalido" xml:space="preserve">
+    <value>Der Ursprung des Benutzers konnte nicht überprüft werden.</value>
+  </data>
+  <data name="Proovedores" xml:space="preserve">
+    <value>Anbieters</value>
+  </data>
+  <data name="Tags_no_recibidos" xml:space="preserve">
+    <value>Es wurde kein Tag-Code empfangen.</value>
+  </data>
+  <data name="TiposActivos" xml:space="preserve">
+    <value>Produkt</value>
+  </data>
+  <data name="Token_invalido" xml:space="preserve">
+    <value>Ungültiges Token</value>
+  </data>
+  <data name="Usuario_invalido" xml:space="preserve">
+    <value>Der Benutzername oder das Passwort sind nicht korrekt.</value>
+  </data>
+  <data name="Usuario_no_existe" xml:space="preserve">
+    <value>Der Benutzer ist nicht mehr im System</value>
+  </data>
+  <data name="Usuario_no_modulo" xml:space="preserve">
+    <value>Der Benutzer hat keinen Zugriff auf das Modul.</value>
+  </data>
+  <data name="OrdenesCompra" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OrdenesTransferencia" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OrdenesVenta" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Falta_tipo_orden" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Localizacion_diferente_destino" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Activo_por_producto" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Activo_provisionado_secundario" xml:space="preserve">
+    <value>Das konsultierte Asset wird als sekundär bereitgestellt</value>
+  </data>
+  <data name="Direcciones_sede_principal" xml:space="preserve">
+    <value />
+  </data>
+  <data name="No_seleccionada_empresa" xml:space="preserve">
+    <value />
+  </data>
+  <data name="No_seleccionada_ubicacion" xml:space="preserve">
+    <value />
+  </data>
+  <data name="No_seleccionado_dispositivo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="No_seleccionado_tipo_equipo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="No_seleccionada_categoria" xml:space="preserve">
+    <value />
+  </data>
+  <data name="No_seleccionado_modelo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_referencias" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_referencias_fem" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_empresa_nodist" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_dependencias_crear" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_campo_requerido" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_tipo_campo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_cantidad_maxima" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_cantidad_minima" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_email_incorrecto" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_usuario_sin_rol" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_valor_negativo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_imagen_no_encontrada" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Alarma_robo_repetida" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Alarma_stock_repetida" xml:space="preserve">
+    <value>Ya existe una alarma de stock mínimo definida sobre la ubicación para el producto seleccionado.</value>
+  </data>
+  <data name="Error_Marca_FicheroSinReferencia" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_Marca_ReferenciaSinFichero" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_Zip_Contenido" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_Zip_Existente" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Hueco_no_pertenece_ubicacion" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_Comprobacion_Zip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Hueco_no_valido" xml:space="preserve">
+    <value>The indicated segment is not valid</value>
+  </data>
+  <data name="Ubicacion_no_valida" xml:space="preserve">
+    <value>The indicated location is not valid</value>
+  </data>
+  <data name="Error_imagen_alta" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_imagen_ancha" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_imagen_baja" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_imagen_estrecha" xml:space="preserve">
+    <value />
+  </data>
+</root>

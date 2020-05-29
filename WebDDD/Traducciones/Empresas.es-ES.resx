@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Campo_vacio" xml:space="preserve">
+    <value>El campo {0} es obligatorio.</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Seleccionar_flotas" xml:space="preserve">
+    <value>Dirigida a</value>
+  </data>
+  <data name="Crear_empresa" xml:space="preserve">
+    <value>Nueva Empresa</value>
+  </data>
+  <data name="Descripcion_borrado_empresa" xml:space="preserve">
+    <value>Eliminación de una empresa existente</value>
+  </data>
+  <data name="Descripcion_creacion_empresa" xml:space="preserve">
+    <value>Creación de una nueva empresa</value>
+  </data>
+  <data name="Descripcion_detalles_empresa" xml:space="preserve">
+    <value>Información de una empresa existente</value>
+  </data>
+  <data name="Descripcion_edicion_empresa" xml:space="preserve">
+    <value>Modificación de una empresa existente</value>
+  </data>
+  <data name="Descripcion_index_empresa" xml:space="preserve">
+    <value>Empresas existentes en el sistema</value>
+  </data>
+  <data name="Editar_empresa" xml:space="preserve">
+    <value>Editar Empresa</value>
+  </data>
+  <data name="Eliminar_empresa" xml:space="preserve">
+    <value>Eliminar Empresa</value>
+  </data>
+  <data name="Empresa" xml:space="preserve">
+    <value>Empresas</value>
+  </data>
+  <data name="Empresas_pagina" xml:space="preserve">
+    <value>Empresas por página</value>
+  </data>
+  <data name="Empresa_creada_error" xml:space="preserve">
+    <value>Se ha producido un error en la creación de la empresa: {0}.</value>
+  </data>
+  <data name="Empresa_creada_exito" xml:space="preserve">
+    <value>La empresa {0} ha sido creada con éxito.</value>
+  </data>
+  <data name="Empresa_editada_error" xml:space="preserve">
+    <value>Se ha producido un error en la edición de la empresa: {0}.</value>
+  </data>
+  <data name="Empresa_editada_exito" xml:space="preserve">
+    <value>La empresa {0} ha sido editada con éxito.</value>
+  </data>
+  <data name="Empresa_eliminada_error" xml:space="preserve">
+    <value>La empresa {0} no ha sido eliminada.</value>
+  </data>
+  <data name="Empresa_eliminada_exito" xml:space="preserve">
+    <value>La empresa {0} ha sido eliminada con éxito.</value>
+  </data>
+  <data name="Empresa_simple" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="Empresa_simple_min" xml:space="preserve">
+    <value>empresa</value>
+  </data>
+  <data name="Encabezado_borrado_empresa" xml:space="preserve">
+    <value>¿Seguro que desea eliminar la información de la empresa seleccionada?</value>
+  </data>
+  <data name="Encabezado_creacion_empresa" xml:space="preserve">
+    <value>Introduzca a continuación la información de la nueva empresa</value>
+  </data>
+  <data name="Encabezado_detalles_empresa" xml:space="preserve">
+    <value>A continuación se muestra la información de la empresa seleccionada</value>
+  </data>
+  <data name="Encabezado_edicion_empresa" xml:space="preserve">
+    <value>Modifique la información que desee editar de la empresa a continuación</value>
+  </data>
+  <data name="Numero_empresas" xml:space="preserve">
+    <value>Número de empresas</value>
+  </data>
+  <data name="Gestionar_empresa" xml:space="preserve">
+    <value>Perfil Empresa</value>
+  </data>
+  <data name="Error_borrar_empresa_no_dist_trace" xml:space="preserve">
+    <value>La empresa no puede ser eliminada porque es una empresa exclusiva de trazabilidad y su entidad no es distribuidora. Si desea eliminarla, vaya a las entidades y elimine la entidad correspondiente. </value>
+  </data>
+  <data name="Empresas_telematica" xml:space="preserve">
+    <value>Empresas Telemática</value>
+  </data>
+  <data name="Empresas_trace" xml:space="preserve">
+    <value>Empresas Trazabilidad</value>
+  </data>
+  <data name="Error_borrar_empresa_no_dist_senso" xml:space="preserve">
+    <value>La empresa no puede ser eliminada porque es una empresa exclusiva de sensorización y su entidad no es distribuidora. Si desea eliminarla, vaya a las entidades y elimine la entidad correspondiente. </value>
+  </data>
+  <data name="Error_borrar_empresa_no_dist" xml:space="preserve">
+    <value>La empresa no puede ser eliminada porque su entidad no es distribuidora. Si desea eliminarla, vaya a las entidades y elimine la entidad correspondiente. </value>
+  </data>
+  <data name="Activo_producto" xml:space="preserve">
+    <value>Un activo por producto</value>
+  </data>
+  <data name="Error_activo_producto" xml:space="preserve">
+    <value>Hay productos que tienen más de un activo asociado</value>
+  </data>
+  <data name="Activos" xml:space="preserve">
+    <value>Activos</value>
+  </data>
+  <data name="Alarmas" xml:space="preserve">
+    <value>Alarmas</value>
+  </data>
+  <data name="Alertas" xml:space="preserve">
+    <value>Alertas</value>
+  </data>
+  <data name="CategoriaActivo" xml:space="preserve">
+    <value>Categorías de Activos</value>
+  </data>
+  <data name="Clientes" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="Conductores" xml:space="preserve">
+    <value>Conductores</value>
+  </data>
+  <data name="Direcciones" xml:space="preserve">
+    <value>Direcciones</value>
+  </data>
+  <data name="Dispositivos" xml:space="preserve">
+    <value>Dispositivos</value>
+  </data>
+  <data name="Empresa_referencias" xml:space="preserve">
+    <value>La Empresa {0} no puede ser eliminada porque tiene referencias con </value>
+  </data>
+  <data name="Equipos" xml:space="preserve">
+    <value>Equipos</value>
+  </data>
+  <data name="OrdenCompra" xml:space="preserve">
+    <value>Órdenes de Compra</value>
+  </data>
+  <data name="OrdenesTransferencia" xml:space="preserve">
+    <value>Órdenes de Transferencia</value>
+  </data>
+  <data name="OrdenesVenta" xml:space="preserve">
+    <value>Órdenes de Venta</value>
+  </data>
+  <data name="PickList" xml:space="preserve">
+    <value>PickList</value>
+  </data>
+  <data name="Proveedores" xml:space="preserve">
+    <value>Proveedores</value>
+  </data>
+  <data name="Ubicaciones" xml:space="preserve">
+    <value>Ubicaciones</value>
+  </data>
+  <data name="Usuarios" xml:space="preserve">
+    <value>Usuarios</value>
+  </data>
+  <data name="Vehiculos" xml:space="preserve">
+    <value>Vehículos</value>
+  </data>
+  <data name="Empresa_existe_nombre" xml:space="preserve">
+    <value>Ya existe una empresa con ese nombre. Por favor, inténtelo de nuevo.</value>
+  </data>
+  <data name="Atencion_eliminar" xml:space="preserve">
+    <value>Al eliminar la empresa, se borrará toda la información dependiente de esta; Usuarios, Activos, Productos, etc.</value>
+  </data>
+  <data name="Descripcion_perfil_empresa" xml:space="preserve">
+    <value>Información sobre el perfil de la empresa</value>
+  </data>
+  <data name="Error_borrado_no_distribuidora" xml:space="preserve">
+    <value>No puede borrar una empresa de una entidad no distribuidora.</value>
+  </data>
+  <data name="Error_creacion_no_distribuidora" xml:space="preserve">
+    <value>No puede crear una empresa en una entidad no distribuidora.</value>
+  </data>
+  <data name="Error_edicion_no_distribuidora" xml:space="preserve">
+    <value>No puede cambiar la entidad de una empresa a una no distribuidora.</value>
+  </data>
+  <data name="Empresas_sensorizacion" xml:space="preserve">
+    <value>Empresas Sensorización</value>
+  </data>
+</root>

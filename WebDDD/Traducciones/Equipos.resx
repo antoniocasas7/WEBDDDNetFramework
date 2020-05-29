@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Crear_equipo" xml:space="preserve">
+    <value>New Device</value>
+  </data>
+  <data name="Descripcion_borrado" xml:space="preserve">
+    <value>Delete an existing traceability device</value>
+  </data>
+  <data name="Descripcion_creacion" xml:space="preserve">
+    <value>Create a new traceability device</value>
+  </data>
+  <data name="Descripcion_detalles" xml:space="preserve">
+    <value>Information about an existing traceability device</value>
+  </data>
+  <data name="Descripcion_edicion" xml:space="preserve">
+    <value>Edit an existing traceability device</value>
+  </data>
+  <data name="Descripcion_index" xml:space="preserve">
+    <value>Traceability devices stored in system</value>
+  </data>
+  <data name="Editar_equipo" xml:space="preserve">
+    <value>Edit Device</value>
+  </data>
+  <data name="Eliminar_equipo" xml:space="preserve">
+    <value>Delete Device</value>
+  </data>
+  <data name="Encabezado_borrado" xml:space="preserve">
+    <value>Are you sure you want to delete the information for the selected traceability device?</value>
+  </data>
+  <data name="Encabezado_creacion" xml:space="preserve">
+    <value>Enter the information for the new traceability device below</value>
+  </data>
+  <data name="Encabezado_detalles" xml:space="preserve">
+    <value>The information for the selected traceability device is shown below</value>
+  </data>
+  <data name="Encabezado_edicion" xml:space="preserve">
+    <value>Modify the information you want to edit in the traceability device below</value>
+  </data>
+  <data name="Equipo" xml:space="preserve">
+    <value>Devices</value>
+  </data>
+  <data name="Equipos_pagina" xml:space="preserve">
+    <value>Devices per page</value>
+  </data>
+  <data name="Equipo_creado_error" xml:space="preserve">
+    <value>The traceability device {0} has not been created.</value>
+  </data>
+  <data name="Equipo_creado_exito" xml:space="preserve">
+    <value>The traceability device {0} has been successfully created.</value>
+  </data>
+  <data name="Equipo_editado_error" xml:space="preserve">
+    <value>The traceability device {0} has not been edited.</value>
+  </data>
+  <data name="Equipo_editado_exito" xml:space="preserve">
+    <value>The traceability device {0} has been successfully edited.</value>
+  </data>
+  <data name="Equipo_eliminado_error" xml:space="preserve">
+    <value>The traceability device {0} has not been deleted.</value>
+  </data>
+  <data name="Equipo_eliminado_exito" xml:space="preserve">
+    <value>The traceability device {0} has been successfully deleted.</value>
+  </data>
+  <data name="Equipo_principal" xml:space="preserve">
+    <value>Main device</value>
+  </data>
+  <data name="Error_IMEI_repetido" xml:space="preserve">
+    <value>There is a traceability device with the IMEI {0}.</value>
+  </data>
+  <data name="Falta_tipo_equipo" xml:space="preserve">
+    <value>Before creating a traceability device there must exist a device type to be able to assign it. Enter the name of the device type you want to create and try again.</value>
+  </data>
+  <data name="Nombre_equipo" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="Nombre_IP" xml:space="preserve">
+    <value>IP address</value>
+  </data>
+  <data name="Nombre_MAC" xml:space="preserve">
+    <value>MAC address</value>
+  </data>
+  <data name="Nombre_puerto" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="Numero_equipos" xml:space="preserve">
+    <value>Devices count</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Tipo_equipo" xml:space="preserve">
+    <value>Device Type</value>
+  </data>
+  <data name="Validacion_IP" xml:space="preserve">
+    <value>IP address not valid.</value>
+  </data>
+  <data name="Validacion_MAC" xml:space="preserve">
+    <value>MAC address not valid.</value>
+  </data>
+  <data name="Validacion_nombre" xml:space="preserve">
+    <value>Only letters (uppercase and lowercase), numbers, spaces and characters &amp;'- are allowed for the Name</value>
+  </data>
+  <data name="Validacion_puerto" xml:space="preserve">
+    <value>Port Number must be between 1024 and 65536.</value>
+  </data>
+  <data name="Empresa" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="CI" xml:space="preserve">
+    <value>Check In</value>
+  </data>
+  <data name="CO" xml:space="preserve">
+    <value>Check Out</value>
+  </data>
+  <data name="Descarte" xml:space="preserve">
+    <value>Discard</value>
+  </data>
+  <data name="Identificador" xml:space="preserve">
+    <value>Identifier</value>
+  </data>
+  <data name="Inventario" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="Provision" xml:space="preserve">
+    <value>Provision</value>
+  </data>
+  <data name="Robo" xml:space="preserve">
+    <value>Theft</value>
+  </data>
+  <data name="Tipo_operacion" xml:space="preserve">
+    <value>Operation type</value>
+  </data>
+  <data name="Tipo_operativa" xml:space="preserve">
+    <value>Operability</value>
+  </data>
+  <data name="Automatico" xml:space="preserve">
+    <value>Automatic</value>
+  </data>
+  <data name="Normal" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Filtrar_tipo_operacion" xml:space="preserve">
+    <value>Filter by operation type</value>
+  </data>
+  <data name="Venta" xml:space="preserve">
+    <value>Sale</value>
+  </data>
+  <data name="Provision_sin_tipo" xml:space="preserve">
+    <value>When selecting the provision operation for a new traceability device you must also select which product should be provisioned.</value>
+  </data>
+  <data name="CIO" xml:space="preserve">
+    <value>Check In / Out</value>
+  </data>
+  <data name="Usa_localizacion" xml:space="preserve">
+    <value>Use location</value>
+  </data>
+  <data name="Segundos_auto" xml:space="preserve">
+    <value>Execution time [sec]</value>
+  </data>
+  <data name="Equipo_marca_modelo" xml:space="preserve">
+    <value>You have to select a model.</value>
+  </data>
+  <data name="Modelo" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Usuario" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Equipo_simple" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="Baud_rate" xml:space="preserve">
+    <value>Baud Rate</value>
+  </data>
+  <data name="Nombre_puerto_serie" xml:space="preserve">
+    <value>Serial Port</value>
+  </data>
+  <data name="Conectado" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="Desconectado" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="Estado" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="CheckIn" xml:space="preserve">
+    <value>Check In</value>
+  </data>
+  <data name="CheckInOut" xml:space="preserve">
+    <value>Check In / Out</value>
+  </data>
+  <data name="CheckOut" xml:space="preserve">
+    <value>Check Out</value>
+  </data>
+  <data name="Identificador_repetido" xml:space="preserve">
+    <value>The entered identifier is already in use.</value>
+  </data>
+  <data name="Error_identificador_modelo" xml:space="preserve">
+    <value>Can not generate an identifier for the selected model.</value>
+  </data>
+  <data name="Anadir_equipos" xml:space="preserve">
+    <value>Add Devices</value>
+  </data>
+  <data name="No_hay_equipos" xml:space="preserve">
+    <value>There are not any traceability devices.</value>
+  </data>
+  <data name="Equipos_colmena" xml:space="preserve">
+    <value>Swarm device</value>
+  </data>
+  <data name="No_empresa" xml:space="preserve">
+    <value>The company has not been selected.</value>
+  </data>
+  <data name="No_ubicacion" xml:space="preserve">
+    <value>The location has not been selected.</value>
+  </data>
+  <data name="Colmena" xml:space="preserve">
+    <value>Swarm</value>
+  </data>
+  <data name="Eliminar_colmena" xml:space="preserve">
+    <value>Remove from swarm</value>
+  </data>
+  <data name="No_tipo_operativa" xml:space="preserve">
+    <value>The operation type has not been selected.</value>
+  </data>
+  <data name="Leyenda_equipos_no_fijos" xml:space="preserve">
+    <value>For Android devices insert the IMEI. For handheld devices insert the MAC address.</value>
+  </data>
+  <data name="Equipo_operaciones" xml:space="preserve">
+    <value>It is not allowed to delete this traceability device since it has associated operations.</value>
+  </data>
+  <data name="Operacion" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="Seguimiento" xml:space="preserve">
+    <value>Tracing</value>
+  </data>
+  <data name="Error_modelo_fotocelula" xml:space="preserve">
+    <value>Only {0} models can use photocell.</value>
+  </data>
+  <data name="Usa_fotocelula" xml:space="preserve">
+    <value>Use photocell</value>
+  </data>
+  <data name="Compra" xml:space="preserve">
+    <value>Purchase</value>
+  </data>
+</root>

@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{362BA2F7-FF9E-44FB-9F52-795F3A5E3ABC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>traducciones</RootNamespace>
+    <AssemblyName>traducciones</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Activos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Alarmas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Alarmas.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Alertas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Alertas.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Analiticas.de-DE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Analiticas.de-DE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Avisos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Avisos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="AyudaApi.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AyudaApi.resx</DependentUpon>
+    </Compile>
+    <Compile Include="CamposCustomizables.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CamposCustomizables.resx</DependentUpon>
+    </Compile>
+    <Compile Include="CategoriasActivos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CategoriasActivos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Clientes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Clientes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Conductores.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Conductores.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Diagnosis.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Diagnosis.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Direcciones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Direcciones.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Dispositivos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dispositivos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Entidades.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Entidades.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Equipos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Equipos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Empresas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Empresas.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Errores.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Errores.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Etiquetas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Etiquetas.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Flotas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Flotas.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Gps.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Gps.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Huecos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Huecos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Idiomas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Idiomas.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Informes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Informes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Marcas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Marcas.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Mensajes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Mensajes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Modelos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Modelos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Modulos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Modulos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Notificaciones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Notificaciones.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Operaciones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Operaciones.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ordenes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ordenes.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedores.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Proveedores.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Analiticas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Analiticas.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Roles.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Roles.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Sensores.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sensores.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TiposActivos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TiposActivos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TiposEquipos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TiposEquipos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Ubicaciones.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Ubicaciones.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UnidadesMedida.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UnidadesMedida.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Usuarios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Usuarios.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Vehiculos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Vehiculos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Verticales.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Verticales.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Activos.de-DE.resx" />
+    <EmbeddedResource Include="Activos.es-ES.resx" />
+    <EmbeddedResource Include="Activos.fr-FR.resx" />
+    <EmbeddedResource Include="Activos.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Activos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alarmas.de-DE.resx" />
+    <EmbeddedResource Include="Alarmas.es-ES.resx" />
+    <EmbeddedResource Include="Alarmas.fr-FR.resx" />
+    <EmbeddedResource Include="Alarmas.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Alarmas.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alertas.de-DE.resx" />
+    <EmbeddedResource Include="Alertas.es-ES.resx" />
+    <EmbeddedResource Include="Alertas.fr-FR.resx" />
+    <EmbeddedResource Include="Alertas.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Alertas.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analiticas.de-DE.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Analiticas.de-DE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analiticas.es-ES.resx" />
+    <EmbeddedResource Include="Analiticas.fr-FR.resx" />
+    <EmbeddedResource Include="Avisos.de-DE.resx" />
+    <EmbeddedResource Include="Avisos.es-ES.resx" />
+    <EmbeddedResource Include="Avisos.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Avisos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AyudaApi.de-DE.resx" />
+    <EmbeddedResource Include="AyudaApi.es-ES.resx" />
+    <EmbeddedResource Include="AyudaApi.fr-FR.resx" />
+    <EmbeddedResource Include="AyudaApi.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AyudaApi.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CamposCustomizables.de-DE.resx" />
+    <EmbeddedResource Include="CamposCustomizables.es-ES.resx" />
+    <EmbeddedResource Include="CamposCustomizables.fr-FR.resx" />
+    <EmbeddedResource Include="CamposCustomizables.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CamposCustomizables.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CategoriasActivos.de-DE.resx" />
+    <EmbeddedResource Include="CategoriasActivos.es-ES.resx" />
+    <EmbeddedResource Include="CategoriasActivos.fr-FR.resx" />
+    <EmbeddedResource Include="CategoriasActivos.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CategoriasActivos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes.de-DE.resx" />
+    <EmbeddedResource Include="Clientes.es-ES.resx" />
+    <EmbeddedResource Include="Clientes.fr-FR.resx" />
+    <EmbeddedResource Include="Clientes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Clientes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Conductores.de-DE.resx" />
+    <EmbeddedResource Include="Conductores.es-ES.resx" />
+    <EmbeddedResource Include="Conductores.fr-FR.resx" />
+    <EmbeddedResource Include="Conductores.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Conductores.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diagnosis.de-DE.resx" />
+    <EmbeddedResource Include="Diagnosis.es-ES.resx" />
+    <EmbeddedResource Include="Diagnosis.fr-FR.resx" />
+    <EmbeddedResource Include="Diagnosis.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Diagnosis.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Direcciones.de-DE.resx" />
+    <EmbeddedResource Include="Direcciones.es-ES.resx" />
+    <EmbeddedResource Include="Direcciones.fr-FR.resx" />
+    <EmbeddedResource Include="Direcciones.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Direcciones.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dispositivos.de-DE.resx" />
+    <EmbeddedResource Include="Dispositivos.es-ES.resx" />
+    <EmbeddedResource Include="Dispositivos.fr-FR.resx" />
+    <EmbeddedResource Include="Dispositivos.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Dispositivos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empresas.de-DE.resx" />
+    <EmbeddedResource Include="Empresas.fr-FR.resx" />
+    <EmbeddedResource Include="Entidades.de-DE.resx" />
+    <EmbeddedResource Include="Entidades.es-ES.resx" />
+    <EmbeddedResource Include="Entidades.fr-FR.resx" />
+    <EmbeddedResource Include="Entidades.resx">
+      <LastGenOutput>Entidades.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equipos.de-DE.resx" />
+    <EmbeddedResource Include="Equipos.es-ES.resx" />
+    <EmbeddedResource Include="Equipos.fr-FR.resx" />
+    <EmbeddedResource Include="Equipos.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Equipos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Empresas.es-ES.resx" />
+    <EmbeddedResource Include="Empresas.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Empresas.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Errores.de-DE.resx" />
+    <EmbeddedResource Include="Errores.es-ES.resx" />
+    <EmbeddedResource Include="Errores.fr-FR.resx" />
+    <EmbeddedResource Include="Errores.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Errores.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etiquetas.de-DE.resx" />
+    <EmbeddedResource Include="Etiquetas.es-ES.resx" />
+    <EmbeddedResource Include="Etiquetas.fr-FR.resx" />
+    <EmbeddedResource Include="Etiquetas.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Etiquetas.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Flotas.de-DE.resx" />
+    <EmbeddedResource Include="Flotas.es-ES.resx" />
+    <EmbeddedResource Include="Flotas.fr-FR.resx" />
+    <EmbeddedResource Include="Flotas.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Flotas.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gps.de-DE.resx" />
+    <EmbeddedResource Include="Gps.es-ES.resx" />
+    <EmbeddedResource Include="Gps.fr-FR.resx" />
+    <EmbeddedResource Include="Gps.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Gps.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Huecos.de-DE.resx" />
+    <EmbeddedResource Include="Huecos.es-ES.resx" />
+    <EmbeddedResource Include="Huecos.fr-FR.resx" />
+    <EmbeddedResource Include="Huecos.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Huecos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Idiomas.de-DE.resx" />
+    <EmbeddedResource Include="Idiomas.es-ES.resx" />
+    <EmbeddedResource Include="Idiomas.fr-FR.resx" />
+    <EmbeddedResource Include="Idiomas.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Idiomas.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informes.de-DE.resx" />
+    <EmbeddedResource Include="Informes.es-ES.resx" />
+    <EmbeddedResource Include="Informes.fr-FR.resx" />
+    <EmbeddedResource Include="Informes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Informes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Marcas.de-DE.resx" />
+    <EmbeddedResource Include="Marcas.es-ES.resx" />
+    <EmbeddedResource Include="Marcas.fr-FR.resx" />
+    <EmbeddedResource Include="Marcas.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Marcas.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mensajes.de-DE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mensajes.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mensajes.fr-FR.resx" />
+    <EmbeddedResource Include="Mensajes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Mensajes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modelos.de-DE.resx" />
+    <EmbeddedResource Include="Modelos.es-ES.resx" />
+    <EmbeddedResource Include="Modelos.fr-FR.resx" />
+    <EmbeddedResource Include="Modelos.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Modelos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulos.de-DE.resx" />
+    <EmbeddedResource Include="Modulos.es-Es.resx" />
+    <EmbeddedResource Include="Modulos.fr-FR.resx" />
+    <EmbeddedResource Include="Modulos.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Modulos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notificaciones.de-DE.resx" />
+    <EmbeddedResource Include="Notificaciones.es-ES.resx" />
+    <EmbeddedResource Include="Notificaciones.fr-FR.resx" />
+    <EmbeddedResource Include="Notificaciones.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Notificaciones.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Operaciones.de-DE.resx" />
+    <EmbeddedResource Include="Operaciones.es-ES.resx" />
+    <EmbeddedResource Include="Operaciones.fr-FR.resx" />
+    <EmbeddedResource Include="Operaciones.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Operaciones.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ordenes.de-DE.resx" />
+    <EmbeddedResource Include="Ordenes.es-ES.resx" />
+    <EmbeddedResource Include="Ordenes.fr-FR.resx" />
+    <EmbeddedResource Include="Ordenes.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ordenes.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Proveedores.de-DE.resx" />
+    <EmbeddedResource Include="Proveedores.es-ES.resx" />
+    <EmbeddedResource Include="Proveedores.fr-FR.resx" />
+    <EmbeddedResource Include="Proveedores.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Proveedores.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Analiticas.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Analiticas.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Roles.de-DE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Roles.es-ES.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Roles.fr-FR.resx" />
+    <EmbeddedResource Include="Roles.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Roles.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sensores.de-DE.resx" />
+    <EmbeddedResource Include="Sensores.es-ES.resx" />
+    <EmbeddedResource Include="Sensores.fr-FR.resx" />
+    <EmbeddedResource Include="Sensores.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Sensores.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TiposActivos.de-DE.resx" />
+    <EmbeddedResource Include="TiposActivos.es-ES.resx" />
+    <EmbeddedResource Include="TiposActivos.fr-FR.resx" />
+    <EmbeddedResource Include="TiposActivos.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>TiposActivos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TiposEquipos.de-DE.resx" />
+    <EmbeddedResource Include="TiposEquipos.es-ES.resx" />
+    <EmbeddedResource Include="TiposEquipos.fr-FR.resx" />
+    <EmbeddedResource Include="TiposEquipos.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>TiposEquipos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ubicaciones.de-DE.resx" />
+    <EmbeddedResource Include="Ubicaciones.es-ES.resx" />
+    <EmbeddedResource Include="Ubicaciones.fr-FR.resx" />
+    <EmbeddedResource Include="Ubicaciones.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Ubicaciones.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnidadesMedida.de-DE.resx" />
+    <EmbeddedResource Include="UnidadesMedida.es-ES.resx" />
+    <EmbeddedResource Include="UnidadesMedida.fr-FR.resx" />
+    <EmbeddedResource Include="UnidadesMedida.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UnidadesMedida.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios.de-DE.resx" />
+    <EmbeddedResource Include="Usuarios.es-ES.resx" />
+    <EmbeddedResource Include="Usuarios.fr-FR.resx" />
+    <EmbeddedResource Include="Usuarios.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Usuarios.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vehiculos.de-DE.resx" />
+    <EmbeddedResource Include="Vehiculos.es-ES.resx" />
+    <EmbeddedResource Include="Vehiculos.fr-FR.resx" />
+    <EmbeddedResource Include="Vehiculos.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Vehiculos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Verticales.es-ES.resx">
+      <LastGenOutput>Verticales.es-ES.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Verticales.de-DE.resx" />
+    <EmbeddedResource Include="Verticales.fr-FR.resx" />
+    <EmbeddedResource Include="Verticales.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Verticales.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

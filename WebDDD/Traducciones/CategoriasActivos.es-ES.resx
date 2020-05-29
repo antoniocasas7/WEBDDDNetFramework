@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Activos" xml:space="preserve">
+    <value>Activos</value>
+  </data>
+  <data name="Añadir_fila" xml:space="preserve">
+    <value>Añadir fila</value>
+  </data>
+  <data name="Campos_no_añadidos" xml:space="preserve">
+    <value>Ningún campo customizable ha sido añadido</value>
+  </data>
+  <data name="Campos_no_modificados" xml:space="preserve">
+    <value>Los campos customizables no han sido modificados</value>
+  </data>
+  <data name="Categorias_pagina" xml:space="preserve">
+    <value>Categorías por página</value>
+  </data>
+  <data name="Categoria_con_descendencia" xml:space="preserve">
+    <value>La categoría que intenta eliminar tiene otras categorias asociadas a ella; por favor, elimine antes dichas categorias y vuelva a intentarlo.</value>
+  </data>
+  <data name="Categoria_creada_error" xml:space="preserve">
+    <value>Se ha producido un error en la creación de la categoría: {0}.</value>
+  </data>
+  <data name="Categoria_creada_exito" xml:space="preserve">
+    <value>La categoría {0} ha sido creada con éxito.</value>
+  </data>
+  <data name="Categoria_editada_error" xml:space="preserve">
+    <value>Se ha producido un error en la edición de la categoría: {0}.</value>
+  </data>
+  <data name="Categoria_editada_exito" xml:space="preserve">
+    <value>La categoría {0} ha sido editada con éxito.</value>
+  </data>
+  <data name="Categoria_eliminada_error" xml:space="preserve">
+    <value>La categoría {0} no ha sido eliminada. </value>
+  </data>
+  <data name="Categoria_eliminada_exito" xml:space="preserve">
+    <value>La categoría {0} ha sido eliminada con éxito.</value>
+  </data>
+  <data name="Categoria_padre" xml:space="preserve">
+    <value>Categoría Padre</value>
+  </data>
+  <data name="Descripcion_borrado" xml:space="preserve">
+    <value>Eliminación de una categoría de activo existente</value>
+  </data>
+  <data name="Descripcion_creacion" xml:space="preserve">
+    <value>Creación de una nueva categoría de activo</value>
+  </data>
+  <data name="Descripcion_detalles" xml:space="preserve">
+    <value>Información de una categoría de activo existente</value>
+  </data>
+  <data name="Descripcion_edicion" xml:space="preserve">
+    <value>Modificación de una categoría de activo existente</value>
+  </data>
+  <data name="Descripcion_index" xml:space="preserve">
+    <value>Categorías de activos existentes en el sistema</value>
+  </data>
+  <data name="De_la_fila" xml:space="preserve">
+    <value>de la fila</value>
+  </data>
+  <data name="Editar_con_hijos_tipo" xml:space="preserve">
+    <value>Va a editar una categoría que contiene productos asociados a él; por tanto, podrá editar el nombre de la categoría y editar los datos de los campos customizables, pero no podrá añadir o eliminar campos, modificar los campos customizables de tipo combo ni cambiar la categoría padre a la que pertenece.</value>
+  </data>
+  <data name="El_valor_por_defecto" xml:space="preserve">
+    <value>El valor por defecto</value>
+  </data>
+  <data name="Encabezado_borrado" xml:space="preserve">
+    <value>¿Seguro que desea eliminar la información de la categoría seleccionada?</value>
+  </data>
+  <data name="Encabezado_creacion" xml:space="preserve">
+    <value>Introduzca a continuación la información de la nueva categoría de activo</value>
+  </data>
+  <data name="Encabezado_detalles" xml:space="preserve">
+    <value>A continuación se muestra la información de la categoría de activo seleccionada</value>
+  </data>
+  <data name="Encabezado_edicion" xml:space="preserve">
+    <value>Modifique la información que desee editar de la categoría de activo a continuación</value>
+  </data>
+  <data name="Generar_campos" xml:space="preserve">
+    <value>Genere campos customizados para características de esta categoría</value>
+  </data>
+  <data name="Hay_campo_incompleto" xml:space="preserve">
+    <value>Se ha perdido información de alguno de los campos customizables.</value>
+  </data>
+  <data name="Nombre_repetido" xml:space="preserve">
+    <value>El nombre de la categoría no está disponible porque ya está en uso.</value>
+  </data>
+  <data name="No_corresponde" xml:space="preserve">
+    <value>no corresponde con el tipo indicado</value>
+  </data>
+  <data name="Nueva_categoria" xml:space="preserve">
+    <value>Nueva Categoría</value>
+  </data>
+  <data name="Titulo_crear" xml:space="preserve">
+    <value>Crear Categoría</value>
+  </data>
+  <data name="Titulo_editar" xml:space="preserve">
+    <value>Editar Categoría</value>
+  </data>
+  <data name="Titulo_eliminar" xml:space="preserve">
+    <value>Eliminar Categoría</value>
+  </data>
+  <data name="Valor" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="Valor_defecto_vacio_1" xml:space="preserve">
+    <value>El dato valor por defecto viene vacío en la fila número</value>
+  </data>
+  <data name="Valor_defecto_vacio_2" xml:space="preserve">
+    <value>y el campo está marcado como requerido. Por favor, introduzca algún valor o márquelo como no requerido.</value>
+  </data>
+  <data name="Categoria" xml:space="preserve">
+    <value>Categorías</value>
+  </data>
+  <data name="Falta_empresa" xml:space="preserve">
+    <value>Antes de crear una categoría debe existir una empresa para poder asignarla. Por favor, cree la empresa y vuelva a intentarlo.</value>
+  </data>
+  <data name="Tiene_campos" xml:space="preserve">
+    <value>Esta categoría tiene los siguientes campos customizables:</value>
+  </data>
+  <data name="No_especificado" xml:space="preserve">
+    <value>No especificado</value>
+  </data>
+  <data name="Descripcion" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="Campos_heredados" xml:space="preserve">
+    <value>Esta categoría tiene los siguientes campos customizables heredados (de sus categorías padre):</value>
+  </data>
+  <data name="Categoria_simple" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="Sin_categoria_padre" xml:space="preserve">
+    <value>Sin Categoría Padre</value>
+  </data>
+  <data name="Categoria_con_activos" xml:space="preserve">
+    <value>La categoría que intenta eliminar tiene activos asociados a ella; por favor, elimine antes dichos activos y vuelva a intentarlo.</value>
+  </data>
+  <data name="Categoria_con_tipos" xml:space="preserve">
+    <value>La categoría que intenta eliminar tiene productos asociados a ella; por favor, elimine antes dichos productos y vuelva a intentarlo</value>
+  </data>
+  <data name="Campos_custom" xml:space="preserve">
+    <value>Campos Customizables</value>
+  </data>
+  <data name="Escriba_y_pulse" xml:space="preserve">
+    <value>Escriba y pulse "+"</value>
+  </data>
+  <data name="Valor_defecto_vacio_2_combo" xml:space="preserve">
+    <value>y el campo es un combo, por lo que no puede venir vacío.</value>
+  </data>
+  <data name="Mostrar_productos" xml:space="preserve">
+    <value>Mostrar Productos</value>
+  </data>
+  <data name="Campo_no_existe" xml:space="preserve">
+    <value>El campo customizable {0} no existe.</value>
+  </data>
+  <data name="Error_campo_booleano" xml:space="preserve">
+    <value>El valor {0} introducido para el campo {1} no es de tipo booleano.</value>
+  </data>
+  <data name="Error_campo_combo" xml:space="preserve">
+    <value>El valor {0} introducido para el campo {1} no pertenece al combo.</value>
+  </data>
+  <data name="Error_campo_entero" xml:space="preserve">
+    <value>El valor {0} introducido para el campo {1} no es de tipo entero.</value>
+  </data>
+  <data name="Error_campo_flotante" xml:space="preserve">
+    <value>El valor {0} introducido para el campo {1} no es de tipo flotante.</value>
+  </data>
+  <data name="Error_opcion_vacia" xml:space="preserve">
+    <value>No puede añadir una opción vacía.</value>
+  </data>
+  <data name="Campo_repetido" xml:space="preserve">
+    <value>No puede crear varios campos customizables con el mismo nombre.</value>
+  </data>
+  <data name="Error_conflicto_campo" xml:space="preserve">
+    <value>La categoría {0} contiene algún campo cuyo nombre coincide con los de la categoría {1}.</value>
+  </data>
+  <data name="Error_conflicto_categoria" xml:space="preserve">
+    <value>Conflicto con categoría {0}: </value>
+  </data>
+  <data name="Error_validacion_nombre" xml:space="preserve">
+    <value>No se ha aportado el valor del nombre del campo {0} .</value>
+  </data>
+</root>

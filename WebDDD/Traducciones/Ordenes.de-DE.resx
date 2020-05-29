@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Almacen" xml:space="preserve">
+    <value>Lagerhaus</value>
+  </data>
+  <data name="Almacen_destino" xml:space="preserve">
+    <value>Ziellager</value>
+  </data>
+  <data name="Almacen_origen" xml:space="preserve">
+    <value>Ursprungslager</value>
+  </data>
+  <data name="Añadir_producto" xml:space="preserve">
+    <value>Produkt hinzufügen</value>
+  </data>
+  <data name="Cantidad" xml:space="preserve">
+    <value>Betrag</value>
+  </data>
+  <data name="Cliente" xml:space="preserve">
+    <value>Kunde</value>
+  </data>
+  <data name="Completado" xml:space="preserve">
+    <value>Abgeschlossen</value>
+  </data>
+  <data name="Datos_detalle" xml:space="preserve">
+    <value>Detaildaten</value>
+  </data>
+  <data name="Datos_generales" xml:space="preserve">
+    <value>Allgemeine Informationen</value>
+  </data>
+  <data name="Descripcion_borrado_transferencia" xml:space="preserve">
+    <value>Löschen Sie einen bestehenden Transportauftrag</value>
+  </data>
+  <data name="Descripcion_creacion_transferencia" xml:space="preserve">
+    <value>Anlegen eines neuen Transportauftrags</value>
+  </data>
+  <data name="Descripcion_detalles_transferencia" xml:space="preserve">
+    <value>Informationen zu einem bestehenden Transportauftrag</value>
+  </data>
+  <data name="Descripcion_edicion_transferencia" xml:space="preserve">
+    <value>Änderung eines bestehenden Transportauftrags</value>
+  </data>
+  <data name="Descripcion_index_transferencia" xml:space="preserve">
+    <value>Transportaufträge, die im System vorhanden sind</value>
+  </data>
+  <data name="Empresa" xml:space="preserve">
+    <value>Gesellschaft</value>
+  </data>
+  <data name="Empresa_sin_ubicacion" xml:space="preserve">
+    <value>Die Gesellschaft hat noch keinen zugehörigen Standort.</value>
+  </data>
+  <data name="Encabezado_borrado_transferencia" xml:space="preserve">
+    <value>Möchten Sie die Informationen aus dem ausgewählten Transportauftrag wirklich löschen?</value>
+  </data>
+  <data name="Encabezado_creacion_transferencia" xml:space="preserve">
+    <value>Geben Sie die Informationen zum neuen Transportauftrag unten ein</value>
+  </data>
+  <data name="Encabezado_detalles_transferencia" xml:space="preserve">
+    <value>Die Informationen zum ausgewählten Transportauftrag sind unten aufgeführt</value>
+  </data>
+  <data name="Encabezado_edicion_transferencia" xml:space="preserve">
+    <value>Ändern Sie die Informationen, die Sie bearbeiten möchten, aus dem Übertragungsauftrag unten</value>
+  </data>
+  <data name="Entidad" xml:space="preserve">
+    <value>Entität</value>
+  </data>
+  <data name="En_espera" xml:space="preserve">
+    <value>Warten</value>
+  </data>
+  <data name="Estado" xml:space="preserve">
+    <value>Staat</value>
+  </data>
+  <data name="Filtrar_estado" xml:space="preserve">
+    <value>Nach Bundesstaat filtern</value>
+  </data>
+  <data name="Identificador" xml:space="preserve">
+    <value>Nr. Bestellung</value>
+  </data>
+  <data name="Iniciado" xml:space="preserve">
+    <value>Angefangen</value>
+  </data>
+  <data name="Ninguna" xml:space="preserve">
+    <value>Keine</value>
+  </data>
+  <data name="No_hay_productos" xml:space="preserve">
+    <value>Momentan gibt es keine Produkte zum Anzeigen.</value>
+  </data>
+  <data name="Nueva_orden_transferencia" xml:space="preserve">
+    <value>Neuer Transportauftrag</value>
+  </data>
+  <data name="Ordenes_pagina" xml:space="preserve">
+    <value>Bestellungen pro Seite</value>
+  </data>
+  <data name="Orden_compra" xml:space="preserve">
+    <value>Bestellung</value>
+  </data>
+  <data name="Orden_transferencia" xml:space="preserve">
+    <value>Übertragungsauftrag</value>
+  </data>
+  <data name="Orden_creada_error" xml:space="preserve">
+    <value>Beim Erstellen des Auftrags ist ein Fehler aufgetreten: {0}.</value>
+  </data>
+  <data name="Orden_creada_exito" xml:space="preserve">
+    <value>Die Bestellung {0} wurde erfolgreich erstellt.</value>
+  </data>
+  <data name="Orden_editada_error" xml:space="preserve">
+    <value>Bei der Auftragsbearbeitung ist ein Fehler aufgetreten: {0}.</value>
+  </data>
+  <data name="Orden_editada_exito" xml:space="preserve">
+    <value>Die Bestellung {0} wurde erfolgreich bearbeitet.</value>
+  </data>
+  <data name="Orden_eliminada_error" xml:space="preserve">
+    <value>Die Bestellung {0} wurde nicht gelöscht.</value>
+  </data>
+  <data name="Orden_eliminada_exito" xml:space="preserve">
+    <value>Die Bestellung {0} wurde erfolgreich gelöscht.</value>
+  </data>
+  <data name="Orden_venta" xml:space="preserve">
+    <value>Kundenauftrag</value>
+  </data>
+  <data name="Producto" xml:space="preserve">
+    <value>Produkt</value>
+  </data>
+  <data name="Productos" xml:space="preserve">
+    <value>Produkte</value>
+  </data>
+  <data name="Proveedor" xml:space="preserve">
+    <value>Anbieter</value>
+  </data>
+  <data name="Titulo_crear_transferencia" xml:space="preserve">
+    <value>Übertragungsauftrag anlegen</value>
+  </data>
+  <data name="Titulo_editar_transferencia" xml:space="preserve">
+    <value>Übertragungsauftrag bearbeiten</value>
+  </data>
+  <data name="Titulo_eliminar_transferencia" xml:space="preserve">
+    <value>Übertragungsauftrag entfernen</value>
+  </data>
+  <data name="Descripcion_borrado_compra" xml:space="preserve">
+    <value>Beseitigung einer bestehenden Bestellung</value>
+  </data>
+  <data name="Descripcion_borrado_venta" xml:space="preserve">
+    <value>Beseitigung eines bestehenden Kundenauftrags</value>
+  </data>
+  <data name="Descripcion_creacion_compra" xml:space="preserve">
+    <value>Anlegen einer neuen Bestellung</value>
+  </data>
+  <data name="Descripcion_creacion_venta" xml:space="preserve">
+    <value>Anlegen eines neuen Kundenauftrags</value>
+  </data>
+  <data name="Descripcion_detalles_compra" xml:space="preserve">
+    <value>Informationen zu einer bestehenden Bestellung</value>
+  </data>
+  <data name="Descripcion_detalles_venta" xml:space="preserve">
+    <value>Informationen zu einem bestehenden Kundenauftrag</value>
+  </data>
+  <data name="Descripcion_edicion_compra" xml:space="preserve">
+    <value>Änderung einer bestehenden Bestellung</value>
+  </data>
+  <data name="Descripcion_edicion_venta" xml:space="preserve">
+    <value>Änderung eines bestehenden Kundenauftrags</value>
+  </data>
+  <data name="Descripcion_index_compra" xml:space="preserve">
+    <value>Bestellungen, die im System vorhanden sind</value>
+  </data>
+  <data name="Descripcion_index_venta" xml:space="preserve">
+    <value>Kundenaufträge im System vorhanden</value>
+  </data>
+  <data name="Titulo_crear_compra" xml:space="preserve">
+    <value>Bestellung anlegen</value>
+  </data>
+  <data name="Titulo_crear_venta" xml:space="preserve">
+    <value>Kundenauftrag anlegen</value>
+  </data>
+  <data name="Titulo_editar_compra" xml:space="preserve">
+    <value>Bestellung bearbeiten</value>
+  </data>
+  <data name="Titulo_editar_venta" xml:space="preserve">
+    <value>Kundenauftrag bearbeiten</value>
+  </data>
+  <data name="Titulo_eliminar_compra" xml:space="preserve">
+    <value>Bestellung entfernen</value>
+  </data>
+  <data name="Titulo_eliminar_venta" xml:space="preserve">
+    <value>Entfernen Sie den Kundenauftrag</value>
+  </data>
+  <data name="Encabezado_borrado_compra" xml:space="preserve">
+    <value>Möchten Sie die Informationen aus der ausgewählten Bestellung wirklich löschen?</value>
+  </data>
+  <data name="Encabezado_borrado_venta" xml:space="preserve">
+    <value>Möchten Sie die Informationen aus dem ausgewählten Kundenauftrag wirklich löschen?</value>
+  </data>
+  <data name="Encabezado_creacion_compra" xml:space="preserve">
+    <value>Geben Sie die Informationen der neuen Bestellung ein</value>
+  </data>
+  <data name="Encabezado_creacion_venta" xml:space="preserve">
+    <value>Geben Sie die Informationen des neuen Kundenauftrags ein</value>
+  </data>
+  <data name="Encabezado_detalles_compra" xml:space="preserve">
+    <value>Die Informationen der ausgewählten Bestellung werden unten angezeigt</value>
+  </data>
+  <data name="Encabezado_detalles_venta" xml:space="preserve">
+    <value>Die Informationen des ausgewählten Kundenauftrags werden unten angezeigt</value>
+  </data>
+  <data name="Encabezado_edicion_compra" xml:space="preserve">
+    <value>Ändern Sie die Informationen, die Sie bearbeiten möchten, aus der Bestellung unten</value>
+  </data>
+  <data name="Encabezado_edicion_venta" xml:space="preserve">
+    <value>Ändern Sie die Informationen, die Sie bearbeiten möchten, aus dem folgenden Kundenauftrag</value>
+  </data>
+  <data name="Nueva_orden_compra" xml:space="preserve">
+    <value>Neue Bestellung</value>
+  </data>
+  <data name="Nueva_orden_venta" xml:space="preserve">
+    <value>Neuer Kundenauftrag</value>
+  </data>
+  <data name="Empresa_sin_proveedor" xml:space="preserve">
+    <value>Das Unternehmen hat noch keine Lieferanten verknüpft.</value>
+  </data>
+  <data name="Clientes" xml:space="preserve">
+    <value>Kunden</value>
+  </data>
+  <data name="Empresa_sin_cliente" xml:space="preserve">
+    <value>Die Gesellschaft hat noch keine Kunden verknüpft.</value>
+  </data>
+  <data name="Proveedores" xml:space="preserve">
+    <value>Lieferanten</value>
+  </data>
+  <data name="Orden_sin_detalles" xml:space="preserve">
+    <value>Bestellen Sie ohne Details.</value>
+  </data>
+  <data name="Origen_y_destino_iguales" xml:space="preserve">
+    <value>Herkunfts- und Ziellager können nicht gleich sein. Bitte wählen Sie einen anderen aus.</value>
+  </data>
+  <data name="Descripcion_borrado_picklist" xml:space="preserve">
+    <value>Entfernen einer vorhandenen Auswahlliste</value>
+  </data>
+  <data name="Descripcion_creacion_picklist" xml:space="preserve">
+    <value>Erstellen einer neuen Auswahlliste</value>
+  </data>
+  <data name="Descripcion_detalles_picklist" xml:space="preserve">
+    <value>Informationen zu einer bestehenden Auswahlliste</value>
+  </data>
+  <data name="Descripcion_edicion_picklist" xml:space="preserve">
+    <value>Änderung einer bestehenden Auswahlliste</value>
+  </data>
+  <data name="Descripcion_index_picklist" xml:space="preserve">
+    <value>Bestehende Auswahllisten im System</value>
+  </data>
+  <data name="Encabezado_borrado_picklist" xml:space="preserve">
+    <value>Möchten Sie die Informationen wirklich aus der ausgewählten Auswahlliste löschen?</value>
+  </data>
+  <data name="Encabezado_creacion_picklist" xml:space="preserve">
+    <value>Geben Sie die Informationen der neuen Auswahlliste unten ein</value>
+  </data>
+  <data name="Encabezado_detalles_picklist" xml:space="preserve">
+    <value>Die Informationen der ausgewählten Auswahlliste werden unten angezeigt</value>
+  </data>
+  <data name="Encabezado_edicion_picklist" xml:space="preserve">
+    <value>Ändern Sie die Informationen, die Sie bearbeiten möchten, aus der Auswahlliste unten</value>
+  </data>
+  <data name="Titulo_crear_picklist" xml:space="preserve">
+    <value>Auswahlliste erstellen</value>
+  </data>
+  <data name="Titulo_editar_picklist" xml:space="preserve">
+    <value>Bearbeiten Sie die Auswahlliste</value>
+  </data>
+  <data name="Titulo_eliminar_picklist" xml:space="preserve">
+    <value>Entfernen Sie die Auswahlliste</value>
+  </data>
+  <data name="Pick_list" xml:space="preserve">
+    <value>Auswahlliste</value>
+  </data>
+  <data name="PickList_creada_error" xml:space="preserve">
+    <value>Beim Erstellen der Auswahlliste ist ein Fehler aufgetreten: {0}.</value>
+  </data>
+  <data name="PickList_creada_exito" xml:space="preserve">
+    <value>Die Auswahlliste {0} wurde erfolgreich erstellt.</value>
+  </data>
+  <data name="PickList_editada_error" xml:space="preserve">
+    <value>In der Ausgabe der Auswahlliste ist ein Fehler aufgetreten: {0}.</value>
+  </data>
+  <data name="PickList_editada_exito" xml:space="preserve">
+    <value>Die Auswahlliste {0} wurde erfolgreich bearbeitet.</value>
+  </data>
+  <data name="PickList_eliminada_error" xml:space="preserve">
+    <value>Die Auswahlliste {0} wurde nicht gelöscht.</value>
+  </data>
+  <data name="PickList_eliminada_exito" xml:space="preserve">
+    <value>Die Auswahlliste {0} wurde erfolgreich entfernt.</value>
+  </data>
+  <data name="PickLists" xml:space="preserve">
+    <value>Auswahlliste</value>
+  </data>
+  <data name="Nueva_picklist" xml:space="preserve">
+    <value>Neue Auswahlliste</value>
+  </data>
+  <data name="Picklists_pagina" xml:space="preserve">
+    <value>Auswahlliste pro Seite</value>
+  </data>
+  <data name="Debe_seleccionar_almacen" xml:space="preserve">
+    <value>Sie müssen ein Lager auswählen, um die verfügbaren Transportaufträge anzuzeigen.</value>
+  </data>
+  <data name="Detalles_ordenes_transferencia" xml:space="preserve">
+    <value>Details zum Überweisungsauftrag</value>
+  </data>
+  <data name="No_hay_ot_disponibles" xml:space="preserve">
+    <value>Zu diesem Zeitpunkt sind keine Transportaufträge für den ausgewählten Zielspeicher verfügbar.</value>
+  </data>
+  <data name="No_hay_ot_seleccionadas" xml:space="preserve">
+    <value>Es sind noch keine Transportaufträge ausgewählt.</value>
+  </data>
+  <data name="Ordenes_disponibles" xml:space="preserve">
+    <value>Transportaufträge verfügbar</value>
+  </data>
+  <data name="Ordenes_seleccionadas" xml:space="preserve">
+    <value>Ausgewählte Transportaufträge</value>
+  </data>
+  <data name="Mostrar_ubicaciones" xml:space="preserve">
+    <value>Orte anzeigen</value>
+  </data>
+  <data name="No_puede_editar" xml:space="preserve">
+    <value>Sie können die ausgewählte Bestellung nicht bearbeiten, da sich ihr Status von "In Wartestellung" unterscheidet.</value>
+  </data>
+  <data name="No_puede_eliminar" xml:space="preserve">
+    <value>Sie können die ausgewählte Bestellung nicht löschen, da der Status "Gestartet" lautet.</value>
+  </data>
+  <data name="Identificador_en_uso" xml:space="preserve">
+    <value>Die Kennung der Bestellung wird bereits verwendet. Bitte versuchen Sie es mit einer anderen Bestellung.</value>
+  </data>
+  <data name="Ordenes_compra_pendientes" xml:space="preserve">
+    <value>Ausstehende Bestellungen</value>
+  </data>
+  <data name="Ordenes_transferencia_pendientes" xml:space="preserve">
+    <value>Ausstehende Transportaufträge</value>
+  </data>
+  <data name="Ordenes_venta_pendientes" xml:space="preserve">
+    <value>Ausstehende Kundenaufträge</value>
+  </data>
+  <data name="Picklists_pendientes" xml:space="preserve">
+    <value>Ausstehende Auswahlliste</value>
+  </data>
+  <data name="Ultimas_ordenes_creadas" xml:space="preserve">
+    <value>Letzte Bestellungen erstellt</value>
+  </data>
+  <data name="Carrito_vacio" xml:space="preserve">
+    <value>Der Warenkorb ist leer, bitte fügen Sie zuerst ein Produkt hinzu.</value>
+  </data>
+  <data name="Orden_no_generada" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Orden_omitida" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Archivo_excel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Importar_excel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="No_empresa" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Subir_archivo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Codigo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_seleccionar_columnasError_seleccionar_columnas" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_subida" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resultado_importacion" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Motivo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Productos_importados_error" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Productos_importados_exito" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Orden_completa" xml:space="preserve">
+    <value>Bestellung abschließen</value>
+  </data>
+  <data name="Orden_no_encontrada" xml:space="preserve">
+    <value />
+  </data>
+  <data name="No_coincide_destino" xml:space="preserve">
+    <value />
+  </data>
+  <data name="No_coincide_origen" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Operacion_asociada" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Orden" xml:space="preserve">
+    <value>Bestellung</value>
+  </data>
+  <data name="Compra" xml:space="preserve">
+    <value>Kaufen</value>
+  </data>
+  <data name="Transferencia" xml:space="preserve">
+    <value>Übertragen</value>
+  </data>
+  <data name="Venta" xml:space="preserve">
+    <value>Verkauf</value>
+  </data>
+  <data name="Producto_sin_stock" xml:space="preserve">
+    <value />
+  </data>
+  <data name="No_origen" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_activos_disponibles" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_Ubicacion_Empresa" xml:space="preserve">
+    <value>Error_Ubicacion_Enmpresa Standort ist in der aktuellen Firma nicht vorhanden</value>
+  </data>
+  <data name="Error_Ubicacion_Vacia" xml:space="preserve">
+    <value>Der Ort darf nicht leer sein</value>
+  </data>
+  <data name="Orden_sin_fecha" xml:space="preserve">
+    <value>Sie können keine Bestellung ohne ein zugehöriges Datum erstellen. Bitte versuchen Sie es erneut.</value>
+  </data>
+  <data name="Error_Ubicaciones_Iguales" xml:space="preserve">
+    <value>Der Ursprungsort und der Zielort müssen unterschiedlich sein</value>
+  </data>
+  <data name="Error_Empresa_Id" xml:space="preserve">
+    <value>Super Operator User und es gibt kein Unternehmen, das zugeordnet werden kann, oder das Unternehmen existiert nicht oder das Benutzerunternehmen stimmt nicht mit dem Unternehmen überein, das durch Parameter übergeben wird</value>
+  </data>
+  <data name="Error_DetalleOrden_Cantidad" xml:space="preserve">
+    <value>Falsche Menge.</value>
+  </data>
+  <data name="Error_DetalleOrden_TipoActivoId" xml:space="preserve">
+    <value>TypeActivoId Falsch.</value>
+  </data>
+  <data name="Error_ubicacion_origen" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_ubicacion_destino" xml:space="preserve">
+    <value />
+  </data>
+</root>

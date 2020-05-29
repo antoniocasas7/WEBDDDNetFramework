@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Campo_vacio" xml:space="preserve">
+    <value>Das Feld {0} ist obligatorisch.</value>
+  </data>
+  <data name="Color_primario" xml:space="preserve">
+    <value>Hauptfarbe</value>
+  </data>
+  <data name="Color_secundario" xml:space="preserve">
+    <value>Sekundärfarbe</value>
+  </data>
+  <data name="Crear_entidad" xml:space="preserve">
+    <value>Neue Entität</value>
+  </data>
+  <data name="Descripcion_borrado" xml:space="preserve">
+    <value>Entfernen einer bestehenden Entität</value>
+  </data>
+  <data name="Descripcion_creacion" xml:space="preserve">
+    <value>Schaffung einer neuen Entität</value>
+  </data>
+  <data name="Descripcion_detalles" xml:space="preserve">
+    <value>Informationen über eine bestehende Entität</value>
+  </data>
+  <data name="Descripcion_edicion" xml:space="preserve">
+    <value>Änderung einer bestehenden Entität</value>
+  </data>
+  <data name="Descripcion_index" xml:space="preserve">
+    <value>Vorhandene Entitäten im System</value>
+  </data>
+  <data name="Editar_entidad" xml:space="preserve">
+    <value>Entität bearbeiten</value>
+  </data>
+  <data name="Eliminar_entidad" xml:space="preserve">
+    <value>Entität entfernen</value>
+  </data>
+  <data name="Entidad" xml:space="preserve">
+    <value>Entitäten</value>
+  </data>
+  <data name="Entidades_pagina" xml:space="preserve">
+    <value>Entitäten pro Seite:</value>
+  </data>
+  <data name="Entidad_creada_error" xml:space="preserve">
+    <value>Beim Speichern der Entität ist ein Fehler aufgetreten: {0}.</value>
+  </data>
+  <data name="Entidad_creada_exito" xml:space="preserve">
+    <value>Die Entität {0} wurde erfolgreich erstellt.</value>
+  </data>
+  <data name="Entidad_editada_error" xml:space="preserve">
+    <value>Beim Speichern der Entität ist ein Fehler aufgetreten: {0}.</value>
+  </data>
+  <data name="Entidad_editada_exito" xml:space="preserve">
+    <value>Die Entität {0} wurde erfolgreich bearbeitet.</value>
+  </data>
+  <data name="Entidad_eliminada_error" xml:space="preserve">
+    <value>Die Entität {0} wurde nicht gelöscht.</value>
+  </data>
+  <data name="Entidad_eliminada_exito" xml:space="preserve">
+    <value>Die Entität {0} wurde erfolgreich gelöscht.</value>
+  </data>
+  <data name="Encabezado_borrado" xml:space="preserve">
+    <value>Möchten Sie die Informationen der ausgewählten Entität wirklich löschen?</value>
+  </data>
+  <data name="Encabezado_creacion" xml:space="preserve">
+    <value>Geben Sie unten die Informationen der neuen Entität ein</value>
+  </data>
+  <data name="Encabezado_detalles" xml:space="preserve">
+    <value>Die Informationen der ausgewählten Entität werden unten angezeigt</value>
+  </data>
+  <data name="Encabezado_edicion" xml:space="preserve">
+    <value>Ändern Sie die Informationen, die Sie bearbeiten möchten, von der Entität darunter</value>
+  </data>
+  <data name="Favicon" xml:space="preserve">
+    <value>Favicon</value>
+  </data>
+  <data name="Lista_modulos" xml:space="preserve">
+    <value>Module</value>
+  </data>
+  <data name="Logo_full" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="Logo_small" xml:space="preserve">
+    <value>Kleines Logo</value>
+  </data>
+  <data name="Nombre_entidad" xml:space="preserve">
+    <value>Entität</value>
+  </data>
+  <data name="Referencia_entidad" xml:space="preserve">
+    <value>Referenz</value>
+  </data>
+  <data name="Error_tipo_fichero" xml:space="preserve">
+    <value>Die Dateierweiterung {0} muss eine der folgenden sein: {1}</value>
+  </data>
+  <data name="Imagen_no_encontrada" xml:space="preserve">
+    <value>Ohne Bild</value>
+  </data>
+  <data name="Entidad_simple" xml:space="preserve">
+    <value>Entität</value>
+  </data>
+  <data name="Error_entidad_usuarios" xml:space="preserve">
+    <value>Die Entität {0} hat verknüpfte Benutzer. Sie können es nicht beseitigen.</value>
+  </data>
+  <data name="Ninguna" xml:space="preserve">
+    <value>Keine</value>
+  </data>
+  <data name="Distribuidor" xml:space="preserve">
+    <value>Händler</value>
+  </data>
+  <data name="Numero_entidades" xml:space="preserve">
+    <value>Anzahl der Entitäten</value>
+  </data>
+  <data name="Entidad_simple_min" xml:space="preserve">
+    <value>Entität</value>
+  </data>
+  <data name="Cif" xml:space="preserve">
+    <value>UstId-nr.</value>
+  </data>
+  <data name="Telefono" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Debe_borrar_usuario" xml:space="preserve">
+    <value>Sie versuchen einen Händler mit einem Benutzer in dieser Rolle als diesen abzumelden. Bitte entfernen Sie diesen Benutzer vorher und versuchen Sie es erneut.</value>
+  </data>
+  <data name="Entidad_con_empresas" xml:space="preserve">
+    <value>Die Entität, die Sie löschen möchten, ist mit Unternehmen verknüpft. Bitte entfernen Sie diese Unternehmen vorher und versuchen Sie es erneut.</value>
+  </data>
+  <data name="Bloqueada" xml:space="preserve">
+    <value>Blockiert</value>
+  </data>
+  <data name="Bloquear" xml:space="preserve">
+    <value>Blockieren</value>
+  </data>
+  <data name="Desbloquear" xml:space="preserve">
+    <value>Entsperren</value>
+  </data>
+  <data name="Entidad_bloqueada_error" xml:space="preserve">
+    <value>Die Entität {0} wurde nicht blockiert.</value>
+  </data>
+  <data name="Color_primario_texto" xml:space="preserve">
+    <value>Hauptfarbtext</value>
+  </data>
+  <data name="Color_secundario_texto" xml:space="preserve">
+    <value>Text sekundäre Farbe</value>
+  </data>
+  <data name="Error_tipo_fichero_simple" xml:space="preserve">
+    <value>Die Dateierweiterung {0} muss eine {1}</value>
+  </data>
+  <data name="Error_entidad_direcciones" xml:space="preserve">
+    <value>Die Entität {0} hat verknüpfte Adressen. Sie können es nicht beseitigen.</value>
+  </data>
+  <data name="Error_entidad_dispositivos" xml:space="preserve">
+    <value>Die Entität {0} hat verknüpfte Geräte. Sie können es nicht beseitigen.</value>
+  </data>
+  <data name="Error_entidad_empresas" xml:space="preserve">
+    <value>Die Entität {0} hat verknüpfte Unternehmen. Sie können es nicht beseitigen.</value>
+  </data>
+  <data name="Atencion_eliminar" xml:space="preserve">
+    <value>Al eliminar la entidad, se borrará toda la información dependiente de esta; Empresas, Usuarios, Activos, Productos, etc.</value>
+  </data>
+  <data name="Descripcion_perfil" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Perfil_entidad" xml:space="preserve">
+    <value />
+  </data>
+</root>

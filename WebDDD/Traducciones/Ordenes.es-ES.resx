@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Almacen" xml:space="preserve">
+    <value>Almacén</value>
+  </data>
+  <data name="Almacen_destino" xml:space="preserve">
+    <value>Almacén de Destino</value>
+  </data>
+  <data name="Almacen_origen" xml:space="preserve">
+    <value>Almacén de Origen</value>
+  </data>
+  <data name="Añadir_producto" xml:space="preserve">
+    <value>Añadir Producto</value>
+  </data>
+  <data name="Cantidad" xml:space="preserve">
+    <value>Cantidad</value>
+  </data>
+  <data name="Cliente" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="Completado" xml:space="preserve">
+    <value>Completado</value>
+  </data>
+  <data name="Datos_detalle" xml:space="preserve">
+    <value>Datos de Detalle</value>
+  </data>
+  <data name="Datos_generales" xml:space="preserve">
+    <value>Datos Generales</value>
+  </data>
+  <data name="Descripcion_borrado_transferencia" xml:space="preserve">
+    <value>Eliminación de una orden de transferencia existente</value>
+  </data>
+  <data name="Descripcion_creacion_transferencia" xml:space="preserve">
+    <value>Creación de una nueva orden de transferencia</value>
+  </data>
+  <data name="Descripcion_detalles_transferencia" xml:space="preserve">
+    <value>Información de una orden de transferencia existente</value>
+  </data>
+  <data name="Descripcion_edicion_transferencia" xml:space="preserve">
+    <value>Modificación de una orden de transferencia existente</value>
+  </data>
+  <data name="Descripcion_index_transferencia" xml:space="preserve">
+    <value>Órdenes de tranferencia existentes en el sistema</value>
+  </data>
+  <data name="Empresa" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="Empresa_sin_ubicacion" xml:space="preserve">
+    <value>La empresa seleccionada no tiene ninguna ubicación asociada.</value>
+  </data>
+  <data name="Encabezado_borrado_transferencia" xml:space="preserve">
+    <value>¿Seguro que desea eliminar la información de la orden de transferencia seleccionada?</value>
+  </data>
+  <data name="Encabezado_creacion_transferencia" xml:space="preserve">
+    <value>Introduzca a continuación la información de la nueva orden de transferencia</value>
+  </data>
+  <data name="Encabezado_detalles_transferencia" xml:space="preserve">
+    <value>A continuación se muestra la información de la orden de transferencia seleccionada</value>
+  </data>
+  <data name="Encabezado_edicion_transferencia" xml:space="preserve">
+    <value>Modifique la información que desee editar de la orden de transferencia a continuación</value>
+  </data>
+  <data name="Entidad" xml:space="preserve">
+    <value>Entidad</value>
+  </data>
+  <data name="En_espera" xml:space="preserve">
+    <value>En espera</value>
+  </data>
+  <data name="Estado" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="Filtrar_estado" xml:space="preserve">
+    <value>Filtrar por estado</value>
+  </data>
+  <data name="Identificador" xml:space="preserve">
+    <value>Nº Orden</value>
+  </data>
+  <data name="Iniciado" xml:space="preserve">
+    <value>Iniciado</value>
+  </data>
+  <data name="Ninguna" xml:space="preserve">
+    <value>Ninguna</value>
+  </data>
+  <data name="No_hay_productos" xml:space="preserve">
+    <value>Actualmente no existen Productos que mostrar.</value>
+  </data>
+  <data name="Nueva_orden_transferencia" xml:space="preserve">
+    <value>Nueva Orden de Transferencia</value>
+  </data>
+  <data name="Ordenes_pagina" xml:space="preserve">
+    <value>Órdenes por página</value>
+  </data>
+  <data name="Orden_compra" xml:space="preserve">
+    <value>Orden de Compra</value>
+  </data>
+  <data name="Orden_transferencia" xml:space="preserve">
+    <value>Orden de Transferencia</value>
+  </data>
+  <data name="Orden_creada_error" xml:space="preserve">
+    <value>Se ha producido un error en la creación de la orden: {0}.</value>
+  </data>
+  <data name="Orden_creada_exito" xml:space="preserve">
+    <value>La orden {0} ha sido creada con éxito.</value>
+  </data>
+  <data name="Orden_editada_error" xml:space="preserve">
+    <value>Se ha producido un error en la edición de la orden: {0}.</value>
+  </data>
+  <data name="Orden_editada_exito" xml:space="preserve">
+    <value>La orden {0} ha sido editada con éxito.</value>
+  </data>
+  <data name="Orden_eliminada_error" xml:space="preserve">
+    <value>La orden {0} no ha sido eliminada.</value>
+  </data>
+  <data name="Orden_eliminada_exito" xml:space="preserve">
+    <value>La orden {0} ha sido eliminada con éxito.</value>
+  </data>
+  <data name="Orden_venta" xml:space="preserve">
+    <value>Orden de Venta</value>
+  </data>
+  <data name="Producto" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="Productos" xml:space="preserve">
+    <value>Productos</value>
+  </data>
+  <data name="Proveedor" xml:space="preserve">
+    <value>Proveedor</value>
+  </data>
+  <data name="Titulo_crear_transferencia" xml:space="preserve">
+    <value>Crear Orden de Transferencia</value>
+  </data>
+  <data name="Titulo_editar_transferencia" xml:space="preserve">
+    <value>Editar Orden de Transferencia</value>
+  </data>
+  <data name="Titulo_eliminar_transferencia" xml:space="preserve">
+    <value>Eliminar Orden de Transferencia</value>
+  </data>
+  <data name="Descripcion_borrado_compra" xml:space="preserve">
+    <value>Eliminación de una orden de compra existente</value>
+  </data>
+  <data name="Descripcion_borrado_venta" xml:space="preserve">
+    <value>Eliminación de una orden de venta existente</value>
+  </data>
+  <data name="Descripcion_creacion_compra" xml:space="preserve">
+    <value>Creación de una nueva orden de compra</value>
+  </data>
+  <data name="Descripcion_creacion_venta" xml:space="preserve">
+    <value>Creación de una nueva orden de venta</value>
+  </data>
+  <data name="Descripcion_detalles_compra" xml:space="preserve">
+    <value>Información de una orden de compra existente</value>
+  </data>
+  <data name="Descripcion_detalles_venta" xml:space="preserve">
+    <value>Información de una orden de venta existente</value>
+  </data>
+  <data name="Descripcion_edicion_compra" xml:space="preserve">
+    <value>Modificación de una orden de compra existente</value>
+  </data>
+  <data name="Descripcion_edicion_venta" xml:space="preserve">
+    <value>Modificación de una orden de venta existente</value>
+  </data>
+  <data name="Descripcion_index_compra" xml:space="preserve">
+    <value>Órdenes de compra existentes en el sistema</value>
+  </data>
+  <data name="Descripcion_index_venta" xml:space="preserve">
+    <value>Órdenes de venta existentes en el sistema</value>
+  </data>
+  <data name="Titulo_crear_compra" xml:space="preserve">
+    <value>Crear Orden de Compra</value>
+  </data>
+  <data name="Titulo_crear_venta" xml:space="preserve">
+    <value>Crear Orden de Venta</value>
+  </data>
+  <data name="Titulo_editar_compra" xml:space="preserve">
+    <value>Editar Orden de Compra</value>
+  </data>
+  <data name="Titulo_editar_venta" xml:space="preserve">
+    <value>Editar Orden de Venta</value>
+  </data>
+  <data name="Titulo_eliminar_compra" xml:space="preserve">
+    <value>Eliminar Orden de Compra</value>
+  </data>
+  <data name="Titulo_eliminar_venta" xml:space="preserve">
+    <value>Eliminar Orden de Venta</value>
+  </data>
+  <data name="Encabezado_borrado_compra" xml:space="preserve">
+    <value>¿Seguro que desea eliminar la información de la orden de compra seleccionada?</value>
+  </data>
+  <data name="Encabezado_borrado_venta" xml:space="preserve">
+    <value>¿Seguro que desea eliminar la información de la orden de venta seleccionada?</value>
+  </data>
+  <data name="Encabezado_creacion_compra" xml:space="preserve">
+    <value>Introduzca a continuación la información de la nueva orden de compra</value>
+  </data>
+  <data name="Encabezado_creacion_venta" xml:space="preserve">
+    <value>Introduzca a continuación la información de la nueva orden de venta</value>
+  </data>
+  <data name="Encabezado_detalles_compra" xml:space="preserve">
+    <value>A continuación se muestra la información de la orden de compra seleccionada</value>
+  </data>
+  <data name="Encabezado_detalles_venta" xml:space="preserve">
+    <value>A continuación se muestra la información de la orden de venta seleccionada</value>
+  </data>
+  <data name="Encabezado_edicion_compra" xml:space="preserve">
+    <value>Modifique la información que desee editar de la orden de compra a continuación</value>
+  </data>
+  <data name="Encabezado_edicion_venta" xml:space="preserve">
+    <value>Modifique la información que desee editar de la orden de venta a continuación</value>
+  </data>
+  <data name="Nueva_orden_compra" xml:space="preserve">
+    <value>Nueva Orden de Compra</value>
+  </data>
+  <data name="Nueva_orden_venta" xml:space="preserve">
+    <value>Nueva Orden de Venta</value>
+  </data>
+  <data name="Empresa_sin_proveedor" xml:space="preserve">
+    <value>La empresa no tiene ningún proveedor asociado</value>
+  </data>
+  <data name="Clientes" xml:space="preserve">
+    <value>Clientes</value>
+  </data>
+  <data name="Empresa_sin_cliente" xml:space="preserve">
+    <value>La empresa no tiene ningún cliente asociado</value>
+  </data>
+  <data name="Proveedores" xml:space="preserve">
+    <value>Proveedores</value>
+  </data>
+  <data name="Orden_sin_detalles" xml:space="preserve">
+    <value>Orden sin Detalles.</value>
+  </data>
+  <data name="Origen_y_destino_iguales" xml:space="preserve">
+    <value>Los almacenes de origen y destino no pueden ser iguales. Por favor, seleccione uno diferente.</value>
+  </data>
+  <data name="Descripcion_borrado_picklist" xml:space="preserve">
+    <value>Eliminación de una Pick List existente</value>
+  </data>
+  <data name="Descripcion_creacion_picklist" xml:space="preserve">
+    <value>Creación de una nueva Pick List</value>
+  </data>
+  <data name="Descripcion_detalles_picklist" xml:space="preserve">
+    <value>Información de una Pick List existente</value>
+  </data>
+  <data name="Descripcion_edicion_picklist" xml:space="preserve">
+    <value>Modificación de una Pick List existente</value>
+  </data>
+  <data name="Descripcion_index_picklist" xml:space="preserve">
+    <value>Pick Lists existentes en el sistema</value>
+  </data>
+  <data name="Encabezado_borrado_picklist" xml:space="preserve">
+    <value>¿Seguro que desea eliminar la información de la Pick List seleccionada?</value>
+  </data>
+  <data name="Encabezado_creacion_picklist" xml:space="preserve">
+    <value>Introduzca a continuación la información de la nueva Pick List</value>
+  </data>
+  <data name="Encabezado_detalles_picklist" xml:space="preserve">
+    <value>A continuación se muestra la información de la Pick List seleccionada</value>
+  </data>
+  <data name="Encabezado_edicion_picklist" xml:space="preserve">
+    <value>Modifique la información que desee editar de la Pick List a continuación</value>
+  </data>
+  <data name="Titulo_crear_picklist" xml:space="preserve">
+    <value>Crear Pick List</value>
+  </data>
+  <data name="Titulo_editar_picklist" xml:space="preserve">
+    <value>Editar Pick List</value>
+  </data>
+  <data name="Titulo_eliminar_picklist" xml:space="preserve">
+    <value>Eliminar Pick List</value>
+  </data>
+  <data name="Pick_list" xml:space="preserve">
+    <value>Pick List</value>
+  </data>
+  <data name="PickList_creada_error" xml:space="preserve">
+    <value>Se ha producido un error en la creación de la pick list: {0}.</value>
+  </data>
+  <data name="PickList_creada_exito" xml:space="preserve">
+    <value>La pick list {0} ha sido creada con éxito.</value>
+  </data>
+  <data name="PickList_editada_error" xml:space="preserve">
+    <value>Se ha producido un error en la edición de la pick list: {0}.</value>
+  </data>
+  <data name="PickList_editada_exito" xml:space="preserve">
+    <value>La pick list {0} ha sido editada con éxito.</value>
+  </data>
+  <data name="PickList_eliminada_error" xml:space="preserve">
+    <value>La pick list {0} no ha sido eliminada.</value>
+  </data>
+  <data name="PickList_eliminada_exito" xml:space="preserve">
+    <value>La pick list {0} ha sido eliminada con éxito.</value>
+  </data>
+  <data name="PickLists" xml:space="preserve">
+    <value>Pick Lists</value>
+  </data>
+  <data name="Nueva_picklist" xml:space="preserve">
+    <value>Nueva Pick List</value>
+  </data>
+  <data name="Picklists_pagina" xml:space="preserve">
+    <value>Pick Lists por página</value>
+  </data>
+  <data name="Debe_seleccionar_almacen" xml:space="preserve">
+    <value>Debe seleccionar un almacén para visualizar las órdenes de transferencia disponibles.</value>
+  </data>
+  <data name="Detalles_ordenes_transferencia" xml:space="preserve">
+    <value>Detalles de la orden de transferencia.</value>
+  </data>
+  <data name="No_hay_ot_disponibles" xml:space="preserve">
+    <value>No hay órdenes de transferencia disponibles en estos momentos para el almacén de destino seleccionado.</value>
+  </data>
+  <data name="No_hay_ot_seleccionadas" xml:space="preserve">
+    <value>No hay órdenes de transferencia seleccionadas aún.</value>
+  </data>
+  <data name="Ordenes_disponibles" xml:space="preserve">
+    <value>Órdenes de Transferencia Disponible</value>
+  </data>
+  <data name="Ordenes_seleccionadas" xml:space="preserve">
+    <value>Órdenes de Tranferencia Seleccionadas</value>
+  </data>
+  <data name="Mostrar_ubicaciones" xml:space="preserve">
+    <value>Mostrar ubicaciones</value>
+  </data>
+  <data name="No_puede_editar" xml:space="preserve">
+    <value>No puede editar la orden seleccionada porque su estado es distinto al de "En Espera".</value>
+  </data>
+  <data name="No_puede_eliminar" xml:space="preserve">
+    <value>No puede eliminar la orden seleccionada porque su estado es "Iniciado".</value>
+  </data>
+  <data name="Identificador_en_uso" xml:space="preserve">
+    <value>El identificador de la orden ya está en uso, por favor, pruebe con otro.</value>
+  </data>
+  <data name="Ordenes_compra_pendientes" xml:space="preserve">
+    <value>Órdenes de Compra Pendientes</value>
+  </data>
+  <data name="Ordenes_transferencia_pendientes" xml:space="preserve">
+    <value>Órdenes de Tranferencia Pendientes</value>
+  </data>
+  <data name="Ordenes_venta_pendientes" xml:space="preserve">
+    <value>Órdenes de Venta Pendientes</value>
+  </data>
+  <data name="Picklists_pendientes" xml:space="preserve">
+    <value>Pick Lists Pendientes</value>
+  </data>
+  <data name="Ultimas_ordenes_creadas" xml:space="preserve">
+    <value>Últimas Órdenes Creadas</value>
+  </data>
+  <data name="Carrito_vacio" xml:space="preserve">
+    <value>El carrito está vacío, por favor, añada primero algún producto.</value>
+  </data>
+  <data name="Orden_no_generada" xml:space="preserve">
+    <value>No se ha generado ninguna orden de transferencia porque todos los productos seleccionados se encuentran en el almacén de destino.</value>
+  </data>
+  <data name="Orden_omitida" xml:space="preserve">
+    <value>Se ha omitido la creación de una o varias órdenes de transferencia o la cantidad del producto incluída es menor a la pedida porque parte de los productos seleccionados no se encuentran disponibles.</value>
+  </data>
+  <data name="Archivo_excel" xml:space="preserve">
+    <value>Archivo Excel</value>
+  </data>
+  <data name="Importar_excel" xml:space="preserve">
+    <value>Importar Excel</value>
+  </data>
+  <data name="No_empresa" xml:space="preserve">
+    <value>No hay empresa seleccionada.</value>
+  </data>
+  <data name="Subir_archivo" xml:space="preserve">
+    <value>Subir Archivo</value>
+  </data>
+  <data name="Codigo" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="Error_seleccionar_columnas" xml:space="preserve">
+    <value>Seleccionar columnas producto o código y cantidad</value>
+  </data>
+  <data name="Error_subida" xml:space="preserve">
+    <value>No se ha subido el fichero.</value>
+  </data>
+  <data name="Producto_no_encontrado" xml:space="preserve">
+    <value>El producto {0} no existe.</value>
+  </data>
+  <data name="Resultado_importacion" xml:space="preserve">
+    <value>Resultado Importación</value>
+  </data>
+  <data name="Motivo" xml:space="preserve">
+    <value>Motivos: </value>
+  </data>
+  <data name="Productos_importados_error" xml:space="preserve">
+    <value>Productos no importados:</value>
+  </data>
+  <data name="Productos_importados_exito" xml:space="preserve">
+    <value>Productos importados correctamente:</value>
+  </data>
+  <data name="Orden_completa" xml:space="preserve">
+    <value>Orden completa</value>
+  </data>
+  <data name="Orden_no_encontrada" xml:space="preserve">
+    <value>No se ha encontrado ninguna orden que se corresponda con el tipo y el número indicados.</value>
+  </data>
+  <data name="No_coincide_destino" xml:space="preserve">
+    <value>El destino de la orden de trabajo no se corresponde con la localización actual, por lo que no se puede asociar la operación a dicha orden.</value>
+  </data>
+  <data name="No_coincide_origen" xml:space="preserve">
+    <value>El origen de la orden de trabajo no se corresponde con la localización actual, por lo que no se puede asociar la operación a dicha orden.</value>
+  </data>
+  <data name="Operacion_asociada" xml:space="preserve">
+    <value>La orden que desea eliminar está asociada con alguna operación, por lo que no puede ser eliminada.</value>
+  </data>
+  <data name="Orden" xml:space="preserve">
+    <value>Orden</value>
+  </data>
+  <data name="Error_fecha" xml:space="preserve">
+    <value>Se ha producido un error con la fecha de la orden. Por favor, vuelva a intentarlo.</value>
+  </data>
+  <data name="Orden_sin_fecha" xml:space="preserve">
+    <value>No se puede crear una orden sin una fecha asociada. Por favor, inténtelo de nuevo.</value>
+  </data>
+  <data name="Orden_sin_identificador" xml:space="preserve">
+    <value>No puede crear una orden sin un identificador asociado. Por favor, inténtelo de nuevo.</value>
+  </data>
+  <data name="Activo_asociado" xml:space="preserve">
+    <value>La orden que desea eliminar tiene activos asociados. Por favor, elimínelos e inténtelo de nuevo.</value>
+  </data>
+  <data name="Error_fecha_picklist" xml:space="preserve">
+    <value>Se ha producido un error con la fecha de la picklist. Por favor, vuelva a intentarlo.</value>
+  </data>
+  <data name="Picklist_sin_fecha" xml:space="preserve">
+    <value>No puede crear una picklist sin una fecha asociada. Por favor, inténtelo de nuevo.</value>
+  </data>
+  <data name="Picklist_sin_orden" xml:space="preserve">
+    <value>No puede crear una picklist sin una orden asociada. Por favor, inténtelo de nuevo.</value>
+  </data>
+  <data name="Picklist_identificador_en_uso" xml:space="preserve">
+    <value>El identificador de la picklist ya está en uso, por favor, pruebe con otro.</value>
+  </data>
+  <data name="Picklist_no_puede_editar" xml:space="preserve">
+    <value>No puede editar la picklist seleccionada porque su estado es distinto al de "En Espera".</value>
+  </data>
+  <data name="Picklist_no_puede_eliminar" xml:space="preserve">
+    <value>No puede eliminar la picklist seleccionada porque su estado es "Iniciado".</value>
+  </data>
+  <data name="Picklist_sin_identificador" xml:space="preserve">
+    <value>No puede crear una picklist sin un identificador asociado. Por favor, inténtelo de nuevo.</value>
+  </data>
+  <data name="Compra" xml:space="preserve">
+    <value>Compra</value>
+  </data>
+  <data name="Transferencia" xml:space="preserve">
+    <value>Transferencia</value>
+  </data>
+  <data name="Venta" xml:space="preserve">
+    <value>Venta</value>
+  </data>
+  <data name="Producto_sin_stock" xml:space="preserve">
+    <value>El producto {0} no dispone de stock actualmente.</value>
+  </data>
+  <data name="No_origen" xml:space="preserve">
+    <value>No hay almacén de origen seleccionado.</value>
+  </data>
+  <data name="Producto_stock_insuficiente" xml:space="preserve">
+    <value>El stock del producto {0} no alcanza para la cantidad solicitada ({1}), se ha establecido el stock máximo disponible ({2}).</value>
+  </data>
+  <data name="Error_activos_disponibles" xml:space="preserve">
+    <value>No se ha podido generar la picklist porque no hay activos disponibles de los productos seleccionados. Es posible que todos los activos se encuentren ya en la ubicación seleccionada como destino; por favor, compruébelo.</value>
+  </data>
+  <data name="Error_orden_asociada_picklist" xml:space="preserve">
+    <value>No puede editar el almacén de destino de una orden de transferencia asociada a una picklist.</value>
+  </data>
+  <data name="Error_Ubicacion_Empresa" xml:space="preserve">
+    <value>La Ubicación no existe en la empresa actual</value>
+  </data>
+  <data name="Error_Ubicacion_Vacia" xml:space="preserve">
+    <value>La Ubicación no puede estar vacia</value>
+  </data>
+  <data name="Error_Ubicaciones_Iguales" xml:space="preserve">
+    <value>La Ubicación de Origen y la Ubicación de Destino tienen que ser diferentes</value>
+  </data>
+  <data name="Error_Empresa_Id" xml:space="preserve">
+    <value>Usuario Superadministrador y no hay Empresa para asignar , o la Empresa no existe,  o no coincide la Empresa del Usuario con la Empresa que se pasa por parametro</value>
+  </data>
+  <data name="Error_DetalleOrden_TipoActivoId" xml:space="preserve">
+    <value>TipoActivoId Incorrecto.</value>
+  </data>
+  <data name="Error_DetalleOrden_Cantidad" xml:space="preserve">
+    <value>Cantidad Incorrecta.</value>
+  </data>
+  <data name="Error_ubicacion_origen" xml:space="preserve">
+    <value>El valor de la ubicación de origen no es válido</value>
+  </data>
+  <data name="Error_ubicacion_destino" xml:space="preserve">
+    <value>El valor de la ubicación de destino no es válido</value>
+  </data>
+  <data name="Almacen_cliente" xml:space="preserve">
+    <value>Almacén del Cliente</value>
+  </data>
+  <data name="Almacen_proveedor" xml:space="preserve">
+    <value>Almacén del Proveedor</value>
+  </data>
+</root>

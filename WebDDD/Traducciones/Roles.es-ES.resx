@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Crear_rol" xml:space="preserve">
+    <value>Crear Rol</value>
+  </data>
+  <data name="Crear_rol_descripcion" xml:space="preserve">
+    <value>Creación de un nuevo rol</value>
+  </data>
+  <data name="Crear_rol_info" xml:space="preserve">
+    <value>Introduzca a continuación la información del nuevo rol</value>
+  </data>
+  <data name="Descripcion_rol" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="Detalle_rol" xml:space="preserve">
+    <value>Detalle Rol</value>
+  </data>
+  <data name="Detalle_rol_descripcion" xml:space="preserve">
+    <value>Información de un rol existente</value>
+  </data>
+  <data name="Detalle_rol_info" xml:space="preserve">
+    <value>A continuación se muestra la información del rol seleccionado</value>
+  </data>
+  <data name="Editar_rol" xml:space="preserve">
+    <value>Editar Rol</value>
+  </data>
+  <data name="Editar_rol_descrpcion" xml:space="preserve">
+    <value>Edición de un rol existente</value>
+  </data>
+  <data name="Editar_rol_info" xml:space="preserve">
+    <value>Modifique la información que desee editar a continuación</value>
+  </data>
+  <data name="Eliminar_rol" xml:space="preserve">
+    <value>Eliminar Rol</value>
+  </data>
+  <data name="Eliminar_rol_descripcion" xml:space="preserve">
+    <value>Eliminar un rol existente</value>
+  </data>
+  <data name="Eliminar_rol_info" xml:space="preserve">
+    <value>¿Seguro que desea eliminar la información del rol seleccionado?</value>
+  </data>
+  <data name="Eliminar_rol_mensaje" xml:space="preserve">
+    <value>Eliminar este rol implicará que todos los usuarios dejen de pertenecer al mismo. Los usuarios no serán eliminados y podrán ser asignados a un nuevo rol mediante la edición del usuario.</value>
+  </data>
+  <data name="Eliminar_rol_superadmin" xml:space="preserve">
+    <value>No es posible eliminar el rol SuperAdministrador.</value>
+  </data>
+  <data name="Nombre_rol" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="No_roles_asignados" xml:space="preserve">
+    <value>No se ha encontrado ningún rol asociado</value>
+  </data>
+  <data name="Nuevo_rol" xml:space="preserve">
+    <value>Nuevo Rol</value>
+  </data>
+  <data name="Rol" xml:space="preserve">
+    <value>Roles</value>
+  </data>
+  <data name="Rol_descripcion" xml:space="preserve">
+    <value>Roles existentes en el sistema</value>
+  </data>
+  <data name="Crear_rol_correcto" xml:space="preserve">
+    <value>El rol {0} ha sido creado con éxito.</value>
+  </data>
+  <data name="Crear_rol_error" xml:space="preserve">
+    <value>Se ha producido un error en la creación del rol {0} </value>
+  </data>
+  <data name="Editar_rol_correcto" xml:space="preserve">
+    <value>El rol {0} ha sido editado con éxito.</value>
+  </data>
+  <data name="Editar_rol_error" xml:space="preserve">
+    <value>Se ha producido un error en la edición del rol {0} </value>
+  </data>
+  <data name="Eliminar_rol_correcto" xml:space="preserve">
+    <value>El rol {0} ha sido eliminado con éxito.</value>
+  </data>
+  <data name="Eliminar_rol_error" xml:space="preserve">
+    <value>Se ha producido un error en el borrado del rol {0}</value>
+  </data>
+  <data name="Roles_pagina" xml:space="preserve">
+    <value>Roles por página:</value>
+  </data>
+  <data name="Rol_singular" xml:space="preserve">
+    <value>Rol</value>
+  </data>
+  <data name="Administrador" xml:space="preserve">
+    <value>Administrador</value>
+  </data>
+  <data name="Distribuidor" xml:space="preserve">
+    <value>Distribuidor</value>
+  </data>
+  <data name="SuperAdministrador" xml:space="preserve">
+    <value>Super Administrador</value>
+  </data>
+  <data name="Usuario" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="Gestor_empresa" xml:space="preserve">
+    <value>Gestor de la Empresa</value>
+  </data>
+  <data name="Gestor_entidad" xml:space="preserve">
+    <value>Gestor de la Entidad</value>
+  </data>
+  <data name="Gestor_flota" xml:space="preserve">
+    <value>Gestor de la flota</value>
+  </data>
+  <data name="Descripcion_admin" xml:space="preserve">
+    <value>Gestiona una empresa o flota, sus usuarios y preferencias.</value>
+  </data>
+  <data name="Descripcion_distribuidor" xml:space="preserve">
+    <value>Puede administrar un grupo de empresas o flotas asi como asignar permisos a los usuarios de sus empresas o flotas.</value>
+  </data>
+  <data name="Descripcion_superadmin" xml:space="preserve">
+    <value>Cuenta habilitada para la administración completa IoT Platform</value>
+  </data>
+  <data name="Descripcion_usuario" xml:space="preserve">
+    <value>Sus permisos quedan limitados únicamente a los claims asignados.</value>
+  </data>
+</root>

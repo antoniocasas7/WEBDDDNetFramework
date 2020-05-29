@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivoPorProductoDesc" xml:space="preserve">
+    <value>Propiedad que indica si solo se permite provisionar un activo por producto.</value>
+  </data>
+  <data name="AuthorizationDesc" xml:space="preserve">
+    <value>Basic nombre_usuario +":"+contraseña Codificado a base64</value>
+  </data>
+  <data name="AuthorizationLbl" xml:space="preserve">
+    <value>Authorization</value>
+  </data>
+  <data name="BodyTipoPermisoDesc" xml:space="preserve">
+    <value>En el cuerpo de la petición, se deberá informar del tipo de permiso del siguiente modo:</value>
+  </data>
+  <data name="Cabecera_Intro" xml:space="preserve">
+    <value>MANUAL DE AYUDA WEB API</value>
+  </data>
+  <data name="Descripcion" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="EmpresaDesc" xml:space="preserve">
+    <value>Id de la empresa del usuario</value>
+  </data>
+  <data name="ErrorDesc" xml:space="preserve">
+    <value>Id del error que se haya podido producir</value>
+  </data>
+  <data name="FechaCreacionTokenDesc" xml:space="preserve">
+    <value>Fecha de creación del token</value>
+  </data>
+  <data name="FechaExpiracionTokenDesc" xml:space="preserve">
+    <value>Fecha de expiración del token</value>
+  </data>
+  <data name="IdiomaUsuarioDesc" xml:space="preserve">
+    <value>Id del idioma del usuario</value>
+  </data>
+  <data name="IdUsuarioDesc" xml:space="preserve">
+    <value>Id del usuario de acceso</value>
+  </data>
+  <data name="Intro_Login" xml:space="preserve">
+    <value>A continuación, se detallan los servicios a los que tiene acceso a través de esta API. Con esta información podrá conocer lo necesario para obtener la información que precise.
+Para poder comenzar a realizar peticiones sobre los servicios aquí expuestos, el primer paso que se deberá realizar es el LOGIN.</value>
+  </data>
+  <data name="Login_desc_parametros" xml:space="preserve">
+    <value>Para realizar el proceso de autenticación, deberá crear una petición POST a la url de login, pasando en la  cabecera de esta los siguientes parámetros:</value>
+  </data>
+  <data name="ModulosDe" xml:space="preserve">
+    <value>MÓDULOS DE</value>
+  </data>
+  <data name="NombreEmpresaDesc" xml:space="preserve">
+    <value>Empresa del usuario</value>
+  </data>
+  <data name="NombreUsuarioDesc" xml:space="preserve">
+    <value>Nombre de usuario de acceso</value>
+  </data>
+  <data name="OriginAccessDesc" xml:space="preserve">
+    <value>Token proporcionado por el proveedor de servicios, el cual será necesario enviar en todas las peticiones. Este Token actualmente es </value>
+  </data>
+  <data name="OriginAccessLbl" xml:space="preserve">
+    <value>OriginAccess</value>
+  </data>
+  <data name="RolDesc" xml:space="preserve">
+    <value>Rol del usuario</value>
+  </data>
+  <data name="Servicio" xml:space="preserve">
+    <value>Servicio</value>
+  </data>
+  <data name="SinDocumentacion" xml:space="preserve">
+    <value>Sin documentación disponible.</value>
+  </data>
+  <data name="TelefonoUsuarioDesc" xml:space="preserve">
+    <value>Teléfono del usuario de acceso</value>
+  </data>
+  <data name="TiempoDuracionTokenDesc" xml:space="preserve">
+    <value>Tiempo de duración del token</value>
+  </data>
+  <data name="TipoTokenDesc" xml:space="preserve">
+    <value>Tipo de token</value>
+  </data>
+  <data name="TokenDesc" xml:space="preserve">
+    <value>Token de acceso a la aplicación. Con este identificador conseguiremos autenticarnos en cada una de las peticiones que se realicen.</value>
+  </data>
+  <data name="Url_login_documentacion" xml:space="preserve">
+    <value>Url de acceso al servicio de login de la aplicación.</value>
+  </data>
+  <data name="ValoresDevueltosDesc" xml:space="preserve">
+    <value>Una vez realizada la petición y el proceso de autenticación, obtendremos en la respuesta el siguiente contenido:</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Valor" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="ValoresEnum" xml:space="preserve">
+    <value>Posibles valores de la enumeración:</value>
+  </data>
+  <data name="DescripcionRecurso" xml:space="preserve">
+    <value>Descripción del recurso</value>
+  </data>
+  <data name="FormatoPeticion" xml:space="preserve">
+    <value>Formato de la petición</value>
+  </data>
+  <data name="FormatoRespuesta" xml:space="preserve">
+    <value>Formato de la respuesta</value>
+  </data>
+  <data name="InformacionPeticion" xml:space="preserve">
+    <value>Información de la petición</value>
+  </data>
+  <data name="InformacionRespuesta" xml:space="preserve">
+    <value>Información de la respuesta</value>
+  </data>
+  <data name="ModulosUsuarioDesc" xml:space="preserve">
+    <value>Módulos de acceso del usuario</value>
+  </data>
+  <data name="Ninguno" xml:space="preserve">
+    <value>Ninguno</value>
+  </data>
+  <data name="ParametrosBody" xml:space="preserve">
+    <value>Parámetros del Body</value>
+  </data>
+  <data name="ParametrosUri" xml:space="preserve">
+    <value>Parámetros URI</value>
+  </data>
+  <data name="ColeccionDe" xml:space="preserve">
+    <value>Colección de</value>
+  </data>
+  <data name="Ejemplo" xml:space="preserve">
+    <value>Ejemplo:</value>
+  </data>
+  <data name="EjemploNoDisponible" xml:space="preserve">
+    <value>Ejemplo no disponible.</value>
+  </data>
+  <data name="InformacionAdicional" xml:space="preserve">
+    <value>Información Adicional</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="NombreCompletoDesc" xml:space="preserve">
+    <value>Nombre completo del usuario de acceso</value>
+  </data>
+  <data name="AutorizacionDesc" xml:space="preserve">
+    <value>Bearer "token obtenido en el proceso de LOGIN"</value>
+  </data>
+  <data name="AyudaPeticionesGet" xml:space="preserve">
+    <value>AYUDA PARA REALIZAR PETICIONES GET</value>
+  </data>
+  <data name="Parametros" xml:space="preserve">
+    <value>Parámetros</value>
+  </data>
+  <data name="PeticionesGetDesc" xml:space="preserve">
+    <value>Para realizar una petición a cualquiera de los servicios de obtención de datos (GET)  se deberá realizar una petición GET, donde en la URL se deberán rellenar los datos deseados especificados en cada uno de los métodos. Por otro lado, en la cabecera de la petición deberemos informar tanto el TOKEN como el ORIGEN DEL ACCESO (ORIGINACCESS), del siguiente modo:</value>
+  </data>
+  <data name="ACTIVOS" xml:space="preserve">
+    <value>ACTIVOS</value>
+  </data>
+  <data name="ADMINISTRACION" xml:space="preserve">
+    <value>ADMINISTRACIÓN</value>
+  </data>
+  <data name="ALARMAS" xml:space="preserve">
+    <value>ALARMAS</value>
+  </data>
+  <data name="ALERTAS" xml:space="preserve">
+    <value>ALERTAS</value>
+  </data>
+  <data name="CATEGORIASACTIVOS" xml:space="preserve">
+    <value>CATEGORIAS DE ACTIVOS</value>
+  </data>
+  <data name="CONDUCTORES" xml:space="preserve">
+    <value>CONDUCTORES</value>
+  </data>
+  <data name="DIRECCIONES" xml:space="preserve">
+    <value>DIRECCIONES</value>
+  </data>
+  <data name="DISPOSITIVOS" xml:space="preserve">
+    <value>DISPOSITIVOS</value>
+  </data>
+  <data name="DISPOSITIVOSSENSORES" xml:space="preserve">
+    <value>SENSORES DE DISPOSITIVOS</value>
+  </data>
+  <data name="EQUIPOS" xml:space="preserve">
+    <value>EQUIPOS</value>
+  </data>
+  <data name="HUECOS" xml:space="preserve">
+    <value>HUECOS</value>
+  </data>
+  <data name="MARCAS" xml:space="preserve">
+    <value>MARCAS</value>
+  </data>
+  <data name="MODELOS" xml:space="preserve">
+    <value>MODELOS</value>
+  </data>
+  <data name="NOTIFICACIONES" xml:space="preserve">
+    <value>NOTIFICACIONES</value>
+  </data>
+  <data name="ORDENESCOMPRA" xml:space="preserve">
+    <value>ÓRDENES DE COMPRA</value>
+  </data>
+  <data name="ORDENESTRANSFERENCIA" xml:space="preserve">
+    <value>ÓRDENES DE TRANSFERENCIA</value>
+  </data>
+  <data name="ORDENESVENTA" xml:space="preserve">
+    <value>ÓRDENES DE VENTA</value>
+  </data>
+  <data name="PICKLIST" xml:space="preserve">
+    <value>PICKLIST</value>
+  </data>
+  <data name="PROVEEDORES" xml:space="preserve">
+    <value>PROVEEDORES</value>
+  </data>
+  <data name="SENSORES" xml:space="preserve">
+    <value>SENSORES</value>
+  </data>
+  <data name="TELEMATICA" xml:space="preserve">
+    <value>TELEMÁTICA</value>
+  </data>
+  <data name="TIPOSACTIVOS" xml:space="preserve">
+    <value>PRODUCTOS</value>
+  </data>
+  <data name="TIPOSEQUIPOS" xml:space="preserve">
+    <value>TIPOS DE EQUIPOS</value>
+  </data>
+  <data name="UBICACIONES" xml:space="preserve">
+    <value>UBICACIONES</value>
+  </data>
+  <data name="VEHICULOS" xml:space="preserve">
+    <value>VEHÍCULOS</value>
+  </data>
+  <data name="TRACE" xml:space="preserve">
+    <value>TRAZABILIDAD</value>
+  </data>
+  <data name="FLOTAS" xml:space="preserve">
+    <value>FLOTAS</value>
+  </data>
+  <data name="SENSORIZACION" xml:space="preserve">
+    <value>SENSORIZACIÓN</value>
+  </data>
+  <data name="Titulo" xml:space="preserve">
+    <value>Web Api Clientes</value>
+  </data>
+  <data name="CLIENTES" xml:space="preserve">
+    <value>CLIENTES</value>
+  </data>
+  <data name="OPERACIONESACTIVOS" xml:space="preserve">
+    <value>OPERACIONES DE ACTIVOS</value>
+  </data>
+  <data name="PeticionesPostDesc" xml:space="preserve">
+    <value>Para realizar una petición a cualquiera de los servicios de inserción o actualización de datos (POST)  se deberá realizar una petición POST, donde en la URL se deberán rellenar los datos deseados especificados en cada uno de los métodos. Por otro lado, en la cabecera de la petición deberemos informar tanto el TOKEN como el ORIGEN DEL ACCESO (ORIGINACCESS), del siguiente modo:</value>
+  </data>
+  <data name="AyudaPeticionesPost" xml:space="preserve">
+    <value>AYUDA PARA REALIZAR PETICIONES POST</value>
+  </data>
+  <data name="ETIQUETAS" xml:space="preserve">
+    <value>ETIQUETAS</value>
+  </data>
+</root>

@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AdminFlota_flota_error" xml:space="preserve">
+    <value>Für die Rolle des Geschäftsführers muss das Unternehmen oder die Flotte angegeben werden</value>
+  </data>
+  <data name="Agregado_telefono" xml:space="preserve">
+    <value>Ihre Telefonnummer wurde hinzugefügt.</value>
+  </data>
+  <data name="Anadidos_roles_correcto" xml:space="preserve">
+    <value> Jetzt gehört der Benutzer auch zu den angegebenen Rollen.</value>
+  </data>
+  <data name="Cambiar_configuracion" xml:space="preserve">
+    <value>Ändern Sie die Kontoeinstellungen</value>
+  </data>
+  <data name="Cambiar_pass" xml:space="preserve">
+    <value>Passwort ändern</value>
+  </data>
+  <data name="Cambiar_pass_descripcion" xml:space="preserve">
+    <value>Ändern Sie das aktuelle Passwort des Benutzers</value>
+  </data>
+  <data name="Cambiar_pass_info" xml:space="preserve">
+    <value>Formular um das Passwort zu ändern</value>
+  </data>
+  <data name="Codigo" xml:space="preserve">
+    <value>Code</value>
+  </data>
+  <data name="Codigo_seguridad_es" xml:space="preserve">
+    <value>Ihr Sicherheitscode lautet:</value>
+  </data>
+  <data name="Crear" xml:space="preserve">
+    <value>Erstellen</value>
+  </data>
+  <data name="Crear_usuario" xml:space="preserve">
+    <value>Benutzer erstellen</value>
+  </data>
+  <data name="Crear_usuario_correcto" xml:space="preserve">
+    <value>Der Benutzer {0} wurde erfolgreich erstellt.</value>
+  </data>
+  <data name="Crear_usuario_descripcion" xml:space="preserve">
+    <value>Erstellung eines neuen Benutzers</value>
+  </data>
+  <data name="Crear_usuario_error" xml:space="preserve">
+    <value>Bei der Benutzererstellung {0} ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="Crear_usuario_info" xml:space="preserve">
+    <value>Geben Sie die neuen Benutzerinformationen unten ein</value>
+  </data>
+  <data name="Crear_usuario_roles" xml:space="preserve">
+    <value>Benutzerrollen</value>
+  </data>
+  <data name="Detalle_usuario" xml:space="preserve">
+    <value>Benutzerdetails</value>
+  </data>
+  <data name="Detalle_usuario_descripcion" xml:space="preserve">
+    <value>Informationen eines vorhandenen Benutzers</value>
+  </data>
+  <data name="Detalle_usuario_info" xml:space="preserve">
+    <value>Im Folgenden finden Sie die Informationen des ausgewählten Benutzers</value>
+  </data>
+  <data name="Distribuidor_empresa_error" xml:space="preserve">
+    <value>Für die Verteilerrolle muss die Entität angegeben werden</value>
+  </data>
+  <data name="Distribuidor_entidad_error" xml:space="preserve">
+    <value>Die Verteilerrolle kann nicht zugewiesen werden, da die Entität kein Verteiler ist</value>
+  </data>
+  <data name="Editar_usuario" xml:space="preserve">
+    <value>Benutzer bearbeiten</value>
+  </data>
+  <data name="Editar_usuario_correcto" xml:space="preserve">
+    <value>Der Benutzer {0} wurde erfolgreich bearbeitet.</value>
+  </data>
+  <data name="Editar_usuario_descripcion" xml:space="preserve">
+    <value>Änderung eines vorhandenen Benutzers</value>
+  </data>
+  <data name="Editar_usuario_error" xml:space="preserve">
+    <value>In der Benutzerversion {0} ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="Editar_usuario_error_pass" xml:space="preserve">
+    <value>Das Benutzerpasswort {0} konnte nicht geändert werden.</value>
+  </data>
+  <data name="Editar_usuario_error_roles" xml:space="preserve">
+    <value>Beim Bearbeiten der Benutzerrollen {0} ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="Editar_usuario_info" xml:space="preserve">
+    <value>Ändern Sie die Informationen, die Sie bearbeiten möchten, vom Benutzer unten</value>
+  </data>
+  <data name="Eliminar_usuario" xml:space="preserve">
+    <value>Benutzer löschen</value>
+  </data>
+  <data name="Eliminar_usuario_correcto" xml:space="preserve">
+    <value>Der Benutzer {0} wurde erfolgreich entfernt.</value>
+  </data>
+  <data name="Eliminar_usuario_descripcion" xml:space="preserve">
+    <value>Entfernen eines vorhandenen Benutzers</value>
+  </data>
+  <data name="Eliminar_usuario_error" xml:space="preserve">
+    <value>Beim Löschen des Benutzers {0} ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="Eliminar_usuario_info" xml:space="preserve">
+    <value>Möchten Sie die Informationen des ausgewählten Benutzers wirklich löschen?</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="Entidad_bloqueada" xml:space="preserve">
+    <value>Der Benutzer {0} kann nicht entsperrt werden. Die Entität, zu der er gehört, ist blockiert.</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ein Fehler ist aufgetreten</value>
+  </data>
+  <data name="Error_asignar_roles" xml:space="preserve">
+    <value>Beim Zuweisen von Rollen zu Benutzer {0} ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="Error_repita_password" xml:space="preserve">
+    <value>Das Passwort und das Bestätigungs-Passwort stimmen nicht überein.</value>
+  </data>
+  <data name="Error_repita_password_nueva" xml:space="preserve">
+    <value>Das neue Passwort und das Bestätigungs-Passwort stimmen nicht überein.</value>
+  </data>
+  <data name="Error_tipo_fichero" xml:space="preserve">
+    <value>Das Benutzerbild muss vom Typ {0} sein</value>
+  </data>
+  <data name="Imagen" xml:space="preserve">
+    <value>Bild</value>
+  </data>
+  <data name="Nombre_completo" xml:space="preserve">
+    <value>Vollständiger Name</value>
+  </data>
+  <data name="No_comproba_telefono" xml:space="preserve">
+    <value>Das Telefon konnte nicht überprüft werden</value>
+  </data>
+  <data name="Nuevo_usuario" xml:space="preserve">
+    <value>Neuer Benutzer</value>
+  </data>
+  <data name="Numero_usuarios" xml:space="preserve">
+    <value>Anzahl der Benutzer</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Passwort</value>
+  </data>
+  <data name="Password_actual" xml:space="preserve">
+    <value>Aktuelles Passwort</value>
+  </data>
+  <data name="Password_cambiada" xml:space="preserve">
+    <value>Ihr Passwort wurde geändert.</value>
+  </data>
+  <data name="Password_establecida" xml:space="preserve">
+    <value>Ihr Passwort wurde eingerichtet.</value>
+  </data>
+  <data name="Password_nueva" xml:space="preserve">
+    <value>Neues Passwort</value>
+  </data>
+  <data name="Password_nueva_confirmar" xml:space="preserve">
+    <value>Bestätigen Sie das neue Passwort</value>
+  </data>
+  <data name="Perfil" xml:space="preserve">
+    <value>Mein Profil</value>
+  </data>
+  <data name="Perfil_descripcion" xml:space="preserve">
+    <value>Ändern Sie meine Profildaten</value>
+  </data>
+  <data name="Perfil_usuario_correcto" xml:space="preserve">
+    <value>Das Profil wurde erfolgreich bearbeitet.</value>
+  </data>
+  <data name="Perfil_usuario_error" xml:space="preserve">
+    <value>Fehler beim Bearbeiten des Profils.</value>
+  </data>
+  <data name="Perfil_usuario_info" xml:space="preserve">
+    <value>Ändern Sie Ihre Profildaten</value>
+  </data>
+  <data name="Proveedor_establecido" xml:space="preserve">
+    <value>Ihr Zwei-Faktor-Authentifizierungsanbieter wurde eingerichtet.</value>
+  </data>
+  <data name="Quitado_telefono" xml:space="preserve">
+    <value>Ihre Telefonnummer wurde entfernt</value>
+  </data>
+  <data name="Recordar_cuenta" xml:space="preserve">
+    <value>Konto merken?</value>
+  </data>
+  <data name="Recordar_explorador" xml:space="preserve">
+    <value>Explorer merken?</value>
+  </data>
+  <data name="Repita_password" xml:space="preserve">
+    <value>Passwort wiederholen</value>
+  </data>
+  <data name="Telefono" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Usuario" xml:space="preserve">
+    <value>Benutzer</value>
+  </data>
+  <data name="Usuarios_descripcion" xml:space="preserve">
+    <value>Vorhandene Benutzer im System</value>
+  </data>
+  <data name="Usuarios_pagina" xml:space="preserve">
+    <value>Nutzer pro Seite:</value>
+  </data>
+  <data name="Usuarios_telematica" xml:space="preserve">
+    <value>Telematik Benutzer</value>
+  </data>
+  <data name="Usuarios_trace" xml:space="preserve">
+    <value>Tracebenutzer</value>
+  </data>
+  <data name="Usuario_" xml:space="preserve">
+    <value>Benutzer</value>
+  </data>
+  <data name="Usuario_bloqueado_error" xml:space="preserve">
+    <value>Der Benutzer {0} wurde nicht blockiert.</value>
+  </data>
+  <data name="Usuario_flota_error" xml:space="preserve">
+    <value>Für die Benutzerrolle muss das Unternehmen oder die Flotte angegeben werden</value>
+  </data>
+  <data name="Correo_registro_cuerpo" xml:space="preserve">
+    <value>Benutzerregistrierung {0} erfolgreich abgeschlossen</value>
+  </data>
+  <data name="Correo_registro_titulo" xml:space="preserve">
+    <value>Registrierung in {0}</value>
+  </data>
+  <data name="Error_dimensiones" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Requisitos_imagen" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Click_ayuda" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_permisos_rol" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Error_eliminar" xml:space="preserve">
+    <value>No se permite eliminar al único Super Usuario de la aplicación.</value>
+  </data>
+  <data name="Title_Nombre_Completo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Title_Nombre_Usuario" xml:space="preserve">
+    <value />
+  </data>
+</root>

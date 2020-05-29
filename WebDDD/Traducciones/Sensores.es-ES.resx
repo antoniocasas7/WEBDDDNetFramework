@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Acelerometro" xml:space="preserve">
+    <value>Acelerómetro</value>
+  </data>
+  <data name="Booleano" xml:space="preserve">
+    <value>Booleano</value>
+  </data>
+  <data name="Cadena" xml:space="preserve">
+    <value>Cadena</value>
+  </data>
+  <data name="Descripcion_borrado" xml:space="preserve">
+    <value>Eliminación de un sensor existente</value>
+  </data>
+  <data name="Descripcion_creacion" xml:space="preserve">
+    <value>Creación un nuevo sensor</value>
+  </data>
+  <data name="Descripcion_detalles" xml:space="preserve">
+    <value>Información de un sensor existente</value>
+  </data>
+  <data name="Descripcion_edicion" xml:space="preserve">
+    <value>Edición de un sensor existente</value>
+  </data>
+  <data name="Descripcion_index" xml:space="preserve">
+    <value>Sensores existentes en el sistema</value>
+  </data>
+  <data name="Encabezado_borrado" xml:space="preserve">
+    <value>¿Seguro que desea eliminar la información del sensor seleccionado?</value>
+  </data>
+  <data name="Encabezado_creacion" xml:space="preserve">
+    <value>Introduzca a continuación la información del nuevo sensor</value>
+  </data>
+  <data name="Encabezado_detalles" xml:space="preserve">
+    <value>A continuación se muestra la información del sensor seleccionado</value>
+  </data>
+  <data name="Encabezado_edicion" xml:space="preserve">
+    <value>Modifique la información que desee editar del sensor a continuación</value>
+  </data>
+  <data name="Entero" xml:space="preserve">
+    <value>Entero</value>
+  </data>
+  <data name="Flotante" xml:space="preserve">
+    <value>Flotante</value>
+  </data>
+  <data name="Giroscopio" xml:space="preserve">
+    <value>Giroscopio</value>
+  </data>
+  <data name="Humedad" xml:space="preserve">
+    <value>Humedad</value>
+  </data>
+  <data name="Luz" xml:space="preserve">
+    <value>Luz</value>
+  </data>
+  <data name="Nuevo_sensor" xml:space="preserve">
+    <value>Nuevo Sensor</value>
+  </data>
+  <data name="Presion" xml:space="preserve">
+    <value>Presión</value>
+  </data>
+  <data name="Sensor" xml:space="preserve">
+    <value>Sensores</value>
+  </data>
+  <data name="Sensores_pagina" xml:space="preserve">
+    <value>Sensores por página</value>
+  </data>
+  <data name="Sensor_creado_error" xml:space="preserve">
+    <value>Se ha producido un error en la creación del sensor: {0}.</value>
+  </data>
+  <data name="Sensor_creado_exito" xml:space="preserve">
+    <value>El sensor {0} ha sido creado con éxito.</value>
+  </data>
+  <data name="Sensor_editado_error" xml:space="preserve">
+    <value>Se ha producido un error en la edición del sensor: {0}.</value>
+  </data>
+  <data name="Sensor_editado_exito" xml:space="preserve">
+    <value>El sensor {0} ha sido editada con éxito.</value>
+  </data>
+  <data name="Sensor_eliminado_error" xml:space="preserve">
+    <value>El sensor {0} no ha sido eliminado.</value>
+  </data>
+  <data name="Sensor_eliminado_exito" xml:space="preserve">
+    <value>El sensor {0} ha sido eliminado con éxito.</value>
+  </data>
+  <data name="Sensor_simple" xml:space="preserve">
+    <value>Sensor</value>
+  </data>
+  <data name="Simbolo" xml:space="preserve">
+    <value>Símbolo</value>
+  </data>
+  <data name="Temperatura" xml:space="preserve">
+    <value>Temperatura</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="Tipo_dato" xml:space="preserve">
+    <value>Tipo de Dato Valor</value>
+  </data>
+  <data name="Titulo_crear" xml:space="preserve">
+    <value>Crear Sensor</value>
+  </data>
+  <data name="Titulo_editar" xml:space="preserve">
+    <value>Editar Sensor</value>
+  </data>
+  <data name="Titulo_eliminar" xml:space="preserve">
+    <value>Eliminar Sensor</value>
+  </data>
+  <data name="Ultrasonido" xml:space="preserve">
+    <value>Ultrasonido</value>
+  </data>
+  <data name="Unidad" xml:space="preserve">
+    <value>Unidad</value>
+  </data>
+  <data name="Valor_defecto" xml:space="preserve">
+    <value>Valor por Defecto</value>
+  </data>
+  <data name="Valor_max" xml:space="preserve">
+    <value>Valor Máximo</value>
+  </data>
+  <data name="Valor_min" xml:space="preserve">
+    <value>Valor Mínimo</value>
+  </data>
+  <data name="Error_valor" xml:space="preserve">
+    <value>Alguno de los valores introducidos (valor por defecto, mínimo o máximo) no es del tipo de dato que se ha especificado; por favor, compruebe dichos valores e inténtelo de nuevo.</value>
+  </data>
+  <data name="Min_mayor_que_Max" xml:space="preserve">
+    <value>El valor mínimo no puede ser mayor que el valor máximo.</value>
+  </data>
+  <data name="Valor_defecto_fuera_rango" xml:space="preserve">
+    <value>El valor por defecto debe encontrarse entre los valores máximo y mínimo.</value>
+  </data>
+  <data name="Mostrar_datos" xml:space="preserve">
+    <value>Mostrar Datos</value>
+  </data>
+  <data name="Descripcion_dashboard" xml:space="preserve">
+    <value>Lecturas tomadas por los sensores de la ubicación</value>
+  </data>
+  <data name="Titulo_dashboard" xml:space="preserve">
+    <value>Lecturas Sensor</value>
+  </data>
+  <data name="Distancia_liquido" xml:space="preserve">
+    <value>Distancia del sensor al líquido</value>
+  </data>
+  <data name="Grafico_distancia" xml:space="preserve">
+    <value>Gráfico de distancia</value>
+  </data>
+  <data name="Grafico_llenado" xml:space="preserve">
+    <value>Gráfico de llenado</value>
+  </data>
+  <data name="Grafico_volumen" xml:space="preserve">
+    <value>Gráfico de volumen</value>
+  </data>
+  <data name="Porcentaje_llenado" xml:space="preserve">
+    <value>Porcentaje llenado</value>
+  </data>
+  <data name="Volumen_liquido" xml:space="preserve">
+    <value>Volumen de líquido en el tanque</value>
+  </data>
+  <data name="Problema_dashboard" xml:space="preserve">
+    <value>Hay un problema con el dashboard para el sensor tipo {0}; por favor, inténtelo de nuevo más tarde.</value>
+  </data>
+  <data name="Grafico_humedad" xml:space="preserve">
+    <value>Gráfico de humedad</value>
+  </data>
+  <data name="Grafico_luz" xml:space="preserve">
+    <value>Gráfico de luminosidad</value>
+  </data>
+  <data name="Grafico_temperatura" xml:space="preserve">
+    <value>Gráfico de temperaturas</value>
+  </data>
+  <data name="Temp_actual" xml:space="preserve">
+    <value>Temperatura actual</value>
+  </data>
+  <data name="Temp_max" xml:space="preserve">
+    <value>Temperatura máxima</value>
+  </data>
+  <data name="Temp_media" xml:space="preserve">
+    <value>Temperatura media</value>
+  </data>
+  <data name="Temp_min" xml:space="preserve">
+    <value>Temperatura mínima</value>
+  </data>
+  <data name="Temp_rel" xml:space="preserve">
+    <value>Tempetaura relativa a los límites</value>
+  </data>
+  <data name="Margen" xml:space="preserve">
+    <value>Margen</value>
+  </data>
+  <data name="Distancia" xml:space="preserve">
+    <value>Distancia</value>
+  </data>
+  <data name="Volumen" xml:space="preserve">
+    <value>Volumen</value>
+  </data>
+  <data name="Humedad_max" xml:space="preserve">
+    <value>Humedad máxima</value>
+  </data>
+  <data name="Humedad_min" xml:space="preserve">
+    <value>Humedad mínima</value>
+  </data>
+  <data name="Humedad_relativa" xml:space="preserve">
+    <value>Humedad relativa</value>
+  </data>
+  <data name="Humedad_act" xml:space="preserve">
+    <value>Humedad actual</value>
+  </data>
+  <data name="Humedad_med" xml:space="preserve">
+    <value>Humedad media</value>
+  </data>
+  <data name="Humedad_rel_lim" xml:space="preserve">
+    <value>Humedad relativa a los límites</value>
+  </data>
+  <data name="Grafico_presion" xml:space="preserve">
+    <value>Gráfico de presiones</value>
+  </data>
+  <data name="Presion_actual" xml:space="preserve">
+    <value>Presión actual</value>
+  </data>
+  <data name="Presion_max" xml:space="preserve">
+    <value>Presión máxima</value>
+  </data>
+  <data name="Presion_media" xml:space="preserve">
+    <value>Presión media</value>
+  </data>
+  <data name="Presion_min" xml:space="preserve">
+    <value>Presión mínima</value>
+  </data>
+  <data name="Presion_rel_lim" xml:space="preserve">
+    <value>Presión relativa a los límites</value>
+  </data>
+  <data name="Luz_act" xml:space="preserve">
+    <value>Luz actual</value>
+  </data>
+  <data name="Luz_max" xml:space="preserve">
+    <value>Luz máxima</value>
+  </data>
+  <data name="Luz_med" xml:space="preserve">
+    <value>Luz media</value>
+  </data>
+  <data name="Luz_min" xml:space="preserve">
+    <value>Luz mínima</value>
+  </data>
+  <data name="Luz_rel_lim" xml:space="preserve">
+    <value>Luz relativa a los límites</value>
+  </data>
+  <data name="Mostrar_plano" xml:space="preserve">
+    <value>Mostrar plano</value>
+  </data>
+  <data name="Plano" xml:space="preserve">
+    <value>Imagen Plano</value>
+  </data>
+  <data name="Media" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="Info_guardar" xml:space="preserve">
+    <value>Pulse aquí para guardar la información</value>
+  </data>
+  <data name="Info_papelera" xml:space="preserve">
+    <value>Arrastre un sensor o hueco aquí y suelte para eliminarlo o pulse aquí para eliminar los elementos seleccionados o todos si no hay ninguno seleccionado.</value>
+  </data>
+  <data name="Info_volver" xml:space="preserve">
+    <value>Pulse aquí para volver sin guardar los cambios</value>
+  </data>
+  <data name="Info_modo_edicion" xml:space="preserve">
+    <value>Entrar en el modo edición</value>
+  </data>
+  <data name="Identificador" xml:space="preserve">
+    <value>Identificador</value>
+  </data>
+  <data name="Mostrar_planos" xml:space="preserve">
+    <value>Mostrar planos</value>
+  </data>
+  <data name="Seleccione_sensor" xml:space="preserve">
+    <value>Seleccione un sensor de la lista:</value>
+  </data>
+  <data name="Mensaje_ayuda_1" xml:space="preserve">
+    <value>Para visualizar la información de un sensor, pase el puntero por encima de dicho sensor.</value>
+  </data>
+  <data name="Mensaje_ayuda_2" xml:space="preserve">
+    <value>Si está utilizando un dispositivo táctil (smartphone o tablet) deberá mantener pulsado el sensor hasta que se muestre la ventana con la información (1s aproximádamente).</value>
+  </data>
+  <data name="Mensaje_ayuda_3" xml:space="preserve">
+    <value>La ventana con la información permanecerá abierta hasta que abra otra o haga click sobre cualquier zona del plano.</value>
+  </data>
+  <data name="Mensaje_ayuda_4" xml:space="preserve">
+    <value>Para entrar en el modo edición (si no está usando dispositivos móviles) pulse sobre el icono que hay en la parte superior izquierda del plano.</value>
+  </data>
+  <data name="Mensaje_ayuda_5" xml:space="preserve">
+    <value>Para añadir un nuevo sensor o hueco, arrástrelo de la columna de la izquierda y suéltelo sobre el plano. Se abrirá una ventana donde podrá seleccionar uno entre los sensores disponibles de ese tipo en esa ubicación (si no aparece ninguno, debe crearlo antes en el apartado de sensores). Puede crear un nuevo hueco pulsando sobre el botón "Nuevo Hueco".</value>
+  </data>
+  <data name="Mensaje_ayuda_6" xml:space="preserve">
+    <value>Si desea editar un sensor de los añadidos al plano, haga click sobre él. Aparecerá de nuevo la ventana anterior para poder seleccionar otro sensor.</value>
+  </data>
+  <data name="Mensaje_ayuda_7" xml:space="preserve">
+    <value>Para eliminar un sensor o hueco, arrástrelo hasta la papelera situada en la columna de acciones. Para eliminar los elementos seleccionados o TODOS si no hay ninguno seleccionado, haga click sobre el icono de la papelera directamente.</value>
+  </data>
+  <data name="Mensaje_ayuda_8" xml:space="preserve">
+    <value>Para guardar la información, haga click sobre el icono del "diskette" de la columna de acciones.</value>
+  </data>
+  <data name="Mensaje_ayuda_9" xml:space="preserve">
+    <value>Si desea volver atrás sin guardar los cambios editados, haga click sobre el icono con la flecha hacia la izquierda de la columna de acciones.</value>
+  </data>
+  <data name="Mensaje_ayuda_10" xml:space="preserve">
+    <value>Dicha ventana puede arrastrarse por la pantalla para cambiar su posición a conveniencia. Para ello, con la ventana abierta, pinche sobre la barra superior gris (donde aparce el nombre del sensor) y sin soltarlo, arrástrela.</value>
+  </data>
+  <data name="Ultima_actualizacion" xml:space="preserve">
+    <value>Última Actualización</value>
+  </data>
+  <data name="Conexion_perdida" xml:space="preserve">
+    <value>Conexión perdida</value>
+  </data>
+  <data name="No_conectado_broker" xml:space="preserve">
+    <value>No ha sido posible conectar con el broker; por favor, recargue la página.</value>
+  </data>
+  <data name="Subscripcion_abortada" xml:space="preserve">
+    <value>No hay conexión con el broker, subscripción al topic abortada.</value>
+  </data>
+  <data name="Distancia_act" xml:space="preserve">
+    <value>Distancia actual</value>
+  </data>
+  <data name="Distancia_max" xml:space="preserve">
+    <value>Distancia máxima</value>
+  </data>
+  <data name="Distancia_med" xml:space="preserve">
+    <value>Distancia media</value>
+  </data>
+  <data name="Distancia_min" xml:space="preserve">
+    <value>Distancia mínima</value>
+  </data>
+  <data name="Mensaje_ayuda_11" xml:space="preserve">
+    <value>Para comenzar, seleccione la ubicación sobre la que quiere obtener un resumen general de sensorización.</value>
+  </data>
+  <data name="Mensaje_ayuda_12" xml:space="preserve">
+    <value>Si la ubicación seleccionada dispone de plano se representará éste junto con todos los sensores que hayan sido ubicados en él. Si pulsa sobre algún sensor, automáticamente se cerrarán todas las cajas informativas (las que contienen las gráficas) permaneciendo abierta únicamente la del sensor en cuestión. Así podrá identificar cláramente qué caja pertenece a qué sensor.</value>
+  </data>
+  <data name="Mensaje_ayuda_13" xml:space="preserve">
+    <value>Para los sensores que devuelven datos numéricos (entero o flotante) se representa una gráfica (a la izquierda) de líneas donde se muestran la evolución de los datos recibidos junto con la media de todos esos datos (si desea visualizar sólo una de ellas, pulse sobre la leyenda de la línea que no desea visualizar que hay sobre la gráfica); otra (a la derecha) semicircular donde se representa el valor mínimo y máximo alcanzados por el sensor además de un porcentaje que representa en qué punto se encuentra el último valor recibido (respecto al mínimo y al máximo).</value>
+  </data>
+  <data name="Mensaje_ayuda_14" xml:space="preserve">
+    <value>Para los sensores que devuelven datos de tipo booleano se representa una tabla con información y una gráfica donde se muestra el porcentaje de tiempo (respecto al total) que lleva el sensor en cada uno de sus estados posibles (ON/OFF, abierto/cerrado, etc.).</value>
+  </data>
+  <data name="Mensaje_ayuda_15" xml:space="preserve">
+    <value>Si la pantalla es lo suficientemente ancha (más de 1700 px) se mostrará la información dividida en dos columnas (a la izquierda el plano y a la derecha las gráficas); si desea ver todo en una única columna (las gráficas se verán más grandes) reduzca el ancho de la ventana del navegador.</value>
+  </data>
+  <data name="Compruebe_ubicacion" xml:space="preserve">
+    <value>Si no hay una ubicación para seleccionar, primero compruebe si existe alguna ubicación con dispositivos y sensores asociados. Si no existe, cree una por favor.</value>
+  </data>
+  <data name="Compruebe_empresa" xml:space="preserve">
+    <value>No hay empresas para seleccionar porque no existe ninguna empresa que tenga ubicaciones con dispositivos y sensores asociados; cree una por favor.</value>
+  </data>
+  <data name="Compruebe_entidad" xml:space="preserve">
+    <value>No hay entidades para seleccionar porque no existe ninguna entidad que tenga empresas con ubicaciones que tengan dispositivos y sensores asociados; cree una por favor.</value>
+  </data>
+  <data name="Aceleracion_act" xml:space="preserve">
+    <value>Aceleración Actual</value>
+  </data>
+  <data name="Aceleracion_max" xml:space="preserve">
+    <value>Aceleración Máxima</value>
+  </data>
+  <data name="Aceleracion_med" xml:space="preserve">
+    <value>Aceleración Media</value>
+  </data>
+  <data name="Aceleracion_min" xml:space="preserve">
+    <value>Aceleración Mínima</value>
+  </data>
+  <data name="Aceleracion" xml:space="preserve">
+    <value>Aceleración</value>
+  </data>
+  <data name="Grafico_aceleracion" xml:space="preserve">
+    <value>Gráfico de aceleración</value>
+  </data>
+  <data name="Resumen" xml:space="preserve">
+    <value>Resumen</value>
+  </data>
+  <data name="Info_deseleccionarTodos" xml:space="preserve">
+    <value>Anular selección de iconos</value>
+  </data>
+  <data name="Info_seleccionarTodos" xml:space="preserve">
+    <value>Seleccionar todos los iconos</value>
+  </data>
+  <data name="Mensaje_ayuda_seleccion" xml:space="preserve">
+    <value>Puede hacer clic sobre el icono de un sensor o hueco en el plano para seleccionarlo, seleccionarlos todos con el botón "Seleccionar todos los iconos" o anular la selección de todo con el botón "Anular selección de iconos". Una vez seleccionados los iconos, estos se mostrarán con el borde verde en el caso de los huecos, o el icono verde en el de los sensores. Se puede modificar la posición de todos los iconos seleccionados en el mapa simúltaneamente usando las teclas W, S, A, D (Arriba, abajo, izquierda y derecha respectivamente).</value>
+  </data>
+</root>

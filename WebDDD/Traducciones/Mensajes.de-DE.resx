@@ -1,0 +1,654 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Administracion" xml:space="preserve">
+    <value>VERWALTUNG</value>
+  </data>
+  <data name="Bienvenido" xml:space="preserve">
+    <value>Willkommen bei</value>
+  </data>
+  <data name="Bloqueado" xml:space="preserve">
+    <value>Blockiert</value>
+  </data>
+  <data name="Crear" xml:space="preserve">
+    <value>Erstellen</value>
+  </data>
+  <data name="Cuenta_bloqueada" xml:space="preserve">
+    <value>Dieser Account wurde blockiert. Versuchen Sie es später erneut.</value>
+  </data>
+  <data name="Derechos_Reservados" xml:space="preserve">
+    <value>Alle Rechte vorbehalten.</value>
+  </data>
+  <data name="Detalle" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="Editar" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="Eliminar" xml:space="preserve">
+    <value>Löschen</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="Error_procesar" xml:space="preserve">
+    <value>Fehler beim Verarbeiten der Anfrage</value>
+  </data>
+  <data name="Exito" xml:space="preserve">
+    <value>Erfolg!</value>
+  </data>
+  <data name="Guardar" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="Hola" xml:space="preserve">
+    <value>Hi {0}! Gehe zum Panel</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Einloggen</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Ausloggen</value>
+  </data>
+  <data name="Menu_principal" xml:space="preserve">
+    <value>HAUPTMENÜ</value>
+  </data>
+  <data name="Notificaciones" xml:space="preserve">
+    <value>Benachrichtigungen</value>
+  </data>
+  <data name="Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="Operacion_correcta" xml:space="preserve">
+    <value>Die angeforderte Operation wurde korrekt ausgeführt.</value>
+  </data>
+  <data name="Operacion_incorrecta" xml:space="preserve">
+    <value>Versuchen Sie es in ein paar Minuten erneut. Sollte das Problem weiterhin bestehen, wenden Sie sich an den Administrator.</value>
+  </data>
+  <data name="Perfil" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Telematics" xml:space="preserve">
+    <value>IoT Platform</value>
+  </data>
+  <data name="User_image" xml:space="preserve">
+    <value>Bild Benutzer</value>
+  </data>
+  <data name="Vista_general" xml:space="preserve">
+    <value>Allgemeine Ansicht</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Volver_lista" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="Aviso" xml:space="preserve">
+    <value>Hinweis!</value>
+  </data>
+  <data name="Buscar" xml:space="preserve">
+    <value>Suche</value>
+  </data>
+  <data name="De" xml:space="preserve">
+    <value>von</value>
+  </data>
+  <data name="Pagina" xml:space="preserve">
+    <value>Seite</value>
+  </data>
+  <data name="Todos" xml:space="preserve">
+    <value>Alles</value>
+  </data>
+  <data name="Acceder" xml:space="preserve">
+    <value>Zugriff</value>
+  </data>
+  <data name="Iniciar_sesion" xml:space="preserve">
+    <value>Kundenzugriff</value>
+  </data>
+  <data name="Olvido_password" xml:space="preserve">
+    <value>Hast du dein Passwort vergessen?</value>
+  </data>
+  <data name="Creada_por" xml:space="preserve">
+    <value>Erstellt von</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+  <data name="Editada_por" xml:space="preserve">
+    <value>Bearbeitet von</value>
+  </data>
+  <data name="Fecha_creacion" xml:space="preserve">
+    <value>Erstellungsdatum</value>
+  </data>
+  <data name="Fecha_edicion" xml:space="preserve">
+    <value>Datumsausgabe</value>
+  </data>
+  <data name="Inicio" xml:space="preserve">
+    <value>Zuhause</value>
+  </data>
+  <data name="Longitud" xml:space="preserve">
+    <value>{0} muss zwischen {2} und {1} Zeichen lang sein.</value>
+  </data>
+  <data name="Pantalla_inicial" xml:space="preserve">
+    <value>Hauptbildschirm</value>
+  </data>
+  <data name="Comprobar_correo" xml:space="preserve">
+    <value>Überprüfen Sie die E-Mail, um das Passwort zurückzusetzen.</value>
+  </data>
+  <data name="Confirmacion_pass_olvidada" xml:space="preserve">
+    <value>Passwort vergessen?</value>
+  </data>
+  <data name="Confirmacion_restablecer_pass" xml:space="preserve">
+    <value>Passwort zurücksetzen Bestätigung</value>
+  </data>
+  <data name="Confirmar_email" xml:space="preserve">
+    <value>E-Mail bestätigen</value>
+  </data>
+  <data name="Enviar" xml:space="preserve">
+    <value>Senden</value>
+  </data>
+  <data name="Enviar_codigo_verificacion" xml:space="preserve">
+    <value>Bestätigungscode senden</value>
+  </data>
+  <data name="Especifique_correo" xml:space="preserve">
+    <value>Gib deine E-Mail Adresse ein</value>
+  </data>
+  <data name="Gracias_confirmar_email" xml:space="preserve">
+    <value>Vielen Dank für die Bestätigung Ihrer E-Mail.</value>
+  </data>
+  <data name="Hacer_click_iniciar" xml:space="preserve">
+    <value>Klicken Sie hier, um sich anzumelden</value>
+  </data>
+  <data name="Pass_restablecida" xml:space="preserve">
+    <value>Das Passwort wurde neu eingerichtet</value>
+  </data>
+  <data name="Restablecer" xml:space="preserve">
+    <value>Neu einrichten</value>
+  </data>
+  <data name="Restablecer_pass" xml:space="preserve">
+    <value>Passwort neu eingerichtet</value>
+  </data>
+  <data name="Restablecer_pass_email" xml:space="preserve">
+    <value>Um das Passwort neu einzurichten klicken Sie &lt;a href="{0}"&gt; hier &lt;/a&gt;</value>
+  </data>
+  <data name="Restablezca_pass" xml:space="preserve">
+    <value>Passwort neu eingerichtet</value>
+  </data>
+  <data name="Seleccionar_proveedor_dorfases" xml:space="preserve">
+    <value>Wählen Sie den Authentifizierungsanbieter in zwei Phasen aus:</value>
+  </data>
+  <data name="Vinculo_correo" xml:space="preserve">
+    <value>E-Mail-Link</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Über</value>
+  </data>
+  <data name="Camara_alta_definicion" xml:space="preserve">
+    <value>Echtzeit-HD-Kamera</value>
+  </data>
+  <data name="Codigo_no_valido" xml:space="preserve">
+    <value>Ungültiger Code</value>
+  </data>
+  <data name="Codigo_verificacion" xml:space="preserve">
+    <value>Geben Sie den Bestätigungscode ein</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="Gestion_flotas" xml:space="preserve">
+    <value>Flottenmanagement und Tracking von mobilen Anlagen</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="Informacion_general" xml:space="preserve">
+    <value>Wir bieten Status und Diagnose an Bord, Verfolgung und Überwachung durch High-Definition-Video Ihrer Fahrzeugflotte, unterstützt durch eine vollständige Analyse in Echtzeit. Auf diese Weise bieten wir unseren Kunden die fortschrittlichste Plattform, die heute auf dem Markt verfügbar ist.</value>
+  </data>
+  <data name="Inicio_sesion_no_valido" xml:space="preserve">
+    <value>Ungültiger Anmeldeversuch</value>
+  </data>
+  <data name="Mensaje_about" xml:space="preserve">
+    <value>Informationen über uns</value>
+  </data>
+  <data name="Mensaje_contact" xml:space="preserve">
+    <value>Kontaktseite</value>
+  </data>
+  <data name="Paquete_seguimiento" xml:space="preserve">
+    <value>Flotte und Fahrzeug Tracking-Paket</value>
+  </data>
+  <data name="Saber_mas" xml:space="preserve">
+    <value>Erfahren Sie mehr</value>
+  </data>
+  <data name="Soporte" xml:space="preserve">
+    <value>Unterstützung</value>
+  </data>
+  <data name="Telefono" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Verificar" xml:space="preserve">
+    <value>Bestätigen</value>
+  </data>
+  <data name="Acciones" xml:space="preserve">
+    <value>Aktionen</value>
+  </data>
+  <data name="Examinar" xml:space="preserve">
+    <value>Untersuchen ...</value>
+  </data>
+  <data name="Cerrar" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="Todas" xml:space="preserve">
+    <value>Alles</value>
+  </data>
+  <data name="Ninguna" xml:space="preserve">
+    <value>Keine</value>
+  </data>
+  <data name="Ninguno" xml:space="preserve">
+    <value>Keine</value>
+  </data>
+  <data name="Asignar_todos" xml:space="preserve">
+    <value>Weisen Sie alle zu</value>
+  </data>
+  <data name="Quitar_todos" xml:space="preserve">
+    <value>Entferne alles</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="Si" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Achtung!</value>
+  </data>
+  <data name="Imagen_no_encontrada" xml:space="preserve">
+    <value>Bild nicht gefunden</value>
+  </data>
+  <data name="Mostrar" xml:space="preserve">
+    <value>Zeigen</value>
+  </data>
+  <data name="Fecha" xml:space="preserve">
+    <value>Datum</value>
+  </data>
+  <data name="Sin_elementos" xml:space="preserve">
+    <value>Es gibt keine Elemente zum Anzeigen</value>
+  </data>
+  <data name="Modulo_no_disponible" xml:space="preserve">
+    <value>Um auf die angeforderte Seite zuzugreifen, benötigen Sie das Modul {0}.</value>
+  </data>
+  <data name="Modulo_no_disponible_descripcion" xml:space="preserve">
+    <value>Wenden Sie sich an Ihren Administrator, um den Zugriff auf dieses Modul anzufordern.</value>
+  </data>
+  <data name="Pagina_no_encontrada" xml:space="preserve">
+    <value>Seite nicht gefunden</value>
+  </data>
+  <data name="Pagina_no_encontrada_descripcion" xml:space="preserve">
+    <value>Die angeforderte Seite wurde nicht gefunden</value>
+  </data>
+  <data name="Volver" xml:space="preserve">
+    <value>Zurück</value>
+  </data>
+  <data name="Seleccionar" xml:space="preserve">
+    <value>Wählen Sie aus</value>
+  </data>
+  <data name="A" xml:space="preserve">
+    <value>Nach</value>
+  </data>
+  <data name="Excepcion_producida" xml:space="preserve">
+    <value>Eine Ausnahme ist aufgetreten</value>
+  </data>
+  <data name="Seleccionar_todos" xml:space="preserve">
+    <value>Wähle alle aus</value>
+  </data>
+  <data name="Excepcion" xml:space="preserve">
+    <value>Ausnahme</value>
+  </data>
+  <data name="ID_no_encontrado" xml:space="preserve">
+    <value>Die ID {0} wurde nicht gefunden</value>
+  </data>
+  <data name="ID_no_encontrado_descripcion" xml:space="preserve">
+    <value>Es gibt kein Element vom Typ {0} mit dieser ID</value>
+  </data>
+  <data name="ID_no_encontrado_vacio" xml:space="preserve">
+    <value>Sie müssen eine gültige ID angeben</value>
+  </data>
+  <data name="Recursos" xml:space="preserve">
+    <value>RESSOURCEN</value>
+  </data>
+  <data name="Ningun_elemento_seleccionado" xml:space="preserve">
+    <value>Nichts ausgewählt</value>
+  </data>
+  <data name="N_elementos_seleccionados" xml:space="preserve">
+    <value>{0} ausgewählt</value>
+  </data>
+  <data name="Un_elemento_seleccionado" xml:space="preserve">
+    <value>1 ausgewählt</value>
+  </data>
+  <data name="Todos_elementos_seleccionados" xml:space="preserve">
+    <value>Alle ausgewählt</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Gestionar_localizaciones" xml:space="preserve">
+    <value>Standorte verwalten</value>
+  </data>
+  <data name="Cargando" xml:space="preserve">
+    <value>Wird geladen ...</value>
+  </data>
+  <data name="No_tiene_permiso" xml:space="preserve">
+    <value>Sie sind nicht berechtigt, auf die angegebene URL zuzugreifen</value>
+  </data>
+  <data name="Fecha_impresion" xml:space="preserve">
+    <value>Druckdatum</value>
+  </data>
+  <data name="ExportarPDF" xml:space="preserve">
+    <value>Als PDF exportieren</value>
+  </data>
+  <data name="Descripcion" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="Dia" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="Dias" xml:space="preserve">
+    <value>Tage</value>
+  </data>
+  <data name="Hora" xml:space="preserve">
+    <value>Stunde</value>
+  </data>
+  <data name="Horas" xml:space="preserve">
+    <value>Stunden</value>
+  </data>
+  <data name="Minuto" xml:space="preserve">
+    <value>Minute</value>
+  </data>
+  <data name="Minutos" xml:space="preserve">
+    <value>Minuten</value>
+  </data>
+  <data name="Segundo" xml:space="preserve">
+    <value>Sekunde</value>
+  </data>
+  <data name="Segundos" xml:space="preserve">
+    <value>Sekunden</value>
+  </data>
+  <data name="Tiempo_permanencia" xml:space="preserve">
+    <value>Bleib Zeit</value>
+  </data>
+  <data name="Operacion_regularizacion" xml:space="preserve">
+    <value>Operation Regularisierung</value>
+  </data>
+  <data name="Error_importar" xml:space="preserve">
+    <value>Fehler beim Importieren von Produkten</value>
+  </data>
+  <data name="Desde" xml:space="preserve">
+    <value>Von</value>
+  </data>
+  <data name="Hasta" xml:space="preserve">
+    <value>Zu</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Gesamt</value>
+  </data>
+  <data name="Abrir_candado" xml:space="preserve">
+    <value>Vorhängeschloss öffnen</value>
+  </data>
+  <data name="Abrir" xml:space="preserve">
+    <value>Öffnen</value>
+  </data>
+  <data name="Cancelar" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="Inventario" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ExportarXLS" xml:space="preserve">
+    <value>Export to XLS</value>
+  </data>
+  <data name="Volver_indice" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Validacion_descripcion" xml:space="preserve">
+    <value>Nur Buchstaben (Groß- und Kleinbuchstaben), Zahlen, Leerzeichen und Zeichen sind erlaubt. &amp; '- für die Beschreibung</value>
+  </data>
+  <data name="Validacion_nombre" xml:space="preserve">
+    <value>Nur Buchstaben (Groß- und Kleinbuchstaben), Zahlen, Leerzeichen und Zeichen sind erlaubt. &amp; '- für Name</value>
+  </data>
+  <data name="Arrastre_widgets" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Organizar" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Propiedades" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Estado" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Mensaje" xml:space="preserve">
+    <value>Nachricht</value>
+  </data>
+  <data name="Validacion_identificador" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Validacion_UID" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Y" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Logging" xml:space="preserve">
+    <value>einloggen ...</value>
+  </data>
+  <data name="Filtrar" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Filtro_placeholder" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Deshacer_cambios" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Indicar_tipo_dispositivo" xml:space="preserve">
+    <value>Select type device</value>
+  </data>
+  <data name="Indicar_tipo_alarma" xml:space="preserve">
+    <value>Select type alarm</value>
+  </data>
+  <data name="Cantidad" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Orden" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Mostrar_filtro" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ocultar_filtro" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Modificar_perfil" xml:space="preserve">
+    <value>Profil ändern</value>
+  </data>
+  <data name="Volver_a" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="Error_Comparar_Fechas" xml:space="preserve">
+    <value>La fecha de inicio tiene que ser menor o igual que la fecha de fin.</value>
+  </data>
+  <data name="Error_Fechas" xml:space="preserve">
+    <value>Fehler im Datum Das Datum oder die Uhrzeit ist nicht korrekt oder hat nicht das richtige Format. Standardformate:  "dd/MM/yyyy" , "dd/MM/yyyy HH:mm:ss",  "dd-MM-yyyy" , "dd-MM-yyyy HH:mm:ss"</value>
+  </data>
+  <data name="Descripcion_fecha_fin" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Descripcion_fecha_inicio" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Asignar_seleccionados" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="Quitar_seleccionados" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="Eliminar_fichero_seleccionado" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Seleccionar_fichero" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Elementos_seleccionados" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Elemento_seleccionado" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eliminados_correctos" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eliminados_fallidos" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eliminado_correcto" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eliminado_fallido" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eliminar_multiple_confirmacion" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Marcar_todos" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Eliminando" xml:space="preserve">
+    <value>Removing </value>
+  </data>
+  <data name="Aceptar" xml:space="preserve">
+    <value>Akzeptieren</value>
+  </data>
+  <data name="Confirmar" xml:space="preserve">
+    <value>Bestätigen</value>
+  </data>
+  <data name="Modificar_perfil_empresa" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Modificar_perfil_entidad" xml:space="preserve">
+    <value />
+  </data>
+</root>

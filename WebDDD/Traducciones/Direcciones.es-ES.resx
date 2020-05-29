@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Ciudad" xml:space="preserve">
+    <value>Ciudad</value>
+  </data>
+  <data name="Crear_direccion" xml:space="preserve">
+    <value>Crear dirección</value>
+  </data>
+  <data name="Dejar_de_ser_sede" xml:space="preserve">
+    <value>La dirección actual no puede dejar de ser la sede porque se requiere una sede principal. Por favor, edite o cree una nueva dirección y márquela como sede principal antes de deshabilitar la actual.</value>
+  </data>
+  <data name="Descripcion_borrado" xml:space="preserve">
+    <value>Eliminación de una dirección existente</value>
+  </data>
+  <data name="Descripcion_creacion" xml:space="preserve">
+    <value>Creación de una nueva dirección</value>
+  </data>
+  <data name="Descripcion_detalles" xml:space="preserve">
+    <value>Información de una dirección existente</value>
+  </data>
+  <data name="Descripcion_edicion" xml:space="preserve">
+    <value>Modificación de una dirección existente</value>
+  </data>
+  <data name="Descripcion_index" xml:space="preserve">
+    <value>Direcciones existentes en el sistema</value>
+  </data>
+  <data name="Direccion" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="Direcciones_pagina" xml:space="preserve">
+    <value>Direcciones por página</value>
+  </data>
+  <data name="Direccions" xml:space="preserve">
+    <value>Direcciones</value>
+  </data>
+  <data name="Direccion_creada_error" xml:space="preserve">
+    <value>Se ha producido un error en la creación de la dirección: {0}.</value>
+  </data>
+  <data name="Direccion_creada_exito" xml:space="preserve">
+    <value>La dirección {0} ha sido creada con éxito.</value>
+  </data>
+  <data name="Direccion_editada_error" xml:space="preserve">
+    <value>Se ha producido un error en la edición de la dirección: {0}.</value>
+  </data>
+  <data name="Direccion_editada_exito" xml:space="preserve">
+    <value>La dirección {0} ha sido editada con éxito.</value>
+  </data>
+  <data name="Direccion_eliminada_error" xml:space="preserve">
+    <value>La dirección {0} no ha sido eliminada.</value>
+  </data>
+  <data name="Direccion_eliminada_exito" xml:space="preserve">
+    <value>La dirección {0} ha sido eliminada con éxito.</value>
+  </data>
+  <data name="Editar_direccion" xml:space="preserve">
+    <value>Editar dirección</value>
+  </data>
+  <data name="Eliminar_direccion" xml:space="preserve">
+    <value>Eliminar dirección</value>
+  </data>
+  <data name="Eliminar_sede_error" xml:space="preserve">
+    <value>No ha sido posible eliminar la dirección actual porque es la sede principal y se requiere una sede principal. Por favor, edite o cree una nueva dirección y márquela como sede principal antes de eliminar la actual.</value>
+  </data>
+  <data name="Empresa" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="Encabezado_borrado" xml:space="preserve">
+    <value>¿Seguro que desea eliminar la información de la dirección seleccionada?</value>
+  </data>
+  <data name="Encabezado_creacion" xml:space="preserve">
+    <value>Introduzca a continuación la información de la nueva dirección</value>
+  </data>
+  <data name="Encabezado_detalles" xml:space="preserve">
+    <value>A continuación se muestra la información de la dirección seleccionada</value>
+  </data>
+  <data name="Encabezado_edicion" xml:space="preserve">
+    <value>Modifique la información que desee editar de la dirección a continuación</value>
+  </data>
+  <data name="Estado" xml:space="preserve">
+    <value>Estado / Provincia</value>
+  </data>
+  <data name="Falta_empresa" xml:space="preserve">
+    <value>Antes de crear una dirección debe existir una empresa para poder asignarla. Por favor, cree la empresa y vuelva a intentarlo.</value>
+  </data>
+  <data name="Nueva_direccion" xml:space="preserve">
+    <value>Nueva Dirección</value>
+  </data>
+  <data name="Nueva_sede" xml:space="preserve">
+    <value>La dirección {0} he dejado de ser la sede principal, ahora {1} es la nueva sede principal.</value>
+  </data>
+  <data name="Pais" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="Sede" xml:space="preserve">
+    <value>Sede principal</value>
+  </data>
+  <data name="Telefono" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="Validacion_nombre" xml:space="preserve">
+    <value>Solo se admiten letras (mayúsculas y minúsculas), números, espacios y los caracteres .&amp;amp;'- para el Nombre</value>
+  </data>
+  <data name="ZIP" xml:space="preserve">
+    <value>Código Postal</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="Dejar_de_ser_sede_actual" xml:space="preserve">
+    <value>La dirección no puede dejar de ser la sede de {0} porque se requiere una sede principal. Por favor, edite o cree una nueva dirección y márquela como sede principal.</value>
+  </data>
+  <data name="Falta_flota" xml:space="preserve">
+    <value>Antes de crear una dirección debe existir una flota para poder asignarla. Por favor, cree la flota y vuelva a intentarlo.</value>
+  </data>
+  <data name="Debe_ir_a_empresa" xml:space="preserve">
+    <value>Debe seleccionar una empresa a la que asignar la dirección.</value>
+  </data>
+  <data name="Poblacion" xml:space="preserve">
+    <value>Población</value>
+  </data>
+  <data name="Provincia" xml:space="preserve">
+    <value>Provincia</value>
+  </data>
+  <data name="Direcciones_sin_entidad_empresa" xml:space="preserve">
+    <value>Direcciones sin entidad ni empresa</value>
+  </data>
+  <data name="Direcciones_sin_empresa" xml:space="preserve">
+    <value>Direcciones sin empresa</value>
+  </data>
+  <data name="Direccion_con_ubicaciones" xml:space="preserve">
+    <value>La dirección que intenta eliminar tiene ubicaciones asociadas a ella; por favor, elimine antes dichas ubicaciones y vuelva a intentarlo.</value>
+  </data>
+  <data name="Descripcion_sede_principal" xml:space="preserve">
+    <value>Determina si se trata de la dirección principal de la entidad o empresa.</value>
+  </data>
+  <data name="Error_nombre_repetido" xml:space="preserve">
+    <value>El nombre {0} no está disponible en la {1} seleccionada.</value>
+  </data>
+  <data name="Direccion_editado_error_ubicacion" xml:space="preserve">
+    <value>La dirección tiene ubicaciones asociadas, por lo que no puede ser cambiada de empresa</value>
+  </data>
+</root>

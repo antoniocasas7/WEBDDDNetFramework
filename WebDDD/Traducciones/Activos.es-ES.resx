@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Activoss" xml:space="preserve">
+    <value>Activos</value>
+  </data>
+  <data name="Activos_pagina" xml:space="preserve">
+    <value>Activos por página</value>
+  </data>
+  <data name="Activo_creado_error" xml:space="preserve">
+    <value>Se ha producido un error en la creación del activo con la etiqueta: {0}.</value>
+  </data>
+  <data name="Activo_creado_exito" xml:space="preserve">
+    <value>El activo número {0} ha sido creado con éxito.</value>
+  </data>
+  <data name="Activo_editado_error" xml:space="preserve">
+    <value>Se ha producido un error en la edición del activo número: {0}.</value>
+  </data>
+  <data name="Activo_editado_exito" xml:space="preserve">
+    <value>El activo número {0} ha sido editado con éxito.</value>
+  </data>
+  <data name="Activo_eliminado_error" xml:space="preserve">
+    <value>El activo número {0} no ha sido eliminado.</value>
+  </data>
+  <data name="Activo_eliminado_exito" xml:space="preserve">
+    <value>El activo número {0} ha sido eliminado con éxito.</value>
+  </data>
+  <data name="Categoria" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="Codigo_etiqueta" xml:space="preserve">
+    <value>Id. RFID</value>
+  </data>
+  <data name="Codigo_repetido" xml:space="preserve">
+    <value>El código de etiqueta no está disponible porque ya se encuentra en uso.</value>
+  </data>
+  <data name="Descripcion_borrado" xml:space="preserve">
+    <value>Eliminación de un activo existente</value>
+  </data>
+  <data name="Descripcion_creacion" xml:space="preserve">
+    <value>Creación de un nuevo activo</value>
+  </data>
+  <data name="Descripcion_detalles" xml:space="preserve">
+    <value>Información de un activo existente</value>
+  </data>
+  <data name="Descripcion_edicion" xml:space="preserve">
+    <value>Modificación de un activo existente</value>
+  </data>
+  <data name="Descripcion_index" xml:space="preserve">
+    <value>Activos existentes en el sistema</value>
+  </data>
+  <data name="Encabezado_borrado" xml:space="preserve">
+    <value>¿Seguro que desea eliminar la información del activo seleccionado?</value>
+  </data>
+  <data name="Encabezado_creacion" xml:space="preserve">
+    <value>Introduzca a continuación la información del nuevo activo</value>
+  </data>
+  <data name="Encabezado_detalles" xml:space="preserve">
+    <value>A continuación se muestra la información del activo seleccionado</value>
+  </data>
+  <data name="Encabezado_edicion" xml:space="preserve">
+    <value>Modifique la información que desee editar del activo a continuación</value>
+  </data>
+  <data name="Nuevo_activo" xml:space="preserve">
+    <value>Nuevo Activo</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>Producto</value>
+  </data>
+  <data name="Titulo_crear" xml:space="preserve">
+    <value>Crear Activo</value>
+  </data>
+  <data name="Titulo_editar" xml:space="preserve">
+    <value>Editar Activo</value>
+  </data>
+  <data name="Titulo_eliminar" xml:space="preserve">
+    <value>Eliminar Activo</value>
+  </data>
+  <data name="Almacen" xml:space="preserve">
+    <value>En almacén</value>
+  </data>
+  <data name="Descartado" xml:space="preserve">
+    <value>Descartado</value>
+  </data>
+  <data name="Ninguna" xml:space="preserve">
+    <value>Ninguna</value>
+  </data>
+  <data name="Provisionado" xml:space="preserve">
+    <value>Provisionado</value>
+  </data>
+  <data name="Transito" xml:space="preserve">
+    <value>En tránsito</value>
+  </data>
+  <data name="Vendido" xml:space="preserve">
+    <value>Vendido</value>
+  </data>
+  <data name="Codigo_publico" xml:space="preserve">
+    <value>Identificador Público</value>
+  </data>
+  <data name="Estado" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="NumeroSerie" xml:space="preserve">
+    <value>Referencia</value>
+  </data>
+  <data name="Activos_secundarios_titulo" xml:space="preserve">
+    <value>Activos Secundarios Asociados:</value>
+  </data>
+  <data name="Filtrar_estado" xml:space="preserve">
+    <value>Filtrar por estado</value>
+  </data>
+  <data name="Activos_secundarios" xml:space="preserve">
+    <value>Ver Activos Secundarios</value>
+  </data>
+  <data name="No_existen" xml:space="preserve">
+    <value>No existen activos secundarios asociados a este activo.</value>
+  </data>
+  <data name="Completado" xml:space="preserve">
+    <value>Completado</value>
+  </data>
+  <data name="En_espera" xml:space="preserve">
+    <value>En espera</value>
+  </data>
+  <data name="Iniciado" xml:space="preserve">
+    <value>Iniciado</value>
+  </data>
+  <data name="EAN" xml:space="preserve">
+    <value>Código Barras</value>
+  </data>
+  <data name="SKU" xml:space="preserve">
+    <value>SKU</value>
+  </data>
+  <data name="Ubicacion_actual" xml:space="preserve">
+    <value>Ubicación Actual</value>
+  </data>
+  <data name="Activos_almacenados" xml:space="preserve">
+    <value>Activos Almacenados</value>
+  </data>
+  <data name="Activos_en_transito" xml:space="preserve">
+    <value>Activos En Tránsito</value>
+  </data>
+  <data name="Activos_totales" xml:space="preserve">
+    <value>Activos Totales</value>
+  </data>
+  <data name="Activos_vendidos" xml:space="preserve">
+    <value>Activos Vendidos</value>
+  </data>
+  <data name="Fecha_ultima_localizacion" xml:space="preserve">
+    <value>Fecha Última Localización</value>
+  </data>
+  <data name="Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="Historico" xml:space="preserve">
+    <value>Histórico</value>
+  </data>
+  <data name="Descripcion_operaciones" xml:space="preserve">
+    <value>Operaciones del activo seleccionado</value>
+  </data>
+  <data name="Operacion" xml:space="preserve">
+    <value>Operación</value>
+  </data>
+  <data name="Errores" xml:space="preserve">
+    <value>Errores</value>
+  </data>
+  <data name="ExistenProvisionados" xml:space="preserve">
+    <value>De los tags leídos, existen {0} en uso; a continuación los detalles:</value>
+  </data>
+  <data name="ExistenProvisionadosDetalle" xml:space="preserve">
+    <value>Existen {0} activos asociados al siguiente producto: {1}.</value>
+  </data>
+  <data name="Provisionados" xml:space="preserve">
+    <value>Provisionados</value>
+  </data>
+  <data name="Leidos_activos_asociados" xml:space="preserve">
+    <value>Se han leído {0} activos asociados al producto: {1} que se encuentran asociados a órdenes de transferencia, compra o venta.</value>
+  </data>
+  <data name="Aviso_descarte" xml:space="preserve">
+    <value>Si pulsa en Guardar, descartará dichos activos.</value>
+  </data>
+  <data name="Leidos_activos_no_provisionados" xml:space="preserve">
+    <value>Se han leído {0} activos que no están provisionados (no existen en la base de datos, por lo que no se procesarán, el resto sí).</value>
+  </data>
+  <data name="Descartados_correctamente" xml:space="preserve">
+    <value>Descartados correctamente: {0}.</value>
+  </data>
+  <data name="Numero_errores" xml:space="preserve">
+    <value>Errores: {0}.</value>
+  </data>
+  <data name="Provisionados_correctamente" xml:space="preserve">
+    <value>Provisionados correctamente: {0}.</value>
+  </data>
+  <data name="Tags_descartados" xml:space="preserve">
+    <value>Se han leído {0} activos que ya estaban descartados con anterioridad.</value>
+  </data>
+  <data name="Tags_en_uso" xml:space="preserve">
+    <value>De los tags leídos, existen {0} en uso; a continuación los detalles:</value>
+  </data>
+  <data name="Tags_no_provisionados" xml:space="preserve">
+    <value>Se han leído {0} activos que no se encuentran provisionados (no existen en la base de datos).</value>
+  </data>
+  <data name="Tags_provisionados" xml:space="preserve">
+    <value>Hay {0} activos asociados al siguiente producto: {1}.</value>
+  </data>
+  <data name="Aviso_secundarios_existentes" xml:space="preserve">
+    <value>Se han leído {0} tags que se encuentran asociados a algún activo, por lo que no han podido ser asignados. A continuación los detalles:</value>
+  </data>
+  <data name="Asignados" xml:space="preserve">
+    <value>Asignados: {0}</value>
+  </data>
+  <data name="Tratados_correctamente" xml:space="preserve">
+    <value>Tratados correctamente: {0}</value>
+  </data>
+  <data name="Operaciones" xml:space="preserve">
+    <value>Operaciones</value>
+  </data>
+  <data name="regularizacion" xml:space="preserve">
+    <value>El activo {0} ha sido regularizado automáticamente.</value>
+  </data>
+  <data name="Prod_asociados_a_ordenes" xml:space="preserve">
+    <value>Se han leído {0} productos {1} asociados a órdenes de trabajo.</value>
+  </data>
+  <data name="Error_operaciones" xml:space="preserve">
+    <value>El activo no tiene operaciones</value>
+  </data>
+  <data name="Tags_vendidos" xml:space="preserve">
+    <value>Se han leído {0} activos que ya estaban vendidos con anterioridad.</value>
+  </data>
+  <data name="Vendidos_correctamente" xml:space="preserve">
+    <value>Vendidos correctamente: {0}.</value>
+  </data>
+  <data name="Ubicacion" xml:space="preserve">
+    <value>Ubicación</value>
+  </data>
+  <data name="Tags_de_huecos_provision" xml:space="preserve">
+    <value>Se han leído {0} tags asociados a huecos que no serán provisionados.</value>
+  </data>
+  <data name="Leidos_activos_de_huecos" xml:space="preserve">
+    <value>Se han leído {0} tags asociados a huecos que no serán procesados (el resto sí).</value>
+  </data>
+  <data name="Tags_de_huecos_descarte" xml:space="preserve">
+    <value>Se han leído {0} tags asociados a huecos que no serán descartados o vendidos.</value>
+  </data>
+  <data name="Hueco_actual" xml:space="preserve">
+    <value>Hueco Actual</value>
+  </data>
+  <data name="Movimientos" xml:space="preserve">
+    <value>Movimientos</value>
+  </data>
+  <data name="Operacion_Javascript" xml:space="preserve">
+    <value>Operaci\u00F3n</value>
+  </data>
+  <data name="Ubicacion_Javascript" xml:space="preserve">
+    <value>Ubicaci\u00F3n</value>
+  </data>
+</root>

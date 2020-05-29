@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Activos" xml:space="preserve">
+    <value>Vermögenswerte</value>
+  </data>
+  <data name="Activos_asociados" xml:space="preserve">
+    <value>Der Anlagetyp, den Sie löschen möchten, ist mit einem Anlage verknüpft und kann daher nicht gelöscht werden. Bitte entfernen Sie die Anlage vorher und versuchen Sie es erneut.</value>
+  </data>
+  <data name="Advertencia_eliminar_activos" xml:space="preserve">
+    <value>Dem Typ {0}, den Sie löschen möchten, sind Assets zugeordnet. Wenn Sie es löschen, wird es auch die fraglichen Vermögenswerte beseitigen, sind Sie sicher?.</value>
+  </data>
+  <data name="Añadido_cesta_error" xml:space="preserve">
+    <value>Das Produkt {0} konnte nicht zum Warenkorb hinzugefügt werden.</value>
+  </data>
+  <data name="Añadido_cesta_exito" xml:space="preserve">
+    <value>Das Produkt {0} wurde erfolgreich zum Warenkorb hinzugefügt.</value>
+  </data>
+  <data name="Añadir" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="Busqueda_avanzada" xml:space="preserve">
+    <value>Erweiterte Suche</value>
+  </data>
+  <data name="Cambio_ordenacion" xml:space="preserve">
+    <value>Ändern Sie die Ordnung</value>
+  </data>
+  <data name="Campo_requerido" xml:space="preserve">
+    <value>Der Anlagetyp konnte nicht erstellt werden, da kein erforderliches Feld eingegeben wurde.</value>
+  </data>
+  <data name="Categoria" xml:space="preserve">
+    <value>Kategorie</value>
+  </data>
+  <data name="Descripcion" xml:space="preserve">
+    <value>Beschreibung</value>
+  </data>
+  <data name="Descripcion_borrado" xml:space="preserve">
+    <value>Löschen eines vorhandenen Anlagetyps</value>
+  </data>
+  <data name="Descripcion_creacion" xml:space="preserve">
+    <value>Erstellung eines neuen Anlagentyps</value>
+  </data>
+  <data name="Descripcion_detalles" xml:space="preserve">
+    <value>Informationen zu einem vorhandenen Anlagentyps</value>
+  </data>
+  <data name="Descripcion_edicion" xml:space="preserve">
+    <value>Änderung eines vorhandenen Anlagentyps</value>
+  </data>
+  <data name="Descripcion_index" xml:space="preserve">
+    <value>Arten von Vermögenswerten, die im System vorhanden sind</value>
+  </data>
+  <data name="de_la_fila" xml:space="preserve">
+    <value>der Reihe</value>
+  </data>
+  <data name="Editar_con_activos" xml:space="preserve">
+    <value>Der Anlagentyp, den Sie bearbeiten möchten, ist bereits mit Anlagen verknüpft. Wenn Sie den Typ bearbeiten, werden daher alle mit diesem Typ verknüpften Anlagen geändert.</value>
+  </data>
+  <data name="Eliminado_cesta_error" xml:space="preserve">
+    <value>Das Produkt {0} konnte nicht aus dem Warenkorb entfernt werden.</value>
+  </data>
+  <data name="Eliminado_cesta_exito" xml:space="preserve">
+    <value>Das Produkt {0} wurde aus dem Warenkorb entfernt.</value>
+  </data>
+  <data name="El_valor" xml:space="preserve">
+    <value>Der eingegebene Wert</value>
+  </data>
+  <data name="Empresa" xml:space="preserve">
+    <value>Gesellschaft</value>
+  </data>
+  <data name="Encabezado_borrado" xml:space="preserve">
+    <value>Möchten Sie die Informationen des ausgewählten Anlagentyps wirklich löschen?</value>
+  </data>
+  <data name="Encabezado_creacion" xml:space="preserve">
+    <value>Geben Sie die Informationen zum neuen Anlagentyp ein</value>
+  </data>
+  <data name="Encabezado_detalles" xml:space="preserve">
+    <value>Im Folgenden finden Sie die Informationen zum ausgewählten Anlagentyp</value>
+  </data>
+  <data name="Encabezado_edicion" xml:space="preserve">
+    <value>Ändern Sie die Informationen, die Sie bearbeiten möchten, zum folgenden Anlagentyp</value>
+  </data>
+  <data name="Error_tipo" xml:space="preserve">
+    <value>Jeder der eingegebenen Werte stimmt nicht mit dem Datentyp überein, der erwartet wurde.</value>
+  </data>
+  <data name="Examinar" xml:space="preserve">
+    <value>Anlagen anzeigen</value>
+  </data>
+  <data name="Falta_categoria" xml:space="preserve">
+    <value>Vor dem Erstellen eines Anlagentyp muss eine Kategorie vorhanden sein, der dieser Typ zugewiesen werden soll. Bitte erstellen Sie jetzt die neue Kategorie.</value>
+  </data>
+  <data name="Generar_PickList" xml:space="preserve">
+    <value>Pick-Liste generieren</value>
+  </data>
+  <data name="Grid" xml:space="preserve">
+    <value>Gitter</value>
+  </data>
+  <data name="Imagen" xml:space="preserve">
+    <value>Bild vom Anlagentyp</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Auflistung</value>
+  </data>
+  <data name="Nombre_repetido" xml:space="preserve">
+    <value>Der Name des Typs ist nicht verfügbar, da er bereits verwendet wird.</value>
+  </data>
+  <data name="no_corresponde" xml:space="preserve">
+    <value>entspricht nicht dem Typ der erwarteten Daten</value>
+  </data>
+  <data name="No_existen" xml:space="preserve">
+    <value>Mit diesem Anlagentyp sind keine Anlagen verknüpft.</value>
+  </data>
+  <data name="No_imagen" xml:space="preserve">
+    <value>Mit diesem Anlagentyp ist kein Bild verknüpft</value>
+  </data>
+  <data name="Nuevo_tipo_de_activo" xml:space="preserve">
+    <value>Neuer Anlagentyp</value>
+  </data>
+  <data name="Numero_activos" xml:space="preserve">
+    <value>Aktive:</value>
+  </data>
+  <data name="Numero_activos_disponibles" xml:space="preserve">
+    <value>Verfügbar:</value>
+  </data>
+  <data name="Ordenar_por" xml:space="preserve">
+    <value>Sortieren nach</value>
+  </data>
+  <data name="Ordenes_compra_asociadas" xml:space="preserve">
+    <value>Die Art der Anlage, die Sie löschen möchten, ist mit einer Bestellung verbunden und kann daher nicht gelöscht werden. Bitte löschen Sie zuerst die Bestellung und versuchen Sie es erneut.</value>
+  </data>
+  <data name="Ordenes_transferencia_asociadas" xml:space="preserve">
+    <value>Die Art der Anlage, die Sie löschen möchten, ist mit einer Übertragungsreihenfolge verknüpft, sodass sie nicht gelöscht werden kann. Bitte löschen Sie zuerst den Transportauftrag und versuchen Sie es erneut.</value>
+  </data>
+  <data name="Ordenes_venta_asociadas" xml:space="preserve">
+    <value>Die Art des Vermögenswerts, den Sie löschen möchten, ist mit einem bestimmten Kundenauftrag verknüpft und kann daher nicht gelöscht werden. Bitte löschen Sie vorher den Kundenauftrag und versuchen Sie es erneut.</value>
+  </data>
+  <data name="Seleccione_fecha_y_almacen" xml:space="preserve">
+    <value>Wählen Sie unten das Zieldatum und das Lager aus.</value>
+  </data>
+  <data name="Tiene" xml:space="preserve">
+    <value>Sie haben {0} Produkte</value>
+  </data>
+  <data name="Tipos_pagina" xml:space="preserve">
+    <value>Typen pro Seite</value>
+  </data>
+  <data name="Tipo_activo" xml:space="preserve">
+    <value>Arten von Vermögenswerten</value>
+  </data>
+  <data name="Tipo_activo_simple" xml:space="preserve">
+    <value>Art des Vermögensgegenstandes</value>
+  </data>
+  <data name="Tipo_creado_error" xml:space="preserve">
+    <value>Beim Erstellen des Typs {0} ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="Tipo_creado_exito" xml:space="preserve">
+    <value>Der Typ {0} wurde erfolgreich erstellt.</value>
+  </data>
+  <data name="Tipo_editado_error" xml:space="preserve">
+    <value>Beim Bearbeiten des Typs {0} ist ein Fehler aufgetreten.</value>
+  </data>
+  <data name="Tipo_editado_exito" xml:space="preserve">
+    <value>Der Typ {0} wurde erfolgreich bearbeitet.</value>
+  </data>
+  <data name="Tipo_eliminado_error" xml:space="preserve">
+    <value>Der Typ {0} wurde nicht entfernt.</value>
+  </data>
+  <data name="Tipo_eliminado_exito" xml:space="preserve">
+    <value>Der Typ {0} wurde erfolgreich entfernt.</value>
+  </data>
+  <data name="Titulo_crear" xml:space="preserve">
+    <value>Erstellen Sie den Anlagentyp</value>
+  </data>
+  <data name="Titulo_editar" xml:space="preserve">
+    <value>Bearbeiten Sie den Anlagentyp</value>
+  </data>
+  <data name="Titulo_eliminar" xml:space="preserve">
+    <value>Entfernen Sie den Anlagentyp</value>
+  </data>
+  <data name="Vacio" xml:space="preserve">
+    <value>Kein Produkt zur Liste hinzugefügt.</value>
+  </data>
+  <data name="Valor" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="Busqueda_simple" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Campos_disponibles" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Importar" xml:space="preserve">
+    <value>Produkte importieren</value>
+  </data>
+  <data name="No_productos_localizacion" xml:space="preserve">
+    <value>Es gibt keine Produkte an diesem Ort</value>
+  </data>
+  <data name="Total_activos_empresa" xml:space="preserve">
+    <value>Gesamtvermögen</value>
+  </data>
+  <data name="Activos_asociados_al_producto" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="Codigo" xml:space="preserve">
+    <value>Code</value>
+  </data>
+</root>

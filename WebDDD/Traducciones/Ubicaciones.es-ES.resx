@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Campo_vacio" xml:space="preserve">
+    <value>El campo {0} es obligatorio.</value>
+  </data>
+  <data name="Crear_ubicacion" xml:space="preserve">
+    <value>Nueva Ubicación</value>
+  </data>
+  <data name="Descripcion" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="Descripcion_borrado" xml:space="preserve">
+    <value>Eliminación de una ubicación existente</value>
+  </data>
+  <data name="Descripcion_creacion" xml:space="preserve">
+    <value>Creación de una nueva ubicación</value>
+  </data>
+  <data name="Descripcion_detalles" xml:space="preserve">
+    <value>Información de una ubicación existente</value>
+  </data>
+  <data name="Descripcion_edicion" xml:space="preserve">
+    <value>Modificación de una ubicación existente</value>
+  </data>
+  <data name="Descripcion_index" xml:space="preserve">
+    <value>Ubicaciones existentes en el sistema</value>
+  </data>
+  <data name="Editar_ubicacion" xml:space="preserve">
+    <value>Editar Ubicación</value>
+  </data>
+  <data name="Eliminar_ubicacion" xml:space="preserve">
+    <value>Eliminar Ubicación</value>
+  </data>
+  <data name="Encabezado_borrado" xml:space="preserve">
+    <value>¿Seguro que desea eliminar la información de la ubicación seleccionada?</value>
+  </data>
+  <data name="Encabezado_creacion" xml:space="preserve">
+    <value>Introduzca a continuación la información de la nueva ubicación</value>
+  </data>
+  <data name="Encabezado_detalles" xml:space="preserve">
+    <value>A continuación se muestra la información de la ubicación seleccionada</value>
+  </data>
+  <data name="Encabezado_edicion" xml:space="preserve">
+    <value>Modifique la información que desee editar de la ubicación a continuación</value>
+  </data>
+  <data name="Latitud" xml:space="preserve">
+    <value>Latitud</value>
+  </data>
+  <data name="Longitud" xml:space="preserve">
+    <value>Longitud</value>
+  </data>
+  <data name="Nombre_ubicacion" xml:space="preserve">
+    <value>Nombre de la ubicación</value>
+  </data>
+  <data name="Ubicacion" xml:space="preserve">
+    <value>Ubicaciones</value>
+  </data>
+  <data name="Ubicaciones_pagina" xml:space="preserve">
+    <value>Ubicaciones por página:</value>
+  </data>
+  <data name="Ubicacion_creada_error" xml:space="preserve">
+    <value>Se ha producido un error en el envío de la ubicación: {0}.</value>
+  </data>
+  <data name="Ubicacion_creada_exito" xml:space="preserve">
+    <value>La ubicación {0} ha sido creada con éxito.</value>
+  </data>
+  <data name="Ubicacion_editada_error" xml:space="preserve">
+    <value>Se ha producido un error en el envío de la ubicación: {0}.</value>
+  </data>
+  <data name="Ubicacion_editada_exito" xml:space="preserve">
+    <value>La ubicación {0} ha sido editada con éxito.</value>
+  </data>
+  <data name="Ubicacion_eliminada_error" xml:space="preserve">
+    <value>La ubicación {0} no ha sido eliminada.</value>
+  </data>
+  <data name="Ubicacion_eliminada_exito" xml:space="preserve">
+    <value>La ubicación {0} ha sido eliminada con éxito.</value>
+  </data>
+  <data name="Ubicacion_simple" xml:space="preserve">
+    <value>Ubicación</value>
+  </data>
+  <data name="Ultimas_ubicaciones" xml:space="preserve">
+    <value>Últimas ubicaciones de los vehículos</value>
+  </data>
+  <data name="Ubicacion_con_dispositivos" xml:space="preserve">
+    <value>La ubicación que intenta eliminar tiene dispositivos asociados; por favor, elimine primero éstos y vuelva a intentarlo.</value>
+  </data>
+  <data name="Padre" xml:space="preserve">
+    <value>Ubicación Padre</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="Ubicacion_asociada_alertas" xml:space="preserve">
+    <value>La ubicación que intenta eliminar tiene alertas asociadas; por favor, elimine primero éstas y vuelva a intentarlo.</value>
+  </data>
+  <data name="Ubicacion_asociada_cliente" xml:space="preserve">
+    <value>La ubicación que intenta eliminar tiene un cliente asociado; por favor, elimine primero éste y vuelva a intentarlo.</value>
+  </data>
+  <data name="Ubicacion_asociada_direccion" xml:space="preserve">
+    <value>La ubicación que intenta eliminar tiene una dirección asociada; por favor, elimine primero ésta y vuelva a intentarlo.</value>
+  </data>
+  <data name="Ubicacion_asociada_dispositivos" xml:space="preserve">
+    <value>La ubicación que intenta eliminar tiene dispositivos asociados; por favor, elimine primero éstos y vuelva a intentarlo.</value>
+  </data>
+  <data name="Ubicacion_asociada_equipos" xml:space="preserve">
+    <value>La ubicación que intenta eliminar tiene equipos asociados; por favor, elimine primero éstos y vuelva a intentarlo.</value>
+  </data>
+  <data name="Ubicacion_asociada_huecos" xml:space="preserve">
+    <value>La ubicación que intenta eliminar tiene huecos asociados; por favor, elimine primero éstos y vuelva a intentarlo.</value>
+  </data>
+  <data name="Ubicacion_asociada_proveedor" xml:space="preserve">
+    <value>La ubicación que intenta eliminar tiene un proveedor asociado; por favor, elimine primero éste y vuelva a intentarlo.</value>
+  </data>
+  <data name="Ubicacion_asociada_ubicaciones" xml:space="preserve">
+    <value>La ubicación que intenta eliminar tiene ubicaciones hijas asociadas a ella; por favor, elimine primero éstas y vuelva a intentarlo.</value>
+  </data>
+  <data name="Ubicacion_asociada_vehiculo" xml:space="preserve">
+    <value>La ubicación que intenta eliminar tiene un vehículo asociado; por favor, elimine primero éste y vuelva a intentarlo.</value>
+  </data>
+  <data name="Arrastre_los_sensores" xml:space="preserve">
+    <value>Arrastre los sensores en el plano</value>
+  </data>
+  <data name="Ciudad" xml:space="preserve">
+    <value>Ciudad</value>
+  </data>
+  <data name="Direccion" xml:space="preserve">
+    <value>Calle</value>
+  </data>
+  <data name="Estado" xml:space="preserve">
+    <value>Estado / Provincia</value>
+  </data>
+  <data name="Pais" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="ZIP" xml:space="preserve">
+    <value>Código ZIP</value>
+  </data>
+  <data name="Asociadas_cliente" xml:space="preserve">
+    <value>Ubicaciones asociadas al cliente seleccionado</value>
+  </data>
+  <data name="Asociadas_direccion" xml:space="preserve">
+    <value>Ubicaciones asociadas a la dirección seleccionada</value>
+  </data>
+  <data name="Asociadas_proveedor" xml:space="preserve">
+    <value>Ubicaciones asociadas al proveedor seleccionado</value>
+  </data>
+  <data name="Asociada_vehiculo" xml:space="preserve">
+    <value>Ubicación asociada al vehículo seleccionado</value>
+  </data>
+  <data name="Gestionar_ubicaciones" xml:space="preserve">
+    <value>Gestionar ubicaciones</value>
+  </data>
+  <data name="No_asociadas_cliente" xml:space="preserve">
+    <value>El cliente seleccionado no tiene ubicaciones asociadas.</value>
+  </data>
+  <data name="No_asociadas_direccion" xml:space="preserve">
+    <value>La dirección seleccionada no tiene ubicaciones asociadas.</value>
+  </data>
+  <data name="No_asociadas_proveedor" xml:space="preserve">
+    <value>El proveedor seleccionado no tiene ubicaciones asociadas.</value>
+  </data>
+  <data name="No_asociadas_vehiculo" xml:space="preserve">
+    <value>El vehículo seleccionado no tiene ubicaciones asociadas.</value>
+  </data>
+  <data name="Gestionar_ubicacion" xml:space="preserve">
+    <value>Gestionar localización</value>
+  </data>
+  <data name="No_posible_editar_ubicacion" xml:space="preserve">
+    <value>No está permitido cambiar la ubicación en el mapa porque está asignada a una dirección concreta.</value>
+  </data>
+  <data name="Sensorizacion" xml:space="preserve">
+    <value>Sensorización</value>
+  </data>
+  <data name="Telematica" xml:space="preserve">
+    <value>Telemática</value>
+  </data>
+  <data name="TeleSenso" xml:space="preserve">
+    <value>Telemática y Sensorización</value>
+  </data>
+  <data name="TeleTrace" xml:space="preserve">
+    <value>Telemática y Trazabilidad</value>
+  </data>
+  <data name="Todos" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="Trace" xml:space="preserve">
+    <value>Trazabilidad</value>
+  </data>
+  <data name="TraceSenso" xml:space="preserve">
+    <value>Trazabilidad y Sensorización</value>
+  </data>
+  <data name="Ubicacion_asociada_activos" xml:space="preserve">
+    <value>La ubicación que intenta eliminar tiene contiene activos en este momento por lo que no puede eliminarla.</value>
+  </data>
+  <data name="Ubicacion_asociada_operaciones" xml:space="preserve">
+    <value>Se han realizado operaciones sobre activos en la ubicación actual por lo que no podrá eliminarla (para mantener el histórico de las operaciones).</value>
+  </data>
+  <data name="Ubicacion_asociada_ordenes_compra" xml:space="preserve">
+    <value>La ubicación que intenta eliminar tiene órdenes de compra asociadas; por favor, elimine primero éstas y vuelva a intentarlo.</value>
+  </data>
+  <data name="Ubicacion_asociada_ordenes_transferencia" xml:space="preserve">
+    <value>La ubicación que intenta eliminar tiene órdenes de tranferencia asociadas; por favor, elimine primero éstas y vuelva a intentarlo.</value>
+  </data>
+  <data name="Ubicacion_asociada_ordenes_venta" xml:space="preserve">
+    <value>La ubicación que intenta eliminar tiene órdenes de venta asociadas; por favor, elimine primero éstas y vuelva a intentarlo.</value>
+  </data>
+  <data name="Ubicacion_asociada_picklist" xml:space="preserve">
+    <value>La ubicación que intenta eliminar tiene pick lists asociadas; por favor, elimine primero éstas y vuelva a intentarlo.</value>
+  </data>
+  <data name="Leyenda_no_editar_tipo" xml:space="preserve">
+    <value>No es posible editar el tipo de ubicación porque no dispone de todos los permisos necesarios para ello.</value>
+  </data>
+  <data name="No_trace" xml:space="preserve">
+    <value>La ubicación no es de tipo Trazabilidad</value>
+  </data>
+  <data name="Descripcion_latitud_longitud" xml:space="preserve">
+    <value>Escriba la {0} o marque el punto en el mapa para establecerla automáticamente.</value>
+  </data>
+  <data name="Descripcion_vista_DaD" xml:space="preserve">
+    <value>Arrastre los iconos en el plano</value>
+  </data>
+  <data name="Advertencia_hijos" xml:space="preserve">
+    <value>La ubicación que está editando tiene ubicaciones asociadas, al cambiar el tipo es posible que también cambie el tipo de las ubicaciones asociadas.</value>
+  </data>
+  <data name="Mensaje_ayuda_5_huecos" xml:space="preserve">
+    <value>Para añadir un nuevo hueco, arrástrelo de la columna de la izquierda y suéltelo sobre el plano. Puede crear un nuevo hueco pulsando sobre el botón "Nuevo Hueco".</value>
+  </data>
+  <data name="Mensaje_ayuda_5_sensores" xml:space="preserve">
+    <value>Para añadir un nuevo sensor, arrástrelo de la columna de la izquierda y suéltelo sobre el plano. Se abrirá una ventana donde podrá seleccionar uno entre los sensores disponibles de ese tipo en esa ubicación (si no aparece ninguno, debe crearlo antes en el apartado de sensores).</value>
+  </data>
+  <data name="Mensaje_ayuda_5_todo" xml:space="preserve">
+    <value>Para añadir un nuevo sensor o hueco, arrástrelo de la columna de la izquierda y suéltelo sobre el plano. Se abrirá una ventana donde podrá seleccionar uno entre los sensores disponibles de ese tipo en esa ubicación (si no aparece ninguno, debe crearlo antes en el apartado de sensores). Puede crear un nuevo hueco pulsando sobre el botón "Nuevo Hueco".</value>
+  </data>
+  <data name="Mensaje_ayuda_7_huecos" xml:space="preserve">
+    <value>Para eliminar un hueco, arrástrelo hasta la papelera situada en la columna de acciones. Para eliminar los elementos seleccionados o TODOS si no hay ninguno seleccionado, haga click sobre el icono de la papelera directamente.</value>
+  </data>
+  <data name="Mensaje_ayuda_7_sensores" xml:space="preserve">
+    <value>Para eliminar un sensor, arrástrelo hasta la papelera situada en la columna de acciones. Para eliminar los elementos seleccionados o TODOS si no hay ninguno seleccionado, haga click sobre el icono de la papelera directamente.</value>
+  </data>
+  <data name="Mensaje_ayuda_7_todo" xml:space="preserve">
+    <value>Para eliminar un sensor o hueco, arrástrelo hasta la papelera situada en la columna de acciones. Para eliminar los elementos seleccionados o TODOS si no hay ninguno seleccionado, haga click sobre el icono de la papelera directamente.</value>
+  </data>
+  <data name="Mensaje_ayuda_seleccion_huecos" xml:space="preserve">
+    <value>Puede hacer clic sobre el icono de un hueco en el plano para seleccionarlo, seleccionarlos todos con el botón "Seleccionar todos los iconos" o anular la selección de todo con el botón "Anular selección de iconos". Una vez seleccionados los iconos, estos se mostrarán con el borde verde en los huecos. Se puede modificar la posición de todos los iconos seleccionados en el mapa simúltaneamente usando las teclas W, S, A, D (Arriba, abajo, izquierda y derecha respectivamente).</value>
+  </data>
+  <data name="Mensaje_ayuda_seleccion_sensores" xml:space="preserve">
+    <value>Puede hacer clic sobre el icono de un sensor en el plano para seleccionarlo, seleccionarlos todos con el botón "Seleccionar todos los iconos" o anular la selección de todo con el botón "Anular selección de iconos". Una vez seleccionados los iconos, estos se mostrarán con el icono verde en los sensores. Se puede modificar la posición de todos los iconos seleccionados en el mapa simúltaneamente usando las teclas W, S, A, D (Arriba, abajo, izquierda y derecha respectivamente).</value>
+  </data>
+  <data name="Mensaje_ayuda_seleccion_todo" xml:space="preserve">
+    <value>Puede hacer clic sobre el icono de un sensor o hueco en el plano para seleccionarlo, seleccionarlos todos con el botón "Seleccionar todos los iconos" o anular la selección de todo con el botón "Anular selección de iconos". Una vez seleccionados los iconos, estos se mostrarán con el borde verde en el caso de los huecos, o el icono verde en el de los sensores. Se puede modificar la posición de todos los iconos seleccionados en el mapa simúltaneamente usando las teclas W, S, A, D (Arriba, abajo, izquierda y derecha respectivamente).</value>
+  </data>
+  <data name="Error_dad_sinplano" xml:space="preserve">
+    <value>La ubicación seleccionada no dispone de plano.</value>
+  </data>
+  <data name="Error_dad_telematica" xml:space="preserve">
+    <value>No puede editar el plano de una ubicación de tipo telemática.</value>
+  </data>
+</root>

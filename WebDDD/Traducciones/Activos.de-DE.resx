@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Activoss" xml:space="preserve">
+    <value>Vermögenswerte</value>
+  </data>
+  <data name="Activos_pagina" xml:space="preserve">
+    <value>Anlagen pro Seite</value>
+  </data>
+  <data name="Activo_creado_error" xml:space="preserve">
+    <value>Die Anlage {0} wurde nicht erstellt.</value>
+  </data>
+  <data name="Activo_creado_exito" xml:space="preserve">
+    <value>Die Anlage {0} wurde erfolgreich erstellt.</value>
+  </data>
+  <data name="Activo_editado_error" xml:space="preserve">
+    <value>Die Anlage {0} wurde nicht bearbeitet.</value>
+  </data>
+  <data name="Activo_editado_exito" xml:space="preserve">
+    <value>Die Anlage {0} wurde erfolgreich bearbeitet.</value>
+  </data>
+  <data name="Activo_eliminado_error" xml:space="preserve">
+    <value>Die Anlage {0} wurde nicht gelöscht.</value>
+  </data>
+  <data name="Activo_eliminado_exito" xml:space="preserve">
+    <value>Die Anlage {0} wurde erfolgreich gelöscht.</value>
+  </data>
+  <data name="Categoria" xml:space="preserve">
+    <value>Kategorie</value>
+  </data>
+  <data name="Codigo_etiqueta" xml:space="preserve">
+    <value>RFID Id</value>
+  </data>
+  <data name="Codigo_repetido" xml:space="preserve">
+    <value>Der Tag-Code ist nicht verfügbar, da er bereits verwendet wird.</value>
+  </data>
+  <data name="Descripcion_borrado" xml:space="preserve">
+    <value>Löschen Sie eine vorhandene Anlage</value>
+  </data>
+  <data name="Descripcion_creacion" xml:space="preserve">
+    <value>Erstellen Sie eine neue Anlage</value>
+  </data>
+  <data name="Descripcion_detalles" xml:space="preserve">
+    <value>Informationen zu einer vorhandenen Anlage</value>
+  </data>
+  <data name="Descripcion_edicion" xml:space="preserve">
+    <value>Bearbeiten Sie eine vorhanden Anlage</value>
+  </data>
+  <data name="Descripcion_index" xml:space="preserve">
+    <value>Im System gespeicherte Anlagen</value>
+  </data>
+  <data name="Encabezado_borrado" xml:space="preserve">
+    <value>Möchten Sie die Informationen für die ausgewählte Anlage wirklich löschen?</value>
+  </data>
+  <data name="Encabezado_creacion" xml:space="preserve">
+    <value>Geben Sie die Informationen für die neue Anlage ein</value>
+  </data>
+  <data name="Encabezado_detalles" xml:space="preserve">
+    <value>Die Informationen für die ausgewählte Anlage werden unten angezeigt</value>
+  </data>
+  <data name="Encabezado_edicion" xml:space="preserve">
+    <value>Ändern Sie die Informationen, die Sie bearbeiten möchten, in das Asset unten</value>
+  </data>
+  <data name="Nuevo_activo" xml:space="preserve">
+    <value>Neue Anlage</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>Produkt</value>
+  </data>
+  <data name="Titulo_crear" xml:space="preserve">
+    <value>Anlage erstellen</value>
+  </data>
+  <data name="Titulo_editar" xml:space="preserve">
+    <value>Anlage bearbeiten</value>
+  </data>
+  <data name="Titulo_eliminar" xml:space="preserve">
+    <value>Löschen einer Anlage</value>
+  </data>
+  <data name="Almacen" xml:space="preserve">
+    <value>Auf Lager</value>
+  </data>
+  <data name="Descartado" xml:space="preserve">
+    <value>Verworfen</value>
+  </data>
+  <data name="Ninguna" xml:space="preserve">
+    <value>Keiner</value>
+  </data>
+  <data name="Provisionado" xml:space="preserve">
+    <value>Bereitgestellt</value>
+  </data>
+  <data name="Transito" xml:space="preserve">
+    <value>Im Transit</value>
+  </data>
+  <data name="Vendido" xml:space="preserve">
+    <value>Verkauft</value>
+  </data>
+  <data name="Codigo_publico" xml:space="preserve">
+    <value>Öffentliche Kennung</value>
+  </data>
+  <data name="Estado" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="NumeroSerie" xml:space="preserve">
+    <value>Reference</value>
+  </data>
+  <data name="Activos_secundarios_titulo" xml:space="preserve">
+    <value>Sekundäre Vermögenswerte Mitarbeiter:</value>
+  </data>
+  <data name="Filtrar_estado" xml:space="preserve">
+    <value>Nach Bundesstaat filtern</value>
+  </data>
+  <data name="Activos_secundarios" xml:space="preserve">
+    <value>Sekundäre Anlagen anzeigen</value>
+  </data>
+  <data name="No_existen" xml:space="preserve">
+    <value>Mit diesem Vermögenswert sind keine sekundären Vermögenswerte verbunden.</value>
+  </data>
+  <data name="Completado" xml:space="preserve">
+    <value>Abgeschlossen</value>
+  </data>
+  <data name="En_espera" xml:space="preserve">
+    <value>In Wartestellung</value>
+  </data>
+  <data name="Iniciado" xml:space="preserve">
+    <value>Eingeleitet</value>
+  </data>
+  <data name="EAN" xml:space="preserve">
+    <value>Barcode</value>
+  </data>
+  <data name="SKU" xml:space="preserve">
+    <value>Artikelnummer</value>
+  </data>
+  <data name="Ubicacion_actual" xml:space="preserve">
+    <value>Aktueller Standort</value>
+  </data>
+  <data name="Activos_almacenados" xml:space="preserve">
+    <value>Anlagen gespeichert</value>
+  </data>
+  <data name="Activos_en_transito" xml:space="preserve">
+    <value>Vermögenswerte in Transit</value>
+  </data>
+  <data name="Activos_totales" xml:space="preserve">
+    <value>Gesamtvermögen</value>
+  </data>
+  <data name="Activos_vendidos" xml:space="preserve">
+    <value>Vermögenswerte verkauft</value>
+  </data>
+  <data name="Fecha_ultima_localizacion" xml:space="preserve">
+    <value>Letztes Standortdatum</value>
+  </data>
+  <data name="Activo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="Historico" xml:space="preserve">
+    <value>Historisch</value>
+  </data>
+  <data name="Descripcion_operaciones" xml:space="preserve">
+    <value>Operationen für die ausgewählte Anlage</value>
+  </data>
+  <data name="Operacion" xml:space="preserve">
+    <value>Betrieb</value>
+  </data>
+  <data name="Errores" xml:space="preserve">
+    <value>Fehler</value>
+  </data>
+  <data name="ExistenProvisionados" xml:space="preserve">
+    <value>Von den gelesenen Tags sind {0} in Verwendung; um die Details fortzusetzen:</value>
+  </data>
+  <data name="ExistenProvisionadosDetalle" xml:space="preserve">
+    <value>Dem folgenden Produkt sind {0} Anlagen zugeordnet: {1}.</value>
+  </data>
+  <data name="Provisionados" xml:space="preserve">
+    <value>Bereitgestellt</value>
+  </data>
+  <data name="Leidos_activos_asociados" xml:space="preserve">
+    <value>{0} mit dem Produkt verknüpfte Vermögenswerte wurden gelesen: {1}, die mit Übertragungs-, Kauf- oder Verkaufsaufträgen verknüpft sind.</value>
+  </data>
+  <data name="Aviso_descarte" xml:space="preserve">
+    <value>Wenn Sie auf Speichern klicken, verwerfen Sie diese Anlagen.</value>
+  </data>
+  <data name="Leidos_activos_no_provisionados" xml:space="preserve">
+    <value>Wurden {0} Assets gelesen, die nicht bereitgestellt wurden (sie sind nicht in der Datenbank vorhanden, werden also nicht verarbeitet, der Rest wird verwendet).</value>
+  </data>
+  <data name="Descartados_correctamente" xml:space="preserve">
+    <value>Erfolgreich verworfen: {0}.</value>
+  </data>
+  <data name="Numero_errores" xml:space="preserve">
+    <value>Fehler: {0}.</value>
+  </data>
+  <data name="Provisionados_correctamente" xml:space="preserve">
+    <value>Erfolgreich bereitgestellt: {0}.</value>
+  </data>
+  <data name="Tags_descartados" xml:space="preserve">
+    <value>{0} Anlagen, die zuvor verworfen wurden, wurden gelesen.</value>
+  </data>
+  <data name="Tags_en_uso" xml:space="preserve">
+    <value>Von den gelesenen Tags werden {0} bereits verwendet; um die Details fortzusetzen:</value>
+  </data>
+  <data name="Tags_no_provisionados" xml:space="preserve">
+    <value>{0} Anlagen, die nicht bereitgestellt werden, wurden gelesen (sie sind nicht in der Datenbank vorhanden).</value>
+  </data>
+  <data name="Tags_provisionados" xml:space="preserve">
+    <value>Dem folgenden Produkt sind {0} Assets zugeordnet: {1}.</value>
+  </data>
+  <data name="Aviso_secundarios_existentes" xml:space="preserve">
+    <value>{0} -Tags, die einer Anlage zugeordnet sind, wurden gelesen, sodass sie nicht zugewiesen werden konnten. Um die Details fortzusetzen:</value>
+  </data>
+  <data name="Asignados" xml:space="preserve">
+    <value>Zugewiesen: {0}</value>
+  </data>
+  <data name="Tratados_correctamente" xml:space="preserve">
+    <value>Erfolgreich verarbeitet: {0}</value>
+  </data>
+  <data name="Operaciones" xml:space="preserve">
+    <value>Operationen</value>
+  </data>
+  <data name="regularizacion" xml:space="preserve">
+    <value>The asset {0} has been automatically regularized</value>
+  </data>
+  <data name="Error_operaciones" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Tags_vendidos" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Vendidos_correctamente" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Ubicacion" xml:space="preserve">
+    <value>Standort</value>
+  </data>
+  <data name="Tags_de_huecos_provision" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Leidos_activos_de_huecos" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Tags_de_huecos_descarte" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Hueco_actual" xml:space="preserve">
+    <value>Current Segment</value>
+  </data>
+  <data name="Movimientos" xml:space="preserve">
+    <value>Bewegungen</value>
+  </data>
+  <data name="Operacion_Javascript" xml:space="preserve">
+    <value>Betrieb</value>
+  </data>
+  <data name="Ubicacion_Javascript" xml:space="preserve">
+    <value>Standort</value>
+  </data>
+</root>

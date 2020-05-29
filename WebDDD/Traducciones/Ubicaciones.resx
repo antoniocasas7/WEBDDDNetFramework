@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Campo_vacio" xml:space="preserve">
+    <value>The {0} field is required.</value>
+  </data>
+  <data name="Crear_ubicacion" xml:space="preserve">
+    <value>New Location</value>
+  </data>
+  <data name="Descripcion" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Descripcion_borrado" xml:space="preserve">
+    <value>Delete an existing location</value>
+  </data>
+  <data name="Descripcion_creacion" xml:space="preserve">
+    <value>Create a new location</value>
+  </data>
+  <data name="Descripcion_detalles" xml:space="preserve">
+    <value>Information about an existing location</value>
+  </data>
+  <data name="Descripcion_edicion" xml:space="preserve">
+    <value>Edit an existing location</value>
+  </data>
+  <data name="Descripcion_index" xml:space="preserve">
+    <value>Locations stored in system</value>
+  </data>
+  <data name="Editar_ubicacion" xml:space="preserve">
+    <value>Edit Location</value>
+  </data>
+  <data name="Eliminar_ubicacion" xml:space="preserve">
+    <value>Delete Location</value>
+  </data>
+  <data name="Encabezado_borrado" xml:space="preserve">
+    <value>Are you sure you want to delete the information for the selected location?</value>
+  </data>
+  <data name="Encabezado_creacion" xml:space="preserve">
+    <value>Enter the information for the new location below</value>
+  </data>
+  <data name="Encabezado_detalles" xml:space="preserve">
+    <value>The information for the selected location is shown below</value>
+  </data>
+  <data name="Encabezado_edicion" xml:space="preserve">
+    <value>Modify the information you want to edit in the location below</value>
+  </data>
+  <data name="Latitud" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="Longitud" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="Nombre_ubicacion" xml:space="preserve">
+    <value>Location name</value>
+  </data>
+  <data name="Ubicacion" xml:space="preserve">
+    <value>Locations</value>
+  </data>
+  <data name="Ubicaciones_pagina" xml:space="preserve">
+    <value>Locations per page:</value>
+  </data>
+  <data name="Ubicacion_creada_error" xml:space="preserve">
+    <value>The location {0} has not been created.</value>
+  </data>
+  <data name="Ubicacion_creada_exito" xml:space="preserve">
+    <value>The location {0} has been successfully created.</value>
+  </data>
+  <data name="Ubicacion_editada_error" xml:space="preserve">
+    <value>The location {0} has not been edited.</value>
+  </data>
+  <data name="Ubicacion_editada_exito" xml:space="preserve">
+    <value>The location {0} has been successfully edited.</value>
+  </data>
+  <data name="Ubicacion_eliminada_error" xml:space="preserve">
+    <value>The location {0} has not been deleted.</value>
+  </data>
+  <data name="Ubicacion_eliminada_exito" xml:space="preserve">
+    <value>The location {0} has been successfully deleted.</value>
+  </data>
+  <data name="Ubicacion_simple" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Ultimas_ubicaciones" xml:space="preserve">
+    <value>Latest vehicles locations</value>
+  </data>
+  <data name="Ubicacion_con_dispositivos" xml:space="preserve">
+    <value>The location you are trying to delete has associated devices; please delete them first and try again.</value>
+  </data>
+  <data name="Padre" xml:space="preserve">
+    <value>Parent Location</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Ubicacion_asociada_alertas" xml:space="preserve">
+    <value>The location you are trying to delete has associated alerts; please delete these first and try again. </value>
+  </data>
+  <data name="Ubicacion_asociada_cliente" xml:space="preserve">
+    <value>The location you are trying to delete has an associated client; please delete it first and try again. </value>
+  </data>
+  <data name="Ubicacion_asociada_direccion" xml:space="preserve">
+    <value>The location you are trying to delete has an associated address; please delete it first and try again. </value>
+  </data>
+  <data name="Ubicacion_asociada_dispositivos" xml:space="preserve">
+    <value>The location you are trying to delete has associated devices; please delete these first and try again. </value>
+  </data>
+  <data name="Ubicacion_asociada_equipos" xml:space="preserve">
+    <value>The location you are trying to delete has associated equipments; please delete these first and try again. </value>
+  </data>
+  <data name="Ubicacion_asociada_huecos" xml:space="preserve">
+    <value>The current location cannot be deleted as it has associated segments.</value>
+  </data>
+  <data name="Ubicacion_asociada_proveedor" xml:space="preserve">
+    <value>The location you are trying to delete has an associated supplier; please delete it first and try again. </value>
+  </data>
+  <data name="Ubicacion_asociada_ubicaciones" xml:space="preserve">
+    <value>The location you are trying to delete has associated locations; please delete these first and try again. </value>
+  </data>
+  <data name="Ubicacion_asociada_vehiculo" xml:space="preserve">
+    <value>The location you are trying to delete has an associated vehicle; please delete it first and try again. </value>
+  </data>
+  <data name="Arrastre_los_sensores" xml:space="preserve">
+    <value>Drag the sensors into the floor plan</value>
+  </data>
+  <data name="Ciudad" xml:space="preserve">
+    <value>City</value>
+  </data>
+  <data name="Direccion" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Estado" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="Pais" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="ZIP" xml:space="preserve">
+    <value>ZIP Code</value>
+  </data>
+  <data name="Asociadas_cliente" xml:space="preserve">
+    <value>Locations associated with the selected customer</value>
+  </data>
+  <data name="Asociadas_direccion" xml:space="preserve">
+    <value>Locations associated with the selected address</value>
+  </data>
+  <data name="Asociadas_proveedor" xml:space="preserve">
+    <value>Locations associated with the selected supplier</value>
+  </data>
+  <data name="Asociada_vehiculo" xml:space="preserve">
+    <value>Location associated with the selected vehicle</value>
+  </data>
+  <data name="Gestionar_ubicaciones" xml:space="preserve">
+    <value>Manage locations</value>
+  </data>
+  <data name="No_asociadas_cliente" xml:space="preserve">
+    <value>The selected customer has no associated locations.</value>
+  </data>
+  <data name="No_asociadas_direccion" xml:space="preserve">
+    <value>The selected address has no associated locations.</value>
+  </data>
+  <data name="No_asociadas_proveedor" xml:space="preserve">
+    <value>The selected supplier has no associated locations.</value>
+  </data>
+  <data name="No_asociadas_vehiculo" xml:space="preserve">
+    <value>The selected vehicle has no associated locations.</value>
+  </data>
+  <data name="Gestionar_ubicacion" xml:space="preserve">
+    <value>Manage location</value>
+  </data>
+  <data name="No_posible_editar_ubicacion" xml:space="preserve">
+    <value>It is not allowed to change the location on the map because it is assigned to a specific address.</value>
+  </data>
+  <data name="Sensorizacion" xml:space="preserve">
+    <value>Sensorization</value>
+  </data>
+  <data name="Telematica" xml:space="preserve">
+    <value>Telematics</value>
+  </data>
+  <data name="TeleSenso" xml:space="preserve">
+    <value>Telematics and Sensorization</value>
+  </data>
+  <data name="TeleTrace" xml:space="preserve">
+    <value>Telematics and Traceability</value>
+  </data>
+  <data name="Todos" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Trace" xml:space="preserve">
+    <value>Traceability</value>
+  </data>
+  <data name="TraceSenso" xml:space="preserve">
+    <value>Traceability and Sensorization</value>
+  </data>
+  <data name="Ubicacion_asociada_activos" xml:space="preserve">
+    <value>The location you are trying to delete has assets in this moment so you can't delete it.</value>
+  </data>
+  <data name="Ubicacion_asociada_operaciones" xml:space="preserve">
+    <value>Operations have been done in this location so it can't be deleted.</value>
+  </data>
+  <data name="Ubicacion_asociada_ordenes_compra" xml:space="preserve">
+    <value>The location you are trying to delete has associated purchase orders; please delete these first and try again.</value>
+  </data>
+  <data name="Ubicacion_asociada_ordenes_transferencia" xml:space="preserve">
+    <value>The location you are trying to delete has associated tranfer orders; please delete these first and try again.</value>
+  </data>
+  <data name="Ubicacion_asociada_ordenes_venta" xml:space="preserve">
+    <value>The location you are trying to delete has associated sales orders; please delete these first and try again.</value>
+  </data>
+  <data name="Ubicacion_asociada_picklist" xml:space="preserve">
+    <value>The location you are trying to delete has associated pick lists; please delete these first and try again.</value>
+  </data>
+  <data name="Leyenda_no_editar_tipo" xml:space="preserve">
+    <value>It's not possible to edit the location type because you do not have all the necessary permissions for it.</value>
+  </data>
+  <data name="No_trace" xml:space="preserve">
+    <value>The location is not of Traceability type</value>
+  </data>
+  <data name="Descripcion_latitud_longitud" xml:space="preserve">
+    <value>Enter the {0} or mark the point on the map to set it automatically.</value>
+  </data>
+  <data name="Descripcion_vista_DaD" xml:space="preserve">
+    <value>Drag the icons into the plan</value>
+  </data>
+  <data name="Advertencia_hijos" xml:space="preserve">
+    <value>The location you are editing has associated locations, is possible that if you change the type, you change the type of the associated location.</value>
+  </data>
+  <data name="Mensaje_ayuda_5_huecos" xml:space="preserve">
+    <value>To add a new segment, drag it from the column on the left and drop it on the plan. You can create a new segment by pressing the "New Segment" button.</value>
+  </data>
+  <data name="Mensaje_ayuda_5_sensores" xml:space="preserve">
+    <value>To add a new sensor, drag it from the column on the left and drop it on the plan. A window will be opened where you can select one of the available sensors of that type in that location (if none appears, you must create it before in the sensors section).</value>
+  </data>
+  <data name="Mensaje_ayuda_5_todo" xml:space="preserve">
+    <value>To add a new sensor or segment, drag it from the column on the left and drop it on the plan. A window will be opened where you can select one of the available sensors of that type in that location (if none appears, you must create it before in the sensors section). You can create a new segment by pressing the "New Segment" button.</value>
+  </data>
+  <data name="Mensaje_ayuda_7_huecos" xml:space="preserve">
+    <value>To remove a segment, drag it to the trash bin located in the actions column. To delete selected items or ALL of them if nothing is selected, click on the trash bin icon directly.</value>
+  </data>
+  <data name="Mensaje_ayuda_7_sensores" xml:space="preserve">
+    <value>To remove a sensor, drag it to the trash bin located in the actions column. To delete selected items or ALL of them if nothing is selected, click on the trash bin icon directly.</value>
+  </data>
+  <data name="Mensaje_ayuda_7_todo" xml:space="preserve">
+    <value>To remove a sensor or segment, drag it to the trash bin located in the actions column. To delete selected items or ALL of them if nothing is selected, click on the trash bin icon directly.</value>
+  </data>
+  <data name="Mensaje_ayuda_seleccion_huecos" xml:space="preserve">
+    <value>You can click on a segment icon in the plane to select it, click the "Select all icons" button to select all of them or click the "Deselect all icons" button to deselect all. Once the icons have been selected, they will be shown with the green border in the segments. You can change the position of all the selected icons in the map simultaneously using the W, S, A, D keys (Up, Down, Left and Right respectively).</value>
+  </data>
+  <data name="Mensaje_ayuda_seleccion_sensores" xml:space="preserve">
+    <value>You can click on a sensor icon in the plane to select it, click the "Select all icons" button to select all of them or click the "Deselect all icons" button to deselect all. Once the icons have been selected, they will be shown with the green border in the green icon  of the sensors. You can change the position of all the selected icons in the map simultaneously using the W, S, A, D keys (Up, Down, Left and Right respectively).</value>
+  </data>
+  <data name="Mensaje_ayuda_seleccion_todo" xml:space="preserve">
+    <value>You can click on a sensor or segment icon in the plane to select it, click the "Select all icons" button to select all of them or click the "Deselect all icons" button to deselect all. Once the icons have been selected, they will be shown with the green border in the case of the segments, or the green icon in the case of the sensors. You can change the position of all the selected icons in the map simultaneously using the W, S, A, D keys (Up, Down, Left and Right respectively).</value>
+  </data>
+  <data name="Error_dad_sinplano" xml:space="preserve">
+    <value>The selected location does not have plane image.</value>
+  </data>
+  <data name="Error_dad_telematica" xml:space="preserve">
+    <value>You can not edit the plane of a telematic type location.</value>
+  </data>
+</root>

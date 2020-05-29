@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Crear_idioma" xml:space="preserve">
+    <value>Neue Sprache</value>
+  </data>
+  <data name="Cultura_idioma" xml:space="preserve">
+    <value>Kultur</value>
+  </data>
+  <data name="Descripcion_borrado" xml:space="preserve">
+    <value>Löschen einer vorhandenen Sprache</value>
+  </data>
+  <data name="Descripcion_creacion" xml:space="preserve">
+    <value>Schaffung einer neuen Sprache</value>
+  </data>
+  <data name="Descripcion_detalles" xml:space="preserve">
+    <value>Informationen aus einer bestehenden Sprache</value>
+  </data>
+  <data name="Descripcion_edicion" xml:space="preserve">
+    <value>Änderung einer bestehenden Sprache</value>
+  </data>
+  <data name="Editar_idioma" xml:space="preserve">
+    <value>Sprache bearbeiten</value>
+  </data>
+  <data name="Eliminar_idioma" xml:space="preserve">
+    <value>Sprache löschen</value>
+  </data>
+  <data name="Encabezado_borrado" xml:space="preserve">
+    <value>Möchten Sie die Informationen der ausgewählten Sprache wirklich löschen?</value>
+  </data>
+  <data name="Encabezado_creacion" xml:space="preserve">
+    <value>Geben Sie die neuen Sprachinformationen unten ein</value>
+  </data>
+  <data name="Encabezado_detalles" xml:space="preserve">
+    <value>Im Folgenden finden Sie Informationen zur ausgewählten Sprache</value>
+  </data>
+  <data name="Encabezado_edicion" xml:space="preserve">
+    <value>Ändern Sie die Informationen, die Sie bearbeiten möchten, in der folgenden Sprache</value>
+  </data>
+  <data name="Espanol" xml:space="preserve">
+    <value>SPANISCH</value>
+  </data>
+  <data name="Frances" xml:space="preserve">
+    <value>FRANZÖSISCH</value>
+  </data>
+  <data name="Icono_idioma" xml:space="preserve">
+    <value>Sprachsymbol</value>
+  </data>
+  <data name="Idioma" xml:space="preserve">
+    <value>Sprachen</value>
+  </data>
+  <data name="Descripcion_index" xml:space="preserve">
+    <value>Vorhandene Sprachen im System</value>
+  </data>
+  <data name="Idiomas_pagina" xml:space="preserve">
+    <value>Sprachen pro Seite:</value>
+  </data>
+  <data name="Idioma_creado_error" xml:space="preserve">
+    <value>Beim Senden der Sprache ist ein Fehler aufgetreten: {0}.</value>
+  </data>
+  <data name="Idioma_creado_exito" xml:space="preserve">
+    <value>Die Sprache {0} wurde erfolgreich erstellt.</value>
+  </data>
+  <data name="Idioma_editado_error" xml:space="preserve">
+    <value>Beim Senden der Sprache ist ein Fehler aufgetreten: {0}.</value>
+  </data>
+  <data name="Idioma_editado_exito" xml:space="preserve">
+    <value>Die Sprache {0} wurde erfolgreich bearbeitet.</value>
+  </data>
+  <data name="Idioma_eliminado_error" xml:space="preserve">
+    <value>Die Sprache {0} wurde nicht entfernt.</value>
+  </data>
+  <data name="Idioma_eliminado_exito" xml:space="preserve">
+    <value>Die Sprache {0} wurde erfolgreich entfernt.</value>
+  </data>
+  <data name="Ingles" xml:space="preserve">
+    <value>ENGLISCH</value>
+  </data>
+  <data name="Italiano" xml:space="preserve">
+    <value>ITALIENISCH</value>
+  </data>
+  <data name="Nombre_idioma" xml:space="preserve">
+    <value>Name der Sprache</value>
+  </data>
+  <data name="Campo_vacio" xml:space="preserve">
+    <value>Das Feld {0} ist obligatorisch.</value>
+  </data>
+  <data name="Cultura_invalida" xml:space="preserve">
+    <value>Das Format der Kultur sollte lauten: "xx-YY" (Sprache - Land)</value>
+  </data>
+  <data name="Icono_idioma_invalido" xml:space="preserve">
+    <value>Das Sprachsymbol muss eine Größe von 24x24 px und eines der folgenden Formate haben: "gif, jpg, jpeg, png"</value>
+  </data>
+  <data name="Idioma_simple" xml:space="preserve">
+    <value>Sprache</value>
+  </data>
+  <data name="Cambiar_a" xml:space="preserve">
+    <value>Wechseln Sie zu {0}</value>
+  </data>
+  <data name="Click_cambiar" xml:space="preserve">
+    <value>Klicken Sie zum ändern</value>
+  </data>
+  <data name="Aleman" xml:space="preserve">
+    <value>DEUTSCH</value>
+  </data>
+  <data name="Entidades" xml:space="preserve">
+    <value>Entitäten</value>
+  </data>
+  <data name="Idioma_Referencias" xml:space="preserve">
+    <value>Die Sprache {0} wird derzeit von {1} verwendet. Es kann nicht gelöscht werden.</value>
+  </data>
+  <data name="Usuarios" xml:space="preserve">
+    <value>Benutzer</value>
+  </data>
+</root>

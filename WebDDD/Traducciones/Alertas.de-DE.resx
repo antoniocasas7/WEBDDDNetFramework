@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Alerta" xml:space="preserve">
+    <value>Warnungen</value>
+  </data>
+  <data name="Alertas_pagina" xml:space="preserve">
+    <value>Benachrichtigungen pro Seite:</value>
+  </data>
+  <data name="Alerta_creada_error" xml:space="preserve">
+    <value>Die Warnung {0} wurde nicht erstellt.</value>
+  </data>
+  <data name="Alerta_creada_exito" xml:space="preserve">
+    <value>Die Warnung {0} wurde erfolgreich erstellt.</value>
+  </data>
+  <data name="Alerta_editada_error" xml:space="preserve">
+    <value>Die Warnung {0} wurde nicht bearbeitet.</value>
+  </data>
+  <data name="Alerta_editada_exito" xml:space="preserve">
+    <value>Die Warnung {0} wurde erfolgreich bearbeitet.</value>
+  </data>
+  <data name="Alerta_eliminada_error" xml:space="preserve">
+    <value>Die Warnung {0} wurde nicht gelöscht.</value>
+  </data>
+  <data name="Alerta_eliminada_exito" xml:space="preserve">
+    <value>Die Warnung {0} wurde erfolgreich gelöscht.</value>
+  </data>
+  <data name="Alerta_simple" xml:space="preserve">
+    <value>Warnung</value>
+  </data>
+  <data name="Campo_vacio" xml:space="preserve">
+    <value>Das Feld {0} ist erforderlich.</value>
+  </data>
+  <data name="Crear_alerta" xml:space="preserve">
+    <value>Neue Warnung</value>
+  </data>
+  <data name="Descripcion_borrado" xml:space="preserve">
+    <value>Löschen Sie eine vorhandene Warnung</value>
+  </data>
+  <data name="Descripcion_creacion" xml:space="preserve">
+    <value>Erstellen Sie eine neue Warnung</value>
+  </data>
+  <data name="Descripcion_detalles" xml:space="preserve">
+    <value>Informationen zu einer bestehenden Warnung</value>
+  </data>
+  <data name="Descripcion_edicion" xml:space="preserve">
+    <value>Bearbeiten Sie eine vorhandene Warnung</value>
+  </data>
+  <data name="Descripcion_index" xml:space="preserve">
+    <value>Warnungen im System gespeichert</value>
+  </data>
+  <data name="Editar_alerta" xml:space="preserve">
+    <value>Warnung bearbeiten</value>
+  </data>
+  <data name="Eliminar_alerta" xml:space="preserve">
+    <value>Warnung löschen</value>
+  </data>
+  <data name="Encabezado_borrado" xml:space="preserve">
+    <value>Möchten Sie die Informationen für die ausgewählte Warnung wirklich löschen?</value>
+  </data>
+  <data name="Encabezado_creacion" xml:space="preserve">
+    <value>Geben Sie die Informationen für die neue Benachrichtigung unten ein</value>
+  </data>
+  <data name="Encabezado_detalles" xml:space="preserve">
+    <value>Die Informationen für die ausgewählte Warnung werden unten angezeigt</value>
+  </data>
+  <data name="Encabezado_edicion" xml:space="preserve">
+    <value>Ändern Sie die Informationen, die Sie bearbeiten möchten, in der folgenden Warnung</value>
+  </data>
+  <data name="Nombre_alerta" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Tipo_alerta" xml:space="preserve">
+    <value>Alarmtyp</value>
+  </data>
+  <data name="Tipo_excesoParada" xml:space="preserve">
+    <value>Übermäßige Stoppzeit</value>
+  </data>
+  <data name="Tipo_excesoRalenti" xml:space="preserve">
+    <value>Übermäßige Leerlaufzeit</value>
+  </data>
+  <data name="Tipo_excesoTiempoConduccion" xml:space="preserve">
+    <value>Übermäßige Fahrzeit</value>
+  </data>
+  <data name="Tipo_excesoVelocidad" xml:space="preserve">
+    <value>Übermäßige Fahrgeschwindigkeit</value>
+  </data>
+  <data name="Tipo_pasoUbicacion" xml:space="preserve">
+    <value>Vorbeigehen am Standort</value>
+  </data>
+  <data name="Valor" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="Encabezado_asignar_vehiculos" xml:space="preserve">
+    <value>Wählen Sie die Fahrzeuge aus, die Sie der Warnung zuordnen möchten. Wenn Sie keine auswählen, wird die Warnung allen Fahrzeugen in der ausgewählten Flotte zugewiesen.</value>
+  </data>
+  <data name="Vehiculos_asignados" xml:space="preserve">
+    <value>Asignierte Fahrzeuge</value>
+  </data>
+  <data name="Vehiculos_sinasignar" xml:space="preserve">
+    <value>Nicht zugeordnete Fahrzeuge</value>
+  </data>
+  <data name="Tipo_accidente" xml:space="preserve">
+    <value>Fahrzeugunfall</value>
+  </data>
+  <data name="Tipo_aceleracionBrusca" xml:space="preserve">
+    <value>Abrupte Beschleunigung des Fahrzeugs</value>
+  </data>
+  <data name="Tipo_cambioBruscoCarril" xml:space="preserve">
+    <value>Plötzlicher Spurwechsel</value>
+  </data>
+  <data name="Tipo_deceleracionBrusca" xml:space="preserve">
+    <value>Abrupte Verzögerung des Fahrzeugs</value>
+  </data>
+  <data name="Tipo_emergencia" xml:space="preserve">
+    <value>Notfall im Fahrzeug</value>
+  </data>
+  <data name="Tipo_excesoTemperatura" xml:space="preserve">
+    <value>Übermäßige Temperatur des Fahrzeugs</value>
+  </data>
+  <data name="Tipo_giroBrusco" xml:space="preserve">
+    <value>Scharfes Drehen des Fahrzeugs</value>
+  </data>
+  <data name="Tipo_malFuncionamiento" xml:space="preserve">
+    <value>Fehlfunktion des Fahrzeugs</value>
+  </data>
+  <data name="Tipo_revoluciones" xml:space="preserve">
+    <value>UpM-Limit überschritten</value>
+  </data>
+  <data name="Tipo_voltajeBateria" xml:space="preserve">
+    <value>Übermäßige Batteriespannung</value>
+  </data>
+  <data name="Valor_fuerzag" xml:space="preserve">
+    <value>Maximale Gravitationskraft (G)</value>
+  </data>
+  <data name="Valor_radio" xml:space="preserve">
+    <value>Annäherungsradius (Meter)</value>
+  </data>
+  <data name="Valor_rpm" xml:space="preserve">
+    <value>Max. Drehzahlgrenze (UpM)</value>
+  </data>
+  <data name="Valor_temperatura" xml:space="preserve">
+    <value>Höchsttemperatur (C \ u00ba)</value>
+  </data>
+  <data name="Valor_tiempo" xml:space="preserve">
+    <value>Maximale Zeit (Minuten)</value>
+  </data>
+  <data name="Valor_velocidad" xml:space="preserve">
+    <value>Tempolimit (Km / h)</value>
+  </data>
+  <data name="Valor_voltaje" xml:space="preserve">
+    <value>Maximale Spannung (Volt)</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>E-Mail</value>
+  </data>
+  <data name="Notificacion" xml:space="preserve">
+    <value>Benachrichtigung senden</value>
+  </data>
+  <data name="Encabezado_asignar_vehiculos_empresa" xml:space="preserve">
+    <value>Wählen Sie die Fahrzeuge aus, die Sie der Warnung zuordnen möchten. Wenn Sie keine auswählen, wird die Warnung allen Fahrzeugen in der ausgewählten Firma zugewiesen.</value>
+  </data>
+  <data name="Asunto_mensaje" xml:space="preserve">
+    <value>Betreff der Nachricht</value>
+  </data>
+  <data name="Email_incorrecto" xml:space="preserve">
+    <value>Bitte geben Sie eine gültige oder mehrere E-Mail-Adressen ein, getrennt durch ";"</value>
+  </data>
+  <data name="Mensaje_leyenda" xml:space="preserve">
+    <value>Sie können dem Betreff oder Text der Nachricht Warnmeldungselemente hinzufügen, indem Sie die folgenden Werte eingeben:</value>
+  </data>
+  <data name="Mensaje_realValue" xml:space="preserve">
+    <value>Tatsächlicher Wert der Warnung</value>
+  </data>
+  <data name="Mensaje_type" xml:space="preserve">
+    <value>Alarmtyp</value>
+  </data>
+  <data name="Mensaje_ubication" xml:space="preserve">
+    <value>Warnungsumgebung</value>
+  </data>
+  <data name="Mensaje_value" xml:space="preserve">
+    <value>Warnwert</value>
+  </data>
+  <data name="Mensaje_vehicle" xml:space="preserve">
+    <value>Fahrzeuginfo</value>
+  </data>
+  <data name="Texto_mensaje" xml:space="preserve">
+    <value>Text der Nachricht</value>
+  </data>
+  <data name="Validacion_decimal" xml:space="preserve">
+    <value>Der Wert muss eine Dezimalzahl mit einem Maximum von {0} Dezimalstellen sein.</value>
+  </data>
+  <data name="Validacion_entero" xml:space="preserve">
+    <value>Der Wert muss eine Ganzzahl sein.</value>
+  </data>
+  <data name="Mensaje_time" xml:space="preserve">
+    <value>Datum und Uhrzeit der Warnung</value>
+  </data>
+  <data name="Tipo_paradaUbicacion" xml:space="preserve">
+    <value>Stoppen am Standort</value>
+  </data>
+  <data name="Asignar_vehiculos_info" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Asignar_vehiculos_info_sin_empresa" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Tipo_sinRecibirDatos" xml:space="preserve">
+    <value>Zeitraum ohne empfangenge Daten</value>
+  </data>
+  <data name="Mensaje_email" xml:space="preserve">
+    <value>Um mehr als eine E-Mail-Adresse hinzuzufügen, trennen Sie sie mit ";".</value>
+  </data>
+  <data name="Valor_capturado" xml:space="preserve">
+    <value>Erfasster Wert</value>
+  </data>
+  <data name="Valor_de_alerta" xml:space="preserve">
+    <value>Wert der Warnung</value>
+  </data>
+  <data name="Conductor_no_identificado" xml:space="preserve">
+    <value>Unbekannter Fahrer</value>
+  </data>
+  <data name="Filtrar_tipo" xml:space="preserve">
+    <value>Nach Typ filtern</value>
+  </data>
+  <data name="Tipo_apertura" xml:space="preserve">
+    <value>Vorhängeschlossöffnung</value>
+  </data>
+  <data name="Tipo_aperturaAnormal" xml:space="preserve">
+    <value>Abnormales Öffnen des Vorhängeschlosses</value>
+  </data>
+  <data name="Tipo_aperturaSim" xml:space="preserve">
+    <value>Sim Abdeckung öffnen mit geschlossenem Vorhängeschloss</value>
+  </data>
+  <data name="Tipo_aperturaTeclado" xml:space="preserve">
+    <value>Öffnen des Vorhängeschlosses mit einer Tastatur</value>
+  </data>
+  <data name="Tipo_aperturaTiempo" xml:space="preserve">
+    <value>Überschüssig im Laufe der Zeit mit dem offenen Vorhängeschloss</value>
+  </data>
+  <data name="Tipo_aperturaTimeout" xml:space="preserve">
+    <value>Zeitlimit bei geöffnetem Vorhängeschloss überschritten</value>
+  </data>
+  <data name="Tipo_dañoCarcasa" xml:space="preserve">
+    <value>Frontabdeckung des beschädigten Vorhängeschlosses</value>
+  </data>
+  <data name="Tipo_errorAperturaGeocerca" xml:space="preserve">
+    <value>Versuch, das Vorhängeschloss außerhalb des Geofence zu öffnen</value>
+  </data>
+  <data name="Tipo_errorAperturaNoPosicionado" xml:space="preserve">
+    <value>Fehler beim Öffnen des Vorhängeschlosses, Gerät nicht positioniert</value>
+  </data>
+  <data name="Tipo_errorDispositivoConectado" xml:space="preserve">
+    <value>Fehler im Gerät, das an das Vorhängeschloss angeschlossen ist</value>
+  </data>
+  <data name="Tipo_errorElectromagnetico" xml:space="preserve">
+    <value>Abnormale elektromagnetische Kontrolle im Vorhängeschloss</value>
+  </data>
+  <data name="Candado_abierto" xml:space="preserve">
+    <value>Vorhängeschloss öffnen</value>
+  </data>
+  <data name="Candado_cerrado" xml:space="preserve">
+    <value>Geschlossen</value>
+  </data>
+  <data name="Asignar_vehiculos_info_sin_empresa_xs" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Asignar_vehiculos_info_xs" xml:space="preserve">
+    <value />
+  </data>
+</root>

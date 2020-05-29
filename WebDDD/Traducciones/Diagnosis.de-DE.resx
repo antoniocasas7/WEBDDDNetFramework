@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AbsoluteThrottlePosition" xml:space="preserve">
+    <value>Beschleunigungsposition</value>
+  </data>
+  <data name="AirFlowRateFromMassAirFlowSensor" xml:space="preserve">
+    <value>Fliessen des Luftstroms durch den Luftströmungssensor</value>
+  </data>
+  <data name="BarometricPressure" xml:space="preserve">
+    <value>Luftdruck</value>
+  </data>
+  <data name="CalculatedLoadValue" xml:space="preserve">
+    <value>Berechneter Ladewert</value>
+  </data>
+  <data name="CommandedEGR" xml:space="preserve">
+    <value>CommandedEGR</value>
+  </data>
+  <data name="ControlModuleVoltage" xml:space="preserve">
+    <value>Spannung des Steuermoduls</value>
+  </data>
+  <data name="Descripcion" xml:space="preserve">
+    <value>Fahrzeugdiagnoseinformationen</value>
+  </data>
+  <data name="Distance" xml:space="preserve">
+    <value>Entfernung</value>
+  </data>
+  <data name="DistanceTravelledSinceDTCsCleared" xml:space="preserve">
+    <value>Zurückgelegte Entfernung seit der Beseitigung der DTC's</value>
+  </data>
+  <data name="DistanceTravelledWhileMILIsActivated" xml:space="preserve">
+    <value>Zurückegelegte Distanz seit aufleuchten des Lichtes wegen Fehlfunktion im Motor</value>
+  </data>
+  <data name="EGRError" xml:space="preserve">
+    <value>EGRError</value>
+  </data>
+  <data name="EngineCoolantTemperature" xml:space="preserve">
+    <value>Frostschutz-Temperatur</value>
+  </data>
+  <data name="EngineRPM" xml:space="preserve">
+    <value>Motordrehzahl</value>
+  </data>
+  <data name="Error_modulo" xml:space="preserve">
+    <value>Die ausgewählte {0} verfügt nicht über das Diagnosemodul.</value>
+  </data>
+  <data name="Error_valores_seleccionados" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FuelConsumption" xml:space="preserve">
+    <value>Kraftstoffverbrauch</value>
+  </data>
+  <data name="FuelRailPressure" xml:space="preserve">
+    <value>Kraftstoff-Rail-Druck</value>
+  </data>
+  <data name="IgnitionTimingAdvanceFor1Cylinder" xml:space="preserve">
+    <value>Vorlauf des ersten Zylinders</value>
+  </data>
+  <data name="Informacion" xml:space="preserve">
+    <value>Informationen</value>
+  </data>
+  <data name="IntakeAirTemperature" xml:space="preserve">
+    <value>Lufteintrittstemperatur</value>
+  </data>
+  <data name="IntakeManifoldAbsolutePressure" xml:space="preserve">
+    <value>Absoluter Druck der Aufnahme</value>
+  </data>
+  <data name="Ninguna_opcion_seleccionada" xml:space="preserve">
+    <value>Keine ausgewählte Optionen</value>
+  </data>
+  <data name="NumberOfWarmUpsSinceDTCsCleared" xml:space="preserve">
+    <value>Anzahl der Aufwärmzeiten seit der Reinigung der DTCs</value>
+  </data>
+  <data name="Opciones_seleccionadas" xml:space="preserve">
+    <value>{0} ausgewählte Optionen</value>
+  </data>
+  <data name="RelativeThrottlePosition" xml:space="preserve">
+    <value>Relative Drosselklappenposition</value>
+  </data>
+  <data name="Sin_registros" xml:space="preserve">
+    <value>Zwischen den angegebenen Daten liegen keine Aufzeichnungen für das ausgewählte Fahrzeug vor.</value>
+  </data>
+  <data name="TimeSinceEngineStarts" xml:space="preserve">
+    <value>Zeit seit dem Starten des Motors</value>
+  </data>
+  <data name="Valores_diagnosis" xml:space="preserve">
+    <value>Werte</value>
+  </data>
+  <data name="VehicleSpeed" xml:space="preserve">
+    <value>Fahrzeuggeschwindigkeit</value>
+  </data>
+</root>

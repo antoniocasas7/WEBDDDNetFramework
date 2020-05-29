@@ -1,0 +1,6 @@
+C:\Desarrollo\Desarrollo_Mio\WebDDD_CQRS\WebDDD\Persona\bin\Debug\Persona.dll
+C:\Desarrollo\Desarrollo_Mio\WebDDD_CQRS\WebDDD\Persona\bin\Debug\Persona.pdb
+C:\Desarrollo\Desarrollo_Mio\WebDDD_CQRS\WebDDD\Persona\obj\Debug\Persona.csprojAssemblyReference.cache
+C:\Desarrollo\Desarrollo_Mio\WebDDD_CQRS\WebDDD\Persona\obj\Debug\Persona.csproj.CoreCompileInputs.cache
+C:\Desarrollo\Desarrollo_Mio\WebDDD_CQRS\WebDDD\Persona\obj\Debug\Persona.dll
+C:\Desarrollo\Desarrollo_Mio\WebDDD_CQRS\WebDDD\Persona\obj\Debug\Persona.pdb

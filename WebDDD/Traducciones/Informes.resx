@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Alertas" xml:space="preserve">
+    <value>Alerts</value>
+  </data>
+  <data name="CheckBox_Horizontal_Tootltip" xml:space="preserve">
+    <value>With this option selected, the report is generated in horizontal format</value>
+  </data>
+  <data name="Cliente" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="Compras_ubicacion" xml:space="preserve">
+    <value>Purchases by location</value>
+  </data>
+  <data name="Compras_proveedor" xml:space="preserve">
+    <value>Purchases by supplier</value>
+  </data>
+  <data name="Consumo" xml:space="preserve">
+    <value>Consumption</value>
+  </data>
+  <data name="Descartes" xml:space="preserve">
+    <value>Discards</value>
+  </data>
+  <data name="Destino" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="Distancia" xml:space="preserve">
+    <value>Distance</value>
+  </data>
+  <data name="Duracion" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="Error_activos" xml:space="preserve">
+    <value>There are no assets to show in the report</value>
+  </data>
+  <data name="Error_alertas" xml:space="preserve">
+    <value>There are no alerts to show in the report</value>
+  </data>
+  <data name="Error_ubicaciones" xml:space="preserve">
+    <value>There are no locations on which to generate the report</value>
+  </data>
+  <data name="Error_movimientos" xml:space="preserve">
+    <value>There are no movements to show in the report</value>
+  </data>
+  <data name="Error_rutas" xml:space="preserve">
+    <value>There are no routes to show in the report</value>
+  </data>
+  <data name="Fecha_informe" xml:space="preserve">
+    <value>Report date</value>
+  </data>
+  <data name="Generar" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="Horizontal" xml:space="preserve">
+    <value>Horizontal</value>
+  </data>
+  <data name="Informe_alertas" xml:space="preserve">
+    <value>Alerts report</value>
+  </data>
+  <data name="Informe_compras_ubicacion" xml:space="preserve">
+    <value>Purchases by location report</value>
+  </data>
+  <data name="Informe_compras_proveedor" xml:space="preserve">
+    <value>Purchases by supplier report</value>
+  </data>
+  <data name="Informe_descarte" xml:space="preserve">
+    <value>Discard report</value>
+  </data>
+  <data name="Informe_inventario" xml:space="preserve">
+    <value>Inventory report</value>
+  </data>
+  <data name="Informe_movimiento" xml:space="preserve">
+    <value>Movement report</value>
+  </data>
+  <data name="Informe_provision" xml:space="preserve">
+    <value>Provision report</value>
+  </data>
+  <data name="Informe_rutas" xml:space="preserve">
+    <value>Routes report</value>
+  </data>
+  <data name="Informe_vendidos_cliente" xml:space="preserve">
+    <value>Sales by client report</value>
+  </data>
+  <data name="Informe_vendidos_ubicacion" xml:space="preserve">
+    <value>Sales by location report</value>
+  </data>
+  <data name="Inventario" xml:space="preserve">
+    <value>Inventory</value>
+  </data>
+  <data name="Leyenda_no_datos" xml:space="preserve">
+    <value>* There is no data. This may be due to a malfunction or misuse of the equipment.</value>
+  </data>
+  <data name="Movimientos" xml:space="preserve">
+    <value>Movements</value>
+  </data>
+  <data name="Origen" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Origen_destino" xml:space="preserve">
+    <value>Start / destination</value>
+  </data>
+  <data name="Proveedor" xml:space="preserve">
+    <value>Supplier</value>
+  </data>
+  <data name="Provision" xml:space="preserve">
+    <value>Provision</value>
+  </data>
+  <data name="Rutas" xml:space="preserve">
+    <value>Routes</value>
+  </data>
+  <data name="Ruta_no_finalizada" xml:space="preserve">
+    <value>Route in progress</value>
+  </data>
+  <data name="Total_categoria" xml:space="preserve">
+    <value>Total Category</value>
+  </data>
+  <data name="Total_cliente" xml:space="preserve">
+    <value>Total Client Assets</value>
+  </data>
+  <data name="Total_empresa" xml:space="preserve">
+    <value>Total Company Assets</value>
+  </data>
+  <data name="Total_empresa_general" xml:space="preserve">
+    <value>Total Company</value>
+  </data>
+  <data name="Total_ubicacion" xml:space="preserve">
+    <value>Total Location Assets</value>
+  </data>
+  <data name="Total_producto" xml:space="preserve">
+    <value>Total Product</value>
+  </data>
+  <data name="Total_proveedor" xml:space="preserve">
+    <value>Total Supplier Assets</value>
+  </data>
+  <data name="Valor_nulo" xml:space="preserve">
+    <value>Null</value>
+  </data>
+  <data name="Velocidad_media" xml:space="preserve">
+    <value>Average speed</value>
+  </data>
+  <data name="Vendidos_cliente" xml:space="preserve">
+    <value>Sales by client</value>
+  </data>
+  <data name="Vendidos_ubicacion" xml:space="preserve">
+    <value>Sales by location</value>
+  </data>
+  <data name="Generar_informe" xml:space="preserve">
+    <value>Generate report</value>
+  </data>
+  <data name="Error_tipo_alerta" xml:space="preserve">
+    <value>You must select an alert type</value>
+  </data>
+  <data name="Fecha_fin" xml:space="preserve">
+    <value>Final date</value>
+  </data>
+  <data name="Fecha_inicio" xml:space="preserve">
+    <value>Initial date</value>
+  </data>
+  <data name="Activo" xml:space="preserve">
+    <value>Asset</value>
+  </data>
+  <data name="CheckIn" xml:space="preserve">
+    <value>Check In</value>
+  </data>
+  <data name="CheckInOut" xml:space="preserve">
+    <value>Check In / Out</value>
+  </data>
+  <data name="CheckOut" xml:space="preserve">
+    <value>Check Out</value>
+  </data>
+  <data name="Descarte" xml:space="preserve">
+    <value>Discard</value>
+  </data>
+  <data name="Empresa" xml:space="preserve">
+    <value>Company</value>
+  </data>
+  <data name="Entidad" xml:space="preserve">
+    <value>Entity</value>
+  </data>
+  <data name="Hueco" xml:space="preserve">
+    <value>Segment</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Operacion" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="Producto" xml:space="preserve">
+    <value>Product</value>
+  </data>
+  <data name="Robo" xml:space="preserve">
+    <value>Theft</value>
+  </data>
+  <data name="Seguimiento" xml:space="preserve">
+    <value>Tracing</value>
+  </data>
+  <data name="Ubicacion" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Venta" xml:space="preserve">
+    <value>Sale</value>
+  </data>
+  <data name="Conductor" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="Fecha" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Fin" xml:space="preserve">
+    <value>End date</value>
+  </data>
+  <data name="Inicio" xml:space="preserve">
+    <value>Start date</value>
+  </data>
+  <data name="Tipo" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Valor" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="ValorReal" xml:space="preserve">
+    <value>Real Value</value>
+  </data>
+  <data name="Vehiculo" xml:space="preserve">
+    <value>Vehicle</value>
+  </data>
+  <data name="Velocidad" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="Cantidad" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="accidente" xml:space="preserve">
+    <value>Vehicle accident</value>
+  </data>
+  <data name="aceleracionBrusca" xml:space="preserve">
+    <value>Vehicle abrupt acceleration</value>
+  </data>
+  <data name="apertura" xml:space="preserve">
+    <value>Padlock opening</value>
+  </data>
+  <data name="aperturaAnormal" xml:space="preserve">
+    <value>Abnormal padlock opening</value>
+  </data>
+  <data name="aperturaSim" xml:space="preserve">
+    <value>Padlock closed, but SIM card accessed</value>
+  </data>
+  <data name="aperturaTeclado" xml:space="preserve">
+    <value>Padlock opening by keyboard</value>
+  </data>
+  <data name="aperturaTiempo" xml:space="preserve">
+    <value>Excessive time with padlock opened</value>
+  </data>
+  <data name="aperturaTimeout" xml:space="preserve">
+    <value>Time limit with padlock opened exceeded</value>
+  </data>
+  <data name="cambioBruscoCarril" xml:space="preserve">
+    <value>Sudden lane change</value>
+  </data>
+  <data name="dañoCarcasa" xml:space="preserve">
+    <value>Damaged padlock front cover</value>
+  </data>
+  <data name="deceleracionBrusca" xml:space="preserve">
+    <value>Abrupt deceleration of the vehicle</value>
+  </data>
+  <data name="emergencia" xml:space="preserve">
+    <value>Emergency in vehicle</value>
+  </data>
+  <data name="errorAperturaGeocerca" xml:space="preserve">
+    <value>Padlock opening attempt outside of the geozone</value>
+  </data>
+  <data name="errorAperturaNoPosicionado" xml:space="preserve">
+    <value>Padlock opening error, device not positioned</value>
+  </data>
+  <data name="errorDispositivoConectado" xml:space="preserve">
+    <value>Error in device connected to the padlock</value>
+  </data>
+  <data name="errorElectromagnetico" xml:space="preserve">
+    <value>Abnormal padlock electromagnetic control</value>
+  </data>
+  <data name="excesoParada" xml:space="preserve">
+    <value>Excessive stopping time</value>
+  </data>
+  <data name="excesoRalenti" xml:space="preserve">
+    <value>Excessive idle time</value>
+  </data>
+  <data name="excesoTemperatura" xml:space="preserve">
+    <value>Excessive vehicle temperature</value>
+  </data>
+  <data name="excesoTiempoConduccion" xml:space="preserve">
+    <value>Excessive driving time</value>
+  </data>
+  <data name="excesoVelocidad" xml:space="preserve">
+    <value>Excessive driving speed</value>
+  </data>
+  <data name="giroBrusco" xml:space="preserve">
+    <value>Vehicle sharp turning</value>
+  </data>
+  <data name="malFuncionamiento" xml:space="preserve">
+    <value>Vehicle malfunction</value>
+  </data>
+  <data name="paradaUbicacion" xml:space="preserve">
+    <value>Stop in location</value>
+  </data>
+  <data name="pasoUbicacion" xml:space="preserve">
+    <value>Pass by location</value>
+  </data>
+  <data name="revoluciones" xml:space="preserve">
+    <value>RPM limit exceeded</value>
+  </data>
+  <data name="sinRecibirDatos" xml:space="preserve">
+    <value>Period of time without receiving data</value>
+  </data>
+  <data name="voltajeBateria" xml:space="preserve">
+    <value>Excessive battery voltage</value>
+  </data>
+  <data name="TipoAlerta" xml:space="preserve">
+    <value>Alert type</value>
+  </data>
+  <data name="Descripcion_generar_informe" xml:space="preserve">
+    <value>Generate and download the report in {0} format.</value>
+  </data>
+  <data name="ObtenerDescartados" xml:space="preserve">
+    <value>Get the discarded assets</value>
+  </data>
+  <data name="ObtenerVendidos" xml:space="preserve">
+    <value>Get the sold assets freely (whitout sale order)</value>
+  </data>
+  <data name="TipoInforme" xml:space="preserve">
+    <value>Type of report</value>
+  </data>
+  <data name="Ventas" xml:space="preserve">
+    <value>Sales</value>
+  </data>
+  <data name="InfoDescarteVenta" xml:space="preserve">
+    <value>If no date is selected, the report will show the assets which are currently discarded or sold ("freely", without associated sales orders). If one is selected, the report will show the discard or sale ("free") operations done at that time regardless the actual status of the asset.</value>
+  </data>
+  <data name="Informe_venta" xml:space="preserve">
+    <value>Sale report</value>
+  </data>
+  <data name="InfoCompraProveedor" xml:space="preserve">
+    <value>The report will show the purchase operations made for the selected supplier. If no date is selected, all operations will be displayed; if one is selected, only those that were made within the selected date range.</value>
+  </data>
+  <data name="InfoCompraUbicacion" xml:space="preserve">
+    <value>The report will show the purchase operations made in the selected location. If no date is selected, all operations will be displayed; if one is selected, only those that were made within the selected date range.</value>
+  </data>
+  <data name="InfoInventario" xml:space="preserve">
+    <value>If no date is selected, the report will show the assets which are currently in the selected locations and are not discarded or sold. If one is selected, of the aforementioned assets, only those which arrived at that location on a date within the selected range will be displayed.</value>
+  </data>
+  <data name="InfoMovimientos" xml:space="preserve">
+    <value>The report will show the operations performed on assets which belong to the selected category and product. If no date is selected, it will show all the operations; if one is selected, only those that were made within the selected date range.</value>
+  </data>
+  <data name="InfoProvision" xml:space="preserve">
+    <value>If no date is selected, the report will show the assets which are currently provisioned. If one is selected, the report will show the provision operations done at that time regardless the actual status of the asset.</value>
+  </data>
+  <data name="InfoVentaCliente" xml:space="preserve">
+    <value>The report will show the sale operations (associated with sale orders) made for the selected customer. If no date is selected, all operations will be displayed; if one is selected, only those that were made within the selected date range.</value>
+  </data>
+  <data name="InfoVentaUbicacion" xml:space="preserve">
+    <value>The report will show the sale operations (associated with sale orders) made in the selected location. If no date is selected, all operations will be displayed; if one is selected, only those that were made within the selected date range.</value>
+  </data>
+  <data name="InfoAlertas" xml:space="preserve">
+    <value>The report will show the telematics alarms produced within the selected dates and according to the vehicles, drivers and alarm types selected.</value>
+  </data>
+  <data name="InfoRutas" xml:space="preserve">
+    <value>The report will show the routes performed within the selected dates and according to the vehicles, drivers and type of alarm selected.</value>
+  </data>
+</root>
