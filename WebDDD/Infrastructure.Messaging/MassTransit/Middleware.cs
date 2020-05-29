@@ -37,15 +37,16 @@ namespace Infrastructure.Messaging.MassTransit
     {
         public static IServiceBus CreateBus(string queueName, Action<ServiceBusConfigurator> moreInitialization)
         {
-            Log4NetLogger.Use();
-            var bus = ServiceBusFactory.New(x =>
-            {
-                x.UseRabbitMq();
-                x.ReceiveFrom("rabbitmq://localhost/APITest_" + queueName);
-                moreInitialization(x);
-            });
+            //Log4NetLogger.Use();
+            //var bus = ServiceBusFactory.New(x =>
+            //{
+            //    x.UseRabbitMq();
+            //    x.ReceiveFrom("rabbitmq://localhost/APITest_" + queueName);
+            //    moreInitialization(x);
+            //});
 
-            return bus;
+            // return bus;
+            return null;
         }
     }
 }
